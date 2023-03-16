@@ -1,0 +1,63 @@
+---
+layout: default
+pagination: 
+  enabled: true
+permalink: "/blog_list/"
+title: Insights
+sub_title: "The crown jewels of my expertise unleashed, things that I have learned so far. have leaned so far."
+---
+
+{% include page_header.html %}
+<!-- blog post section starts -->
+<div class="blog-post-area bgs section-ptb-2">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-xl-12">
+            <div class="blog-section">
+                {% for post in paginator.posts %}
+                <div class="list-blog-item  mb-30">
+                    <div class="row align-items-center bgp">
+                        <div class="col-lg-5 px-0">
+                            {% if post.post_image %}
+                            <div class="list-blog-img">
+                                <a href="{{post.url}}"><img src="{{post.post_image}}" alt="{{post.title}}"/></a>
+                            </div>
+                            {% endif %}
+                            <div class="list-blog-meta">
+                                <div class="date">
+                                    <p>{{post.date | date_to_string}}</p>
+                                </div>
+                            </div>
+                            {% if post.video_url %}
+                            <a href="{{post.video_url}}" class="mfp-iframe">
+                                <span class="play-btn">
+                                  <i class="fas fa-play"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="list-blog-detail px-3">
+                                <a href="{{post.url}}">
+                                    <h2 class="mb-15">{{post.title}}</h2>
+                                </a>
+                                <p>{{post.excerpt | strip_html | truncatewords: 35}}</p>
+                                <div class="blog-button">
+                                    <a href="{{post.url}}">Read More &nbsp; <i class="fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+         </div>
+        </div>
+        {% include pagination.html %}
+    </div>
+</div>
+<!-- blog post section ends -->
+
+{% include newsletter.html %}
+

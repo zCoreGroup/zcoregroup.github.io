@@ -1,0 +1,21 @@
+<!-- page title area starts -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7">
+                <div class="page-title pt-80 pb-60">
+                    <h1>{{page.title | capitalize}}</h1>
+                    <div class="post-category">
+                    	{% if page.categories.size > 0 %}
+                         <p class="my-3"><span class="pc">Category: </span> {{page.categories[0] | capitalize}} </p>
+                        {% endif %}
+                        {% if page.sub_title %}
+                         <p>{{page.sub_title}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->

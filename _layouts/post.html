@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{% include page_header.html %}
+<!-- main area starts -->
+<div class="main-area bgs section-ptb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="news-details">
+                	{% if page.post_image %}
+                    <div class="news-details-img mb-50">
+                        <img src="{{page.post_image}}" alt="{{page.title}}"/>
+                    </div>
+                    {% endif %}
+                    <div class="post-content">
+                    	{{page.content}}
+                    </div>
+                </div>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row news-meta">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <h4>Related Tags</h4>
+                <div class="tags">
+                	{{page | tags | capitalize | replace: ",", " " }}
+                </div>
+            </div>
+            <div class="col-sm-6 col-6 text-right">
+               {% include social_share.html %}
+            </div>
+        </div>
+        <hr>
+        <div class="row nav-buttons justify-content-between">
+        	{% if page.previous.url %}
+            <div class="col">
+                <div class="left-button">
+                    <a href="{{page.previous.url}}"><i class="fas fa-long-arrow-alt-left"></i> Previous</a>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.next.url %}
+            <div class="col">
+                <div class="right-button {% if page.previous.url %} text-right {% endif %}">
+                    <a href="{{page.next.url}}">Next <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <hr class="mb-0"/>
+        <div class="row pt-120">
+        	<div class="col-md-12">
+        		{% include disqus.html %}
+        	</div>
+        </div>
+    </div>
+</div>
+<!-- main area ends -->
+
+{% include newsletter.html %}

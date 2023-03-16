@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{site.description}}">
+    <!-- title -->
+    <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
+    {% if site.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{relative_url}}/assets/img/favicon.ico" type="image/x-icon"/>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/slick.min.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/all.min.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/mean-menu.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/default.css">
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/style.css">
+</head>
+<body data-spy="scroll">
+
+    {% include header.html %}
+      {{content}}
+    {% include footer.html %}
+    <!-- scripts -->
+    <script src="{{relative_url}}/assets/js/jquery-2.2.4.js"></script>
+    <script src="{{relative_url}}/assets/js/popper.min.js"></script>
+    <script src="{{relative_url}}/assets/js/bootstrap.min.js"></script>
+    <script src="{{relative_url}}/assets/js/jquery-1.12.4.js"></script>
+    <script src="{{relative_url}}/assets/js/slick.js"></script>
+    <script src="{{relative_url}}/assets/js/waypoint.min.js"></script>
+    <script src="{{relative_url}}/assets/js/countup.js"></script>
+    <script src="{{relative_url}}/assets/js/isotope.min.js"></script>
+    <script src="{{relative_url}}/assets/js/jquery-mean-menu.min.js"></script>
+    <script src="{{relative_url}}/assets/js/magnific-popup.js"></script>
+    <script src="{{relative_url}}/assets/js/jquery.easing.min.js"></script>
+    <script src="{{relative_url}}/assets/js/script.js"></script>
+</body>
+
+</html>

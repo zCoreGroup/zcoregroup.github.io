@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="col-lg-12 px-0">
+		<div class="deneb_pagination text-center">
+		{% if paginator.total_pages > 1 %}
+		<nav class="page-navigation pagination">
+		<ul>
+		    {% if paginator.previous_page %}
+		    <li class="page-item prev"><a class="ct-btn" href="{{ paginator.previous_page_path | prepend: site.baseurl }}"><i class="fas fa-long-arrow-alt-left pr-2"></i> Older Posts</a></li>
+		    {% endif %}
+		    {% if paginator.next_page %}
+		    <li class="page-item next"><a class="ct-btn" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next Posts <i class="fas fa-long-arrow-alt-right pl-2"></i></a></li> 
+		    {% endif %}
+		</ul>
+		</nav>
+		{% endif %}
+		</div>
+	</div>
+</div>

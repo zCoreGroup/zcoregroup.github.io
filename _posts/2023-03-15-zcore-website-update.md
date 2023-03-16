@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "zCore's Website Rebrand and Redesign: Helping You Stay Ahead of the Curve in Technology and Federal Contracting"
+title: "zCore's Website Rebrand and Redesign with a focus on Insights"
 tags: news
 categories: [announcements]
 author: bastos

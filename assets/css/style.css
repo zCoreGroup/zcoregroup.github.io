@@ -1,5 +1,5 @@
 /*-------------------------------------
-Template Name: Onova  
+Template Name: zCore  
 Template URI: https://ryetheme.com/
 Description: IT Solutions and Services Company HTML Template.
 Author: webtend
@@ -167,7 +167,7 @@ span.theme_span {
     font-size: 60px;
 }
 
-.onova_btn {
+.zCore_btn {
     position: relative;
     display: inline-block;
     border: none;
@@ -182,13 +182,13 @@ span.theme_span {
     transition: all .5s;
 }
 
-.onova_btn:hover,
-.onova_btn:focus {
+.zCore_btn:hover,
+.zCore_btn:focus {
     background: #00247e;
     color: #fff;
 }
 
-.onova_overlay {
+.zCore_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -287,16 +287,16 @@ span.theme_span {
 */
 
 /*==================================================
-		3. Onova==Index_1.html
+		3. zCore==Index_1.html
 ====================================================*/
 /*
-	Start onova_header area css
+	Start zCore_header area css
 */
-header.onova_header.onova_header_1 {
+header.zCore_header.zCore_header_1 {
     border-bottom: 1px solid #e7f3ff;
 }
 
-.onova_header_1 .header_container_1 {
+.zCore_header_1 .header_container_1 {
     max-width: 1730px;
     align-items: center;
     justify-content: space-between;
@@ -304,30 +304,30 @@ header.onova_header.onova_header_1 {
     display: flex;
 }
 
-.onova_header_1 .header_menu_right .menu_avatar_group {
+.zCore_header_1 .header_menu_right .menu_avatar_group {
     display: inline-flex;
 }
 
-.onova_header_1 .header_menu_right .menu_box_group {
+.zCore_header_1 .header_menu_right .menu_box_group {
     margin-left: 60px;
     display: inline-flex;
 }
 
-.onova_header_1 .header_menu_right .menu_box_group {
+.zCore_header_1 .header_menu_right .menu_box_group {
     margin-left: 60px;
 }
 
-.onova_header_1 .header_menu_right .menu_avatar_group a.btn_phone {
+.zCore_header_1 .header_menu_right .menu_avatar_group a.btn_phone {
     margin-left: 20px;
     color: #0574ff;
     font-size: 16px;
 }
 
-.onova_header_1 .header_menu_right .menu_avatar_group a.btn_phone i {
+.zCore_header_1 .header_menu_right .menu_avatar_group a.btn_phone i {
     margin-right: 5px;
 }
 
-.onova_header_1 .header_menu_right .menu_box_group .menu_box_list a.menu_box {
+.zCore_header_1 .header_menu_right .menu_box_group .menu_box_list a.menu_box {
     display: block;
     width: 44px;
     height: 44px;
@@ -374,15 +374,15 @@ header.onova_header.onova_header_1 {
 
 
 @media screen and (min-width: 1200px) {
-    /*.onova_header_1 .container{
+    /*.zCore_header_1 .container{
 		width: 100%;
 	}
-	.onova_header_1 .onova_main_menu_1{
+	.zCore_header_1 .zCore_main_menu_1{
 		position: relative;
 		flex-grow: 1;
 		justify-content: center;
 	}
-	.onova_header_1 .header_menu_right {
+	.zCore_header_1 .header_menu_right {
 	    display: flex;
 	    flex-wrap: wrap;
 	    align-items: center;
@@ -390,7 +390,7 @@ header.onova_header.onova_header_1 {
 }
 
 /*
-	onova menu
+	zCore menu
 */
 nav.main_menu {
     text-align: center;
@@ -607,18 +607,18 @@ nav.main_menu {
 
 /* Mobile menu */
 /*
-	End onova_header area css
+	End zCore_header area css
 */
 
 /*
-	Start onova_main section css
+	Start zCore_main section css
 */
-.onova_main_1 {
+.zCore_main_1 {
     padding: 110px 0;
     overflow: hidden;
 }
 
-.onova_main_1_img {
+.zCore_main_1_img {
     position: absolute;
     right: 0;
     z-index: -1;
@@ -647,11 +647,11 @@ nav.main_menu {
     width: 50%;
 }
 
-.onova_content h1 {
+.zCore_content h1 {
     margin-bottom: 15px;
 }
 
-.onova_content mark {
+.zCore_content mark {
     display: block;
     padding: 30px;
     border-radius: 6px;
@@ -659,7 +659,7 @@ nav.main_menu {
     margin-bottom: 60px;
 }
 
-.onova_content mark h2 {
+.zCore_content mark h2 {
     text-transform: uppercase;
     color: #fff;
     font-size: 56px;
@@ -670,31 +670,31 @@ nav.main_menu {
     padding-left: 100px;
 }
 
-.onova_head_box_1 {
+.zCore_head_box_1 {
     display: flex;
 }
 
-.onova_head_box_1 .head_box_1 {
+.zCore_head_box_1 .head_box_1 {
     display: inline-flex;
     width: 50%;
 }
 
-.onova_head_box_1 .head_box_1 .box_icon {
+.zCore_head_box_1 .head_box_1 .box_icon {
     margin-right: 40px;
 }
 
-.onova_head_box_1 .head_box_1 .box_icon i {
+.zCore_head_box_1 .head_box_1 .box_icon i {
     color: #0574ff;
     font-size: 30px;
     transition: all .5s;
 }
 
-.onova_head_box_1 .head_box_1 .box_info h3 {
+.zCore_head_box_1 .head_box_1 .box_info h3 {
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.onova_head_box_1 .head_box_1:hover .box_icon i {
+.zCore_head_box_1 .head_box_1:hover .box_icon i {
     transform: rotate(-360deg);
 }
 
@@ -703,17 +703,17 @@ nav.main_menu {
         width: 100%;
     }
 
-    .onova_content mark h2 {
+    .zCore_content mark h2 {
         font-size: 38px;
     }
 }
 
 /*
-	End onova_main section css
+	End zCore_main section css
 */
 
 /*
-	Start onova_about section css
+	Start zCore_about section css
 */
 .about_container {
     max-width: 100%;
@@ -777,18 +777,18 @@ nav.main_menu {
     border-left: 2px solid #ceefff;
 }
 
-.about_right_content .onova_button {
+.about_right_content .zCore_button {
     margin-top: 40px;
 }
 
 /*
-	End onova_about section css
+	End zCore_about section css
 */
 
 /*
-	Start onova_video_1 section css
+	Start zCore_video_1 section css
 */
-.onova_video_1 {
+.zCore_video_1 {
     position: relative;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -925,13 +925,13 @@ nav.main_menu {
 }
 
 /*
-	End onova_video_1 section css
+	End zCore_video_1 section css
 */
 
 /*
-	Start onova_service_1 section css
+	Start zCore_service_1 section css
 */
-.onova_service_1 {
+.zCore_service_1 {
     position: relative;
     padding-top: 267px;
     padding-bottom: 120px;
@@ -1012,7 +1012,7 @@ nav.main_menu {
 }
 
 /*
-	End onova_service_1 section css
+	End zCore_service_1 section css
 */
 
 
@@ -1136,7 +1136,7 @@ nav.main_menu {
 */
 
 /*
-	Start onova_portfolio_1 section css
+	Start zCore_portfolio_1 section css
 */
 .case_single {
     position: relative;
@@ -1232,40 +1232,40 @@ nav.main_menu {
     color: #c0d3e2;
     transition: all .5s;
 }
-.onova_portfolio_1 {
+.zCore_portfolio_1 {
     padding-top: 110px;
     padding-bottom: 120px;
 }
-.onova_case_main_section {
+.zCore_case_main_section {
     padding-top: 113px;
     padding-bottom: 120px;
 }
-.onova_blog.onova_blog_3 {
+.zCore_blog.zCore_blog_3 {
     padding-bottom: 90px;
     padding-top: 120px;
 }
-.onova_blog.onova_blog_4 {
+.zCore_blog.zCore_blog_4 {
     padding-bottom: 90px;
     padding-top: 120px;
 }
-.onova_blog_list {
+.zCore_blog_list {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 /*
-	End onova_portfolio_1 section css
+	End zCore_portfolio_1 section css
 */
 
 /*
-	Start onova_contact_1 section css
+	Start zCore_contact_1 section css
 */
-.onova_contact_1 {
+.zCore_contact_1 {
     position: relative;
     padding-top: 110px;
     padding-bottom: 120px;
     overflow: hidden;
 }
-.onova_contact_1 .theme_title{
+.zCore_contact_1 .theme_title{
     margin-bottom: 56px;
 }
 .overlay_img {
@@ -1311,21 +1311,21 @@ textarea.form_control {
 }
 
 /*
-	End onova_contact_1 section css
+	End zCore_contact_1 section css
 */
 
 
 /*
-	Start onova_team_1 section css
+	Start zCore_team_1 section css
 */
 .blue_bg {
     background: #0574ff;
 }
-.onova_team {
+.zCore_team {
     padding-top: 110px;
     padding-bottom: 120px;
 }
-.onova_team.onova_team_3 {
+.zCore_team.zCore_team_3 {
     padding-bottom: 90px;
 }
 .team_title span.theme_span,
@@ -1360,21 +1360,21 @@ textarea.form_control {
     text-transform: uppercase;
 }
 
-.team_join_button .onova_btn {
+.team_join_button .zCore_btn {
     background: transparent;
     border: 1px solid #69acff;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.team_join_button .onova_btn:hover,
-.team_join_button .onova_btn:focus {
+.team_join_button .zCore_btn:hover,
+.team_join_button .zCore_btn:focus {
     background: #0061da;
     border-color: #0061da;
 }
 
 /*
-	End onova_team_1 section css
+	End zCore_team_1 section css
 */
 
 /*
@@ -1429,13 +1429,13 @@ textarea.form_control {
 */
 
 /*
-	Start onova_blog section css
+	Start zCore_blog section css
 */
 .blog_box_1 {
     background: #fff;
     transition: all .5s;
 }
-.onova_blog {
+.zCore_blog {
     padding-top: 110px;
     padding-bottom: 120px;
 }
@@ -1506,11 +1506,11 @@ textarea.form_control {
     width: 100%;
 }
 /*
-	End onova_blog section css
+	End zCore_blog section css
 */
 
 /*
-	Start onova_footer_widget section
+	Start zCore_footer_widget section
 */
 .dark_blue {
     background: #091a29;
@@ -1522,7 +1522,7 @@ textarea.form_control {
 .footer_widget_1 {
     padding: 80px 0 80px;
 }
-.onova_footer_widget.footer_widget_1.footer_widget_3 {
+.zCore_footer_widget.footer_widget_1.footer_widget_3 {
     padding: 35px 0 80px;
 }
 .widget_top_area {
@@ -1627,61 +1627,61 @@ textarea.form_control {
 }
 
 /*
-	End onova_footer_widget section
+	End zCore_footer_widget section
 */
 
 /*
-	Start onova_footer css
+	Start zCore_footer css
 */
-.onova_footer_1 {
+.zCore_footer_1 {
     background: #05121d;
     padding: 26px 0;
 }
 
-.onova_footer_1 .copyright_text p {
+.zCore_footer_1 .copyright_text p {
     font-size: 14px;
     color: #8fa3b4;
 }
 
-.onova_footer_1 .footer_link {
+.zCore_footer_1 .footer_link {
     float: right;
 }
 
-.onova_footer_1 .footer_link ul li {
+.zCore_footer_1 .footer_link ul li {
     display: inline-block;
     margin-left: 47px;
 }
 
-.onova_footer_1 .footer_link ul li a {
+.zCore_footer_1 .footer_link ul li a {
     font-size: 14px;
     color: #8fa3b4;
 }
 
-.onova_footer_1 .footer_link ul li a:hover;
+.zCore_footer_1 .footer_link ul li a:hover;
 
-.onova_footer_1 .footer_link ul li a:focus {
+.zCore_footer_1 .footer_link ul li a:focus {
     color: #8fa3b4;
 }
 
 /*
-	End onova_footer css
+	End zCore_footer css
 */
 
 /*==========================================
-	onova INDEX 2 CSS
+	zCore INDEX 2 CSS
 ===========================================*/
 
 
 /*
-	Start onova_header css
+	Start zCore_header css
 */
-.onova_header_2 {
+.zCore_header_2 {
     position: absolute;
     z-index: 337;
     width: 100%;
     top: 0px;
 }
-.onova_header_2.sticky{
+.zCore_header_2.sticky{
     position: fixed;
     top: 0;
     left: 0;
@@ -1692,7 +1692,7 @@ textarea.form_control {
 
 
 
-.onova_header_2.sticky .main_menu ul > li > a {
+.zCore_header_2.sticky .main_menu ul > li > a {
 	padding: 27px 0;
 }
 .header_container_2 {
@@ -1703,21 +1703,21 @@ textarea.form_control {
     display: flex;
 }
 
-.onova_logo_2 ul li {
+.zCore_logo_1 ul li {
     display: inline-block;
     margin-right: 15px;
 }
 
-.onova_logo_2 ul li a.menu_link {
+.zCore_logo_1 ul li a.menu_link {
     font-size: 20px;
     color: #ffffff;
 }
 
-.onova_main_menu_2 > ul >li {
+.zCore_main_menu_2 > ul >li {
     padding: 0 25px 0 25px;
 }
 
-.onova_main_menu_2 .main_menu ul li a {
+.zCore_main_menu_2 .main_menu ul li a {
     color: #fff;
     text-transform: capitalize;
 }
@@ -1754,18 +1754,18 @@ textarea.form_control {
 }
 
 /*
-	End onova_header css
+	End zCore_header css
 */
 
 /*
-	Start onova_main section css
+	Start zCore_main section css
 */
 .single_slider {
     padding: 335px 0 400px;
     position: relative;
 }
 
-.onova_overley_2 {
+.zCore_overley_2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -1775,30 +1775,30 @@ textarea.form_control {
     background: rgb(13, 35, 53);
 }
 
-.onova_main_content_2 span {
+.zCore_main_content_2 span {
     font-size: 26px;
     color: #fff;
     display: block;
     margin-bottom: 25px;
 }
 
-.onova_main_content_2 h1 {
+.zCore_main_content_2 h1 {
     color: #fff;
     font-size: 100px;
     line-height: 90px;
 }
 
-.onova_main_content_2 {
+.zCore_main_content_2 {
     margin-bottom: 32px;
 }
 
-.onova_btn_2 {
+.zCore_btn_2 {
     padding: 16px 30px;
     margin-right: 30px;
     border-radius: 0;
 }
 
-.onova_btn_2:after {
+.zCore_btn_2:after {
     content: '\f061';
     font-size: 14px;
     display: inline-block;
@@ -1807,13 +1807,13 @@ textarea.form_control {
 }
 
 /*
-	End onova_main section css
+	End zCore_main section css
 */
 
 /*
-	Start onova_categories section
+	Start zCore_categories section
 */
-.onova_categories_1 {
+.zCore_categories_1 {
     position: relative;
 }
 
@@ -1915,20 +1915,20 @@ textarea.form_control {
 }
 
 /*
-	Start onova_categories section
+	Start zCore_categories section
 */
 
 /*
-	Start onova_about section
+	Start zCore_about section
 */
-.onova_about_2 {
+.zCore_about_2 {
     padding: 120px 0 75px;
 }
-.onova_about.onova_about_1 {
+.zCore_about.zCore_about_1 {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.onova_left_box {
+.zCore_left_box {
     position: relative;
 }
 
@@ -1958,69 +1958,69 @@ textarea.form_control {
     color: #fff;
     font-size: 20px;
 }
-.onova_about_service {
+.zCore_about_service {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.onova_right_box .about_right_content {
+.zCore_right_box .about_right_content {
     margin-bottom: 55px;
 }
 
-.onova_right_box .about_right_content span {
+.zCore_right_box .about_right_content span {
     margin-bottom: 20px;
 }
 
-.onova_right_box .about_right_content h4 {
+.zCore_right_box .about_right_content h4 {
     font-size: 26px;
     line-height: 36px;
     color: #758ca0;
     font-family: 'Karla';
 }
 
-.onova_head_box_1.onova_head_box_2 {
+.zCore_head_box_1.zCore_head_box_2 {
     display: block;
 }
 
-.onova_head_box_1.onova_head_box_2 .head_box_1 {
+.zCore_head_box_1.zCore_head_box_2 .head_box_1 {
     width: 100%;
     margin-bottom: 37px;
 }
 
 /*
-	Start onova_about section
+	Start zCore_about section
 */
 
 /*
-	Start onova_video section css
+	Start zCore_video section css
 */
-.onova_video_2 {
+.zCore_video_2 {
     position: relative;
     padding-top: 110px;
     padding-bottom: 20px;
 }
-.onova_portfolio {
+.zCore_portfolio {
     padding-top: 110px;
     padding-bottom: 120px;
 }
-.onova_portfolio .theme_title{
+.zCore_portfolio .theme_title{
     margin-bottom: 70px;
 }
-.onova_left_box .video_content span {
+.zCore_left_box .video_content span {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.onova_left_box .video_content h2 {
+.zCore_left_box .video_content h2 {
     color: #fff;
 }
 
 .video_content_img {
     position: relative;
 }
-.onova_video.onova_video_4 .video_content_img img{
+.zCore_video.zCore_video_4 .video_content_img img{
     width: 100%;
 }
-.onova_video.onova_video_4{
+.zCore_video.zCore_video_4{
     padding-top: 18px;
     padding-bottom: 17px;
 }
@@ -2049,14 +2049,14 @@ textarea.form_control {
 }
 
 /*
-	End onova_video section css
+	End zCore_video section css
 */
 
 
 /*
-	Start onova_service section css
+	Start zCore_service section css
 */
-.onova_service_2 {
+.zCore_service_2 {
     padding-top: 257px;
     margin-bottom: -200px;
 }
@@ -2118,13 +2118,13 @@ textarea.form_control {
 }
 
 /*
-	End onova_service section css
+	End zCore_service section css
 */
 
 /*
-	Start onova_portfolio section css
+	Start zCore_portfolio section css
 */
-.onova_portfolio_home {
+.zCore_portfolio_home {
     position: relative;
     padding-top: 312px;
     padding-bottom: 20px;
@@ -2137,16 +2137,16 @@ textarea.form_control {
     z-index: 1;
 }
 
-.onova_portfolio_home .theme_title span,
-.onova_portfolio_home .theme_title h2 {
+.zCore_portfolio_home .theme_title span,
+.zCore_portfolio_home .theme_title h2 {
     color: #fff;
 }
 
-.onova_portfolio_home .portfolio_button .portfolio_btn {
+.zCore_portfolio_home .portfolio_button .portfolio_btn {
     color: #fff;
 }
 
-.onova_counterup_1 {
+.zCore_counterup_1 {
     padding-top: 32px;
     margin-bottom: -150px;
     margin-top: -13px;
@@ -2185,17 +2185,17 @@ textarea.form_control {
 }
 
 /*
-	End onova_portfolio section css
+	End zCore_portfolio section css
 */
 
 /*
-	Start onova_testimonial section css
+	Start zCore_testimonial section css
 */
-.onova_testimonial {
+.zCore_testimonial {
     position: relative;
 }
 
-.onova_testimonial_1 {
+.zCore_testimonial_1 {
     padding-bottom: 120px;
     padding-top: 250px;
 }
@@ -2360,14 +2360,14 @@ textarea.form_control {
 }
 
 /*
-	End onova_testimonial section css
+	End zCore_testimonial section css
 */
 
 
 /*
-	Start onova_skills section css
+	Start zCore_skills section css
 */
-.onova_skill_area {
+.zCore_skill_area {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2379,35 +2379,35 @@ textarea.form_control {
     margin-bottom: -85px;
 }
 
-.onova_skill_area .skill_left {
+.zCore_skill_area .skill_left {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
 }
 
-.onova_skill_area .skill_right {
+.zCore_skill_area .skill_right {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
 }
 
-.onova_skill_area .skill_left,
-.onova_skill_area .skill_right {
+.zCore_skill_area .skill_left,
+.zCore_skill_area .skill_right {
     width: 50%;
 }
 
-.onova_skill_area .skill_left {
+.zCore_skill_area .skill_left {
     background: #0d2335;
     padding: 120px;
 }
 
-.onova_skill_area .skill_left .skill_content {
+.zCore_skill_area .skill_left .skill_content {
     margin-bottom: 50px;
 }
 
-.onova_skill_area .skill_left .skill_content span {
+.zCore_skill_area .skill_left .skill_content span {
     display: block;
     letter-spacing: 2px;
     color: #aac0d2;
@@ -2415,65 +2415,65 @@ textarea.form_control {
     margin-bottom: 20px;
 }
 
-.onova_skill_area .skill_left .skill_content h2 {
+.zCore_skill_area .skill_left .skill_content h2 {
     color: #fff;
 }
 
-.onova_skill_area .skill_left .progress_area .progess_single {
+.zCore_skill_area .skill_left .progress_area .progess_single {
     margin-bottom: 45px;
 }
 
-.onova_skill_area .skill_left .progress_area .progess_single:last-child {
+.zCore_skill_area .skill_left .progress_area .progess_single:last-child {
     margin-bottom: 0;
 }
 
-.onova_skill_area .skill_left .progress_area .progress-title h5 {
+.zCore_skill_area .skill_left .progress_area .progress-title h5 {
     font-size: 14px;
     font-family: 'Karla';
     color: #fff;
     margin-bottom: 19px;
 }
 
-.onova_skill_area .skill_left .progress_area .progress {
+.zCore_skill_area .skill_left .progress_area .progress {
     background: rgb(34, 62, 85);
     opacity: 0.502;
     height: 4px;
     border-radius: 0;
 }
 
-.onova_skill_area .skill_left .progress_area .progress .progress-bar {
+.zCore_skill_area .skill_left .progress_area .progress .progress-bar {
     height: 4px;
     border-radius: 0;
     transition: all .5s;
     animation-delay: 1s;
 }
 
-.onova_skill_area .skill_left .progress_area .progress .progress-bar.color_1 {
+.zCore_skill_area .skill_left .progress_area .progress .progress-bar.color_1 {
     background: rgb(38, 207, 255);
 }
 
-.onova_skill_area .skill_left .progress_area .progress .progress-bar.color_2 {
+.zCore_skill_area .skill_left .progress_area .progress .progress-bar.color_2 {
     background: rgb(255, 212, 38);
 }
 
-.onova_skill_area .skill_left .progress_area .progress .progress-bar.color_3 {
+.zCore_skill_area .skill_left .progress_area .progress .progress-bar.color_3 {
     background: rgb(255, 50, 93);
 }
 
-.onova_skill_area .skill_right {
+.zCore_skill_area .skill_right {
     background: url(../images/skill_1.png)no-repeat center;
     background-size: cover;
     height: 670px;
 }
 
 /*
-	Start onova_skills section css
+	Start zCore_skills section css
 */
 
 /*
-	Start onova_sponser section css
+	Start zCore_sponser section css
 */
-.onova_sponser_1 {
+.zCore_sponser_1 {
     padding-top: 220px;
     padding-bottom: 120px;
 }
@@ -2483,13 +2483,13 @@ textarea.form_control {
 }
 
 /*
-	End onova_sponser section css
+	End zCore_sponser section css
 */
 
 /*
-	Start onova_blog_2 section css
+	Start zCore_blog_2 section css
 */
-.onova_blog_2 {
+.zCore_blog_2 {
     padding-top: 112px;
     padding-bottom: 20px;
     position: relative;
@@ -2544,7 +2544,7 @@ textarea.form_control {
 }
 
 /*
-	End onova_blog_2 section css
+	End zCore_blog_2 section css
 */
 
 /*
@@ -2562,9 +2562,9 @@ textarea.form_control {
 */
 
 /*
-	Start onova_footer_widget section css
+	Start zCore_footer_widget section css
 */
-.onova_footer_widget {
+.zCore_footer_widget {
     position: relative;
 }
 
@@ -2597,23 +2597,23 @@ textarea.form_control {
 }
 
 /*
-	End onova_footer_widget section css
+	End zCore_footer_widget section css
 */
 /*==========================================
-	End Onova INDEX 2 CSS
+	End zCore INDEX 2 CSS
 ===========================================*/
 
 
 /*==========================================
-	Start Onova INDEX 3 CSS
+	Start zCore INDEX 3 CSS
 ===========================================*/
-.onova_header_3 {
+.zCore_header_3 {
     position: absolute;
     top: 0px;
     width: 100%;
     z-index: 337;
 }
-.onova_header_3.sticky{
+.zCore_header_3.sticky{
     position: fixed;
     top: 0;
     left: 0;
@@ -2625,7 +2625,7 @@ textarea.form_control {
 
 
 
-.onova_header_3.sticky .main_menu ul li > a {
+.zCore_header_3.sticky .main_menu ul li > a {
     padding: 28px 0;
 }
 
@@ -2641,7 +2641,7 @@ textarea.form_control {
     padding-right: 15px;
 }
 
-.onova_main_menu_3 .main_menu ul li a {
+.zCore_main_menu_3 .main_menu ul li a {
     color: #fff;
     text-transform: capitalize;
 }
@@ -2660,9 +2660,9 @@ textarea.form_control {
 }
 
 /*
-	Start onova_main section css
+	Start zCore_main section css
 */
-.onova_main_3 {
+.zCore_main_3 {
     padding: 220px 0 120px;
 }
 
@@ -2674,37 +2674,37 @@ textarea.form_control {
     width: 100%;
 }
 
-.main_container_2 .onova_content h1,
-.main_container_2 .onova_content span,
-.main_container_2 .onova_content p {
+.main_container_2 .zCore_content h1,
+.main_container_2 .zCore_content span,
+.main_container_2 .zCore_content p {
     color: #fff;
 }
 
-.main_container_2 .onova_content span {
+.main_container_2 .zCore_content span {
     font-size: 26px;
     display: inline-block;
 }
 
-.main_container_2 .onova_content p {
+.main_container_2 .zCore_content p {
     margin-bottom: 40px;
 }
 
-.onova_main_button .onova_btn_3 {
+.zCore_main_button .zCore_btn_3 {
     margin-right: 30px;
     padding: 17px 30px;
     background: #00166a;
 }
 
-.onova_main_button .onova_btn_3:hover,
-.onova_main_button .onova_btn_3.play_btn:hover,
-.onova_main_button .onova_btn_3.play_btn:focus,
-.onova_main_button .onova_btn_3:focus {
+.zCore_main_button .zCore_btn_3:hover,
+.zCore_main_button .zCore_btn_3.play_btn:hover,
+.zCore_main_button .zCore_btn_3.play_btn:focus,
+.zCore_main_button .zCore_btn_3:focus {
     background: #0574ff;
     color: #fff;
     box-shadow: 0px 16px 32px 0px rgba(54, 85, 125, 0.3);
 }
 
-.onova_main_button .onova_btn_3.play_btn {
+.zCore_main_button .zCore_btn_3.play_btn {
     background: transparent;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -2718,7 +2718,7 @@ textarea.form_control {
 }
 
 /*
-	End onova_main section css
+	End zCore_main section css
 */
 
 /*
@@ -2827,25 +2827,25 @@ textarea.form_control {
 	End about_service section
 */
 
-.onova_faq.onova_same_faq.onova_faq_2 {
+.zCore_faq.zCore_same_faq.zCore_faq_2 {
     padding-top: 120px;
     padding-bottom: 100px;
 }
-.onova_faq.onova_same_faq.onova_faq_3 {
+.zCore_faq.zCore_same_faq.zCore_faq_3 {
     padding-bottom: 120px;
     padding-top: 120px;
 }
-.onova_faq_area_4 {
+.zCore_faq_area_4 {
     position: relative;
 }
 
-.onova_faq_4 .onova_faq_area .faq_right {
+.zCore_faq_4 .zCore_faq_area .faq_right {
     display: inline-flex;
     align-items: center;
     background: #17bfa4;
 }
 
-.section_padding.onova_portfolio_4 {
+.section_padding.zCore_portfolio_4 {
     padding: 110px 0 60px;
 }
 
@@ -2857,11 +2857,11 @@ textarea.form_control {
     padding-top: 95px;
 }
 
-.onova_video_4 .video_button a.play_btn:after {
+.zCore_video_4 .video_button a.play_btn:after {
     border-color: #fff;
 }
 
-.onova_video_4 .video_button a.play_btn:before {
+.zCore_video_4 .video_button a.play_btn:before {
     border-color: #fff;
 }
 
@@ -3007,9 +3007,9 @@ textarea.form_control {
 }
 
 /*
-	Satrt onova_sponser section
+	Satrt zCore_sponser section
 */
-.onova_sponser_2 {
+.zCore_sponser_2 {
     padding: 120px 0 20px;
 }
 
@@ -3073,17 +3073,17 @@ textarea.form_control {
 }
 
 /*
-	Start onova_contact section
+	Start zCore_contact section
 */
-.onova_contact_2 {
+.zCore_contact_2 {
     padding: 270px 0 120px;
 }
-.onova_contact_2 .theme_title{
+.zCore_contact_2 .theme_title{
     margin-bottom: 56px;
 }
 
 /*
-	End onova_contact section
+	End zCore_contact section
 */
 .footer_widget_3 .footer_title h5 {
     color: #fff;
@@ -3094,14 +3094,14 @@ textarea.form_control {
 }
 
 /*==========================================
-	End Onova INDEX 3 CSS
+	End zCore INDEX 3 CSS
 ===========================================*/
 
 
 /*
-	Start onova_breadcrumb section css
+	Start zCore_breadcrumb section css
 */
-.onova_breadcrumb {
+.zCore_breadcrumb {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3109,14 +3109,14 @@ textarea.form_control {
     padding: 247px 0 150px;
 }
 
-.onova_breadcrumb img.onova_text {
+.zCore_breadcrumb img.zCore_text {
     position: absolute;
     bottom: 0;
     left: 120px;
     z-index: 1;
 }
 
-.onova_overlay_2 {
+.zCore_overlay_2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -3160,18 +3160,18 @@ textarea.form_control {
 }
 
 /*
-	End onova_breadcrumb section css
+	End zCore_breadcrumb section css
 */
 
 
 /*
 	Start about.html css
 */
-.onova_about_3 .about_img_3 {
+.zCore_about_3 .about_img_3 {
     position: relative;
 }
 
-.onova_about_3 .about_img_3 .overlay_img {
+.zCore_about_3 .about_img_3 .overlay_img {
     position: absolute;
     top: 0;
     left: 0;
@@ -3181,26 +3181,26 @@ textarea.form_control {
     opacity: .8;
 }
 
-.onova_about_3 .about_img_3 .overlay_content {
+.zCore_about_3 .about_img_3 .overlay_content {
     position: absolute;
     bottom: 60px;
     left: 60px;
 }
 
-.onova_about_3 .about_img_3 .overlay_content h2 {
+.zCore_about_3 .about_img_3 .overlay_content h2 {
     color: #fff;
     font-size: 100px;
 }
 
-.onova_about_3 .about_img_3 .overlay_content p {
+.zCore_about_3 .about_img_3 .overlay_content p {
     color: #fff;
 }
 
-.onova_about_3 .about_content_3 h2 {
+.zCore_about_3 .about_content_3 h2 {
     margin-bottom: 20px;
 }
 
-.onova_about_3 .about_content_3 h4 {
+.zCore_about_3 .about_content_3 h4 {
     font-size: 26px;
     line-height: 36px;
     color: #758ca0;
@@ -3208,16 +3208,16 @@ textarea.form_control {
     margin-bottom: 30px;
 }
 
-.onova_about_3 .about_content_3 p {
+.zCore_about_3 .about_content_3 p {
     margin-bottom: 35px;
 }
 
-.onova_about_3 .onova_button .onova_btn {
+.zCore_about_3 .zCore_button .zCore_btn {
     border-radius: 0;
     margin-right: 25px;
 }
 
-.onova_about_3 .onova_button .play_btn {
+.zCore_about_3 .zCore_button .play_btn {
     background: transparent;
     border: 1px solid #b4bfc9;
     font-size: 14px;
@@ -3225,13 +3225,13 @@ textarea.form_control {
     padding: 14px 22px;
 }
 
-.onova_about_3 .onova_button .play_btn:hover,
-.onova_about_3 .onova_button .play_btn:focus {
+.zCore_about_3 .zCore_button .play_btn:hover,
+.zCore_about_3 .zCore_button .play_btn:focus {
     background: #0066ff;
     color: #fff;
 }
 
-.onova_service_3 {
+.zCore_service_3 {
     padding: 110px 0 10px;
 }
 
@@ -3283,14 +3283,14 @@ textarea.form_control {
     color: #fff;
 }
 
-.onova_about_counterup {
+.zCore_about_counterup {
     margin-top: 124px;
     margin-bottom: -170px;
     z-index: 1;
     position: relative;
 }
 
-.onova_video_3 {
+.zCore_video_3 {
     padding-bottom: 107px;
 }
 
@@ -3317,60 +3317,60 @@ textarea.form_control {
     color: #fff;
 }
 
-.onova_faq_1 {
+.zCore_faq_1 {
     padding: 120px 0;
 }
-.onova_faq.onova_faq_1.onova_faq_4 {
+.zCore_faq.zCore_faq_1.zCore_faq_4 {
     padding: 120px 0 103px;
 }
-.onova_faq_1 .onova_faq_area {
+.zCore_faq_1 .zCore_faq_area {
     display: flex;
     align-items: stretch;
 }
 
-.onova_faq_1 .faq_left,
-.onova_faq_1 .faq_right {
+.zCore_faq_1 .faq_left,
+.zCore_faq_1 .faq_right {
     width: 50%;
 }
 
-.onova_faq_1 .faq_right {
+.zCore_faq_1 .faq_right {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
-.onova_faq_1 .faq_left {
+.zCore_faq_1 .faq_left {
     background: #0d2335;
     padding: 110px 120px 120px;
-}.onova_faq.onova_faq_1.onova_faq_4 {
+}.zCore_faq.zCore_faq_1.zCore_faq_4 {
     padding: 120px 0 103px;
 }
 
-.onova_faq_1 .faq_left .faq_content {
+.zCore_faq_1 .faq_left .faq_content {
     margin-bottom: 50px;
 }
 
-.onova_faq_1 .faq_left .faq_content h2 {
+.zCore_faq_1 .faq_left .faq_content h2 {
     color: #fff;
 }
 
-.onova_faq_1 .faq_left .card {
+.zCore_faq_1 .faq_left .card {
     border: 1px solid #304e66;
     border-radius: 0;
     background: transparent;
 }
 
-.onova_faq_1 .faq_left .card-header {
+.zCore_faq_1 .faq_left .card-header {
     padding: 15px 20px;
 }
 
-.onova_faq_1 .faq_left .card-header h5 a {
+.zCore_faq_1 .faq_left .card-header h5 a {
     font-size: 16px;
     font-family: 'Karla';
     color: #fff;
 }
 
-.onova_faq_1 .faq_left .card-header h5 a span {
+.zCore_faq_1 .faq_left .card-header h5 a span {
     margin-right: 20px;
     color: #0061da;
 }
@@ -3383,11 +3383,11 @@ textarea.form_control {
 	Start history.html css
 */
 
-.onova_history {
+.zCore_history {
     padding-bottom: 120px;
     padding-top: 110px;
 }
-.onova_history .theme_title{
+.zCore_history .theme_title{
     margin-bottom: 56px
 }
 .top_text h2 {
@@ -3451,11 +3451,11 @@ textarea.form_control {
 /*
 	Start it_service.html css
 */
-.onova_it_service.onova_it_service_1 {
+.zCore_it_service.zCore_it_service_1 {
     padding-top: 120px;
     padding-bottom: 90px;
 }
-.onova_it_service_1 .service_box_1 {
+.zCore_it_service_1 .service_box_1 {
     margin-bottom: 30px;
 }
 
@@ -3495,10 +3495,10 @@ textarea.form_control {
 /*
 	Start it_consultancy.html css
 */
-.onova_service.onova_service_4.section_padding {
+.zCore_service.zCore_service_4.section_padding {
     padding-bottom: 120px;
 }
-.onova_counterup_3 {
+.zCore_counterup_3 {
     padding-top: 113px;
     padding-bottom: 110px;
 }
@@ -3574,25 +3574,25 @@ textarea.form_control {
     color: #fff;
 }
 
-.onova_testimonial_2 .testimonial_slide_1 {
+.zCore_testimonial_2 .testimonial_slide_1 {
     padding-top: 120px;
 }
 
-.onova_testimonial_2 .testimonial_slide_1 .slick-next {
+.zCore_testimonial_2 .testimonial_slide_1 .slick-next {
     bottom: 20%;
 }
 
-.onova_testimonial_2 .testimonial_slide_1 .content_box h2,
-.onova_testimonial_2 .testimonial_slide_1 .content_box h3 {
+.zCore_testimonial_2 .testimonial_slide_1 .content_box h2,
+.zCore_testimonial_2 .testimonial_slide_1 .content_box h3 {
     color: #fff;
 }
 
-.onova_testimonial_2 .testimonial_slide_1 .slick-prev {
+.zCore_testimonial_2 .testimonial_slide_1 .slick-prev {
     bottom: 20%;
 }
 
-.onova_testimonial_2 .testimonial_slide_1 .slick-next:before,
-.onova_testimonial_2 .testimonial_slide_1 .slick-prev:before {
+.zCore_testimonial_2 .testimonial_slide_1 .slick-next:before,
+.zCore_testimonial_2 .testimonial_slide_1 .slick-prev:before {
     border-color: #2d4b63;
 }
 
@@ -3601,11 +3601,11 @@ textarea.form_control {
     position: relative;
     z-index: 1;
 }
-.onova_pricing {
+.zCore_pricing {
     padding-top: 52px;
     padding-bottom: 155px;
 }
-.onova_pricing.onova_pricing_4 {
+.zCore_pricing.zCore_pricing_4 {
     padding-top: 110px;
 }
 .pricing_box_1 .pricing_head span {
@@ -3758,7 +3758,7 @@ textarea.form_control {
     transition: all .5s;
 }
 
-.onova_map_1 {
+.zCore_map_1 {
     background: #0574ff;
     position: relative;
     padding-top: 120px;
@@ -3815,23 +3815,23 @@ textarea.form_control {
 /*
 	Start faq.html css
 */
-.onova_same_faq .faq_accoridian .card {
+.zCore_same_faq .faq_accoridian .card {
     margin-bottom: 20px;
     border-radius: 0;
     border: none;
 }
 
-.onova_same_faq .faq_accoridian .card-header {
+.zCore_same_faq .faq_accoridian .card-header {
     padding: 20px 30px 20px 20px;
     background: transparent;
     border: 2px solid #e0e9f4;
 }
 
-.onova_same_faq .faq_accoridian .card-header h5 {
+.zCore_same_faq .faq_accoridian .card-header h5 {
     font-size: 16px;
 }
 
-.onova_same_faq .faq_accoridian .card .card-header h5 a i.far {
+.zCore_same_faq .faq_accoridian .card .card-header h5 a i.far {
     display: none;
     color: #0d2335;
     font-size: 16px;
@@ -3851,24 +3851,24 @@ textarea.form_control {
     display: inline-block;
 }
 
-.onova_same_faq .faq_accoridian .card-body {
+.zCore_same_faq .faq_accoridian .card-body {
     border: 2px solid #e0e9f4;
     font-size: 14px;
 }
 
-.onova_same_faq .faq_accoridian .card .show .card-body {
+.zCore_same_faq .faq_accoridian .card .show .card-body {
     border-top: 0;
 }
 
-.onova_same_faq .faq_content_box {
+.zCore_same_faq .faq_content_box {
     margin-bottom: 40px;
 }
 
-.onova_faq_3 .faq_img_box .video_play{
+.zCore_faq_3 .faq_img_box .video_play{
     top: 50%;
 }
 
-.onova_faq_3 .faq_img_box {
+.zCore_faq_3 .faq_img_box {
     position: relative;
 }
 
@@ -3897,7 +3897,7 @@ textarea.form_control {
 */
 
 /*
-	Start onova_team_2.html css
+	Start zCore_team_2.html css
 */
 .team_box_2 {
     margin-bottom: 30px;
@@ -3912,7 +3912,7 @@ textarea.form_control {
 }
 
 /*
-	End onova_team_2.html css
+	End zCore_team_2.html css
 */
 
 /*
@@ -3939,7 +3939,7 @@ textarea.form_control {
     padding-top: 120px;
     padding-bottom: 74px;
 }
-.onova_shop_details.shop_details_1 {
+.zCore_shop_details.shop_details_1 {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -4181,7 +4181,7 @@ textarea.form_control {
     margin-right: 10px;
 }
 
-.product_discription_details .product_details .product_add .onova_btn {
+.product_discription_details .product_details .product_add .zCore_btn {
     border-radius: 0;
     padding: 0;
     width: 154px;
@@ -4312,7 +4312,7 @@ textarea.form_control {
     z-index: 1;
     border: 1px solid #eaeaea;
 }
-.onova_portfolio.onova_portfolio_2 {
+.zCore_portfolio.zCore_portfolio_2 {
     padding-bottom: 15px;
 }
 .portfolio_box_1 .portfolio_info .portfolio_text {
@@ -4446,7 +4446,7 @@ textarea.form_control {
     font-size: 16px;
 }
 
-.case_top_img .onova_img {
+.case_top_img .zCore_img {
     position: relative;
     z-index: -1;
 }
@@ -4457,18 +4457,18 @@ textarea.form_control {
     z-index: 1;
 }
 
-.onova_img.about_img_2 > img {
+.zCore_img.about_img_2 > img {
     width: 100%;
 }
 
-.onova_img > img {
+.zCore_img > img {
     width: 100%;
     margin-top: 0;
 }
-.team_box .onova_img{
+.team_box .zCore_img{
     position: relative;
 }
-.team_box .onova_img::after{
+.team_box .zCore_img::after{
     position: absolute;
     content: '';
     top: 0;
@@ -4479,7 +4479,7 @@ textarea.form_control {
     transition: all linear 0.3s;
     opacity: 0;
 }
-.team_box:hover .onova_img::after{
+.team_box:hover .zCore_img::after{
     opacity: 1;
 }
 .case_inner_content {
@@ -4530,7 +4530,7 @@ textarea.form_control {
 .blog_box_4 {
     margin-bottom: 30px;
 }
-.onova_single_blog.single_blog_main {
+.zCore_single_blog.single_blog_main {
     padding-top: 85px;
     padding-bottom: 85px;
 }
@@ -4627,12 +4627,12 @@ textarea.form_control {
     margin-left: 80px;
 }
 
-.onova_paginaition ul li {
+.zCore_paginaition ul li {
     display: inline-block;
     margin-right: 15px;
 }
 
-.onova_paginaition ul li a {
+.zCore_paginaition ul li a {
     display: inline-block;
     width: 54px;
     height: 54px;
@@ -4646,8 +4646,8 @@ textarea.form_control {
     transition: all .5s;
 }
 
-.onova_paginaition ul li a:hover,
-.onova_paginaition ul li a:focus {
+.zCore_paginaition ul li a:hover,
+.zCore_paginaition ul li a:focus {
     background: rgb(26, 126, 251);
     color: #fff;
 }
@@ -4883,7 +4883,7 @@ textarea.form_control {
     margin-bottom: 85px;
 }
 
-.blog_sidebar .add_widget .add_widget_img .add_widget_text .onova_btn {
+.blog_sidebar .add_widget .add_widget_img .add_widget_text .zCore_btn {
     background: #0e64d0;
 }
 
@@ -4899,13 +4899,13 @@ textarea.form_control {
     background: rgb(5, 116, 255);
     border-radius: 6px;
 }
-.onova_contact_form {
+.zCore_contact_form {
     margin-top: 0;
     margin-bottom: 110px;
     padding-top: 110px;
     padding-bottom: 120px;
 }
-.onova_contact_information {
+.zCore_contact_information {
     padding-bottom: 120px;
 }
 
@@ -5066,7 +5066,7 @@ textarea.form_control {
     color: #170e2a;
     margin-bottom: 35px;
 }
-.onova_about.onova_about_3 {
+.zCore_about.zCore_about_3 {
     padding-top: 116px;
     padding-bottom: 120px;
 }
@@ -5241,7 +5241,7 @@ textarea:focus{
 /*
 	Start contact.html css
 */
-.onova_contact_form {
+.zCore_contact_form {
     position: relative;
 }
 

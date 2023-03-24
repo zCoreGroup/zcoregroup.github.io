@@ -20,9 +20,9 @@
     $(window).on('scroll',function() {    
         var scroll = $(window).scrollTop();
          if (scroll < 100) {
-          $(".onova_header").removeClass("sticky");
+          $(".zCore_header").removeClass("sticky");
          }else{
-          $(".onova_header").addClass("sticky");
+          $(".zCore_header").addClass("sticky");
          }
     }); 
     /*---------------------------------  

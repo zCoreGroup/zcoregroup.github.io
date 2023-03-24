@@ -1,24 +1,19 @@
 
-title: "Onova - IT Solutions and Services Company"
+title: "zCoreGroup - Bleeding Edge Government Software Contracting"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://onova.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
-phone_number: "+8801763633959"
-email: "rubel2585@gmail.com"
-company_name: "themeaffair"
-site_logo_one: "/assets/images/logo_1.png"
-site_logo_two: "/assets/images/logo_3.png"
-site_logo_three: "/assets/images/logo_2.png"
-site_name: "Onova"
+url: "https://zcoregroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+phone_number: "+8583350190"
+email: "mbastos@zcoregroup.com"
+company_name: "zCoreGroup"
+site_logo_one: "/assets/images/logo_1.jpeg"
+site_logo_two: "/assets/images/logo_1.jpeg"
+site_logo_three: "/assets/images/logo_1.jpeg"
+site_name: "zCore Group"
 
-facebook_url: "https://facebook.com/onva"
-twitter_url: "https://twitter.com/onva"
-pinterest_url: "https://pinterest.com/onva"
-linkedin_url: "https://linkedin.com/onva"
-instagram_url: "https://www.instagram.com/onva"
+twitter_url: "https://twitter.com/zcoregroup"
+linkedin_url: "https://www.linkedin.com/company/zcoregroup/"
 
 
 # Build settings

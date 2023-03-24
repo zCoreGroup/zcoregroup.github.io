@@ -9,7 +9,7 @@
 	.header_container_2{
 		max-width: 1250px;
 	}
-	.onova_main_1_img{
+	.zCore_main_1_img{
 		top: 50%;
 	    width: 45%;
 	}
@@ -26,10 +26,10 @@
 	.service_head h3{
 		font-size: 24px;
 	}
-    .onova_head_box_1 .head_box_1 .box_info h3 {
+    .zCore_head_box_1 .head_box_1 .box_info h3 {
     font-size: 27px;
     }
-    .onova_head_box_1 .head_box_1 .box_info p {
+    .zCore_head_box_1 .head_box_1 .box_info p {
     font-size: 14px;
     }
     .about_right_content h3 {
@@ -47,8 +47,8 @@
 
 
 	/*team.html*/
-	.onova_testimonial_2 .testimonial_slide_1 .content_box h2,
-	.onova_testimonial_2 .testimonial_slide_1 .content_box h3 {
+	.zCore_testimonial_2 .testimonial_slide_1 .content_box h2,
+	.zCore_testimonial_2 .testimonial_slide_1 .content_box h3 {
 	    color: #fff;
 	    font-size: 32px;
 	    line-height: 40px;
@@ -65,28 +65,28 @@
 	    font-size: 32px;
 	    line-height: 42px;
 	}
-    .onova_header_1 .header_menu_right .menu_box_group .menu_box_list a.menu_box {
+    .zCore_header_1 .header_menu_right .menu_box_group .menu_box_list a.menu_box {
         margin-left: 8px;
     }
     .main_menu ul li {
         padding: 0 9px;
     }
-    .onova_header_1 .header_menu_right .menu_box_group {
+    .zCore_header_1 .header_menu_right .menu_box_group {
         margin-left: 0px;
     }
-    .onova_content mark h2 {
+    .zCore_content mark h2 {
         font-size: 30px;
     }
-    .onova_main_1_img {
+    .zCore_main_1_img {
         width: 0;
     }
-    .onova_content h1 {
+    .zCore_content h1 {
         font-size: 60px;
     }
 	.about_right_content h2 {
 		font-size: 44px;
 	}
-	.onova_about_2 .about_right_content h2 {
+	.zCore_about_2 .about_right_content h2 {
 		font-size: 56px;
 	}
     .theme_title h2 {
@@ -108,7 +108,7 @@
     .call_title h2 {
         font-size: 44px;
     }
-   .onova_main_content_2 h1 {
+   .zCore_main_content_2 h1 {
 		color: #fff;
 		font-size: 86px;
 		line-height: 90px;
@@ -119,10 +119,10 @@
 	.categories_main .categories_box .categories_info h3 {
 		font-size: 28px;
 	}
-	.onova_video_2 .onova_left_box .video_content h2 {
+	.zCore_video_2 .zCore_left_box .video_content h2 {
 		font-size: 44px;
 	}
-	.onova_service_2 .service_box_2 {
+	.zCore_service_2 .service_box_2 {
 		padding: 80px 35px;
 	}
 	.portfolio_btn {
@@ -151,15 +151,15 @@
 	.about_service_box .service_info h4 {
 		font-size: 22px;
 	}
-	.onova_faq_4 .faq_left .faq_content h2 {
+	.zCore_faq_4 .faq_left .faq_content h2 {
 		font-size: 46px;
 	}
-.onova_faq_1 .faq_left  {
+.zCore_faq_1 .faq_left  {
 	width: 50%;
 	padding: 120px 40px;
 }
 
-.onova_faq_1 .faq_right{
+.zCore_faq_1 .faq_right{
 	width: 50%;
 }
 .choose_box_2 .choose_info .choose_content_2 h4 {
@@ -199,7 +199,7 @@
 	font-size: 24px;
 	margin-bottom: 30px;
 }
-.onova_same_faq .faq_accoridian .card-header h5 {
+.zCore_same_faq .faq_accoridian .card-header h5 {
 	font-size: 14px;
 }
 .portfolio_tag h3 {
@@ -230,7 +230,7 @@
 .blog_sidebar .add_widget .add_widget_img .add_widget_text h2 {
 	font-size: 34px;
 }
-.onova_btn {
+.zCore_btn {
 	padding: 15px 24px;
 }
 .tags_area ul li a {
@@ -248,15 +248,15 @@
 	height: 100%;
 	border: none;
 }
-.onova_head_box_1 .head_box_1 .box_info h3 {
+.zCore_head_box_1 .head_box_1 .box_info h3 {
 	font-size: 20px;
 	margin-bottom: 15px;
 }
-.onova_head_box_1 .head_box_1 .box_icon {
+.zCore_head_box_1 .head_box_1 .box_icon {
 	margin-right: 35px;
 }
 
-.onova_skill_area .skill_left .skill_content h2 {
+.zCore_skill_area .skill_left .skill_content h2 {
 	font-size: 35px;
 }
 
@@ -282,7 +282,7 @@
 	    display: block;
 	    padding: 20px 40px;
 	}
-	.onova_main_1_img {
+	.zCore_main_1_img {
 	    display: none;
 	}
 	.main_container{
@@ -292,16 +292,16 @@
 		width: 50%;
 		overflow: hidden;
 	}
-    .onova_content h1 {
+    .zCore_content h1 {
         font-size: 46px;
     }
-	.onova_content mark h2 {
+	.zCore_content mark h2 {
 	    font-size: 22px;
 	}
-	.onova_head_box_1 {
+	.zCore_head_box_1 {
 	    display: block;
 	}
-	.onova_head_box_1 .head_box_1 {
+	.zCore_head_box_1 .head_box_1 {
 	    display: inline-flex;
 	    width: 100%;
 	    margin-bottom: 30px;
@@ -323,21 +323,21 @@
 	.theme_title h2 {
 	    font-size: 34px;
 	}
-	.team_join_button .onova_btn {
+	.team_join_button .zCore_btn {
 	    margin-left: 0;
 	    margin-right: 0;
 	    margin-bottom: 20px;
 	    width: 100%;
 	}
-	.onova_img img{
+	.zCore_img img{
 		width: 100%;
 	}
-	.onova_right_box .call_button {
+	.zCore_right_box .call_button {
 	    float: none;
 	    margin-bottom: 80px;
 	    text-align: center;
 	}
-	.onova_right_box .call_right {
+	.zCore_right_box .call_right {
 	    text-align: center;
 	}
 	.post_text h3 {
@@ -373,7 +373,7 @@
 	.copyright_text {
     	text-align: center;
 	}
-	.onova_footer_1 .footer_link{
+	.zCore_footer_1 .footer_link{
 		text-align: center;
 		float: none;
 	}
@@ -381,7 +381,7 @@
 	    font-size: 14px;
 	    line-height: 22px;
 	}
-	.onova_footer_1 .footer_link ul li {
+	.zCore_footer_1 .footer_link ul li {
 	    display: inline-block;
 	    margin-left: 23px;
 	    margin-right: 23px;
@@ -389,11 +389,11 @@
 	.map_img_box,
 	.faq_img_box,
 	.single_blog_main_content,
-	.onova_left_box .about_img_1,
-	.onova_left_box .about_img_2,
+	.zCore_left_box .about_img_1,
+	.zCore_left_box .about_img_2,
 	.counter_box,
 	.categories_box,
-	.onova_skill_area .skill_left,
+	.zCore_skill_area .skill_left,
 	.testimonial_img,
 	.blog_box,
 	.service_box,
@@ -402,7 +402,7 @@
 	.video_image_area .video_img{
 		margin-bottom: 60px;
 	}
-	.onova_testimonial_2 .testimonial_slide_1 .content_box h2, .onova_testimonial_2 .testimonial_slide_1 .content_box h3 {
+	.zCore_testimonial_2 .testimonial_slide_1 .content_box h2, .zCore_testimonial_2 .testimonial_slide_1 .content_box h3 {
 	    font-size: 22px;
 	    line-height: 32px;
 	}
@@ -429,7 +429,7 @@
 	    font-size: 12px;
 	    line-height: 14px;
 	}
-    .onova_service_1 {
+    .zCore_service_1 {
         padding-top: 207px;
     }
     .choose_box_1 .choose_info h3 {
@@ -447,7 +447,7 @@
 		font-weight: bold;
 	} 
    
-	.onova_right_box .about_right_content h4 {
+	.zCore_right_box .about_right_content h4 {
 		font-size: 16px;
 		line-height: 23px;
 	}
@@ -461,13 +461,13 @@
 	.content_box h2 {
 		font-size: 25px;
 	}
-	.onova_skill_area {
+	.zCore_skill_area {
 		display: block;
 	}
-	.onova_skill_area .skill_left, .onova_skill_area .skill_right {
+	.zCore_skill_area .skill_left, .zCore_skill_area .skill_right {
 		width: 100%;
 	}
-	.onova_faq_1.onova_faq_4 .faq_left {
+	.zCore_faq_1.zCore_faq_4 .faq_left {
 		background: #0d2335;
 		padding: 120px 15px;
 	}
@@ -481,7 +481,7 @@
 		margin-top: 30px;
 	}
 
-	.onova_history.section_padding .container{
+	.zCore_history.section_padding .container{
 		max-width: 100%;
 	}
 	.history_row {
@@ -492,17 +492,17 @@
 		margin-top: 30px;
 		display: block;
 	}
-	.onova_faq_1 .faq_left {
+	.zCore_faq_1 .faq_left {
 		width: 100%;
 	}
-	 .onova_faq_1 .faq_right {
+	 .zCore_faq_1 .faq_right {
 		width: 0;
 	}
-	.onova_testimonial_2 .testimonial_slide_1 .slick-next::before, .onova_testimonial_2 .testimonial_slide_1 .slick-prev::before {
+	.zCore_testimonial_2 .testimonial_slide_1 .slick-next::before, .zCore_testimonial_2 .testimonial_slide_1 .slick-prev::before {
 
 		opacity: 0;
 	}
-	.onova_testimonial {
+	.zCore_testimonial {
 		padding-bottom: 130px;
 	}
 	.shop_sidebar .widget_sidebar_box ul {
@@ -532,7 +532,7 @@
 		padding: 50px 30px;
 	}
 
-.onova_paginaition {
+.zCore_paginaition {
 	margin-top: 30px;
 }
 .contact_map {
@@ -561,7 +561,7 @@
         padding: 30px 40px;
     }
 	/*index_1.html*/
-	.onova_main_1_img {
+	.zCore_main_1_img {
 	    display: none;
 	}
 	.main_container{
@@ -574,16 +574,16 @@
 		width: 100%;
 		overflow: hidden;
 	}
-	.onova_content h1 {
+	.zCore_content h1 {
 	    font-size: 36px;
 	}
-	.onova_content mark h2 {
+	.zCore_content mark h2 {
 	    font-size: 22px;
 	}
-	.onova_head_box_1 {
+	.zCore_head_box_1 {
 	    display: block;
 	}
-	.onova_head_box_1 .head_box_1 {
+	.zCore_head_box_1 .head_box_1 {
 	    display: inline-flex;
 	    width: 100%;
 	    margin-bottom: 30px;
@@ -605,21 +605,21 @@
 	.theme_title h2 {
 	    font-size: 24px;
 	}
-	.team_join_button .onova_btn {
+	.team_join_button .zCore_btn {
 	    margin-left: 0;
 	    margin-right: 0;
 	    margin-bottom: 20px;
 	    width: 100%;
 	}
-	.onova_img img{
+	.zCore_img img{
 		width: 100%;
 	}
-	.onova_right_box .call_button {
+	.zCore_right_box .call_button {
 	    float: none;
 	    margin-bottom: 80px;
 	    text-align: center;
 	}
-	.onova_right_box .call_right {
+	.zCore_right_box .call_right {
 	    text-align: center;
 	}
 	.post_text h3 {
@@ -655,12 +655,12 @@
 	.copyright_text {
     	text-align: center;
 	}
-	.onova_footer_1 .footer_link{
+	.zCore_footer_1 .footer_link{
 		text-align: center;
 		float: none;
 	}
 
-	.onova_footer_1 .footer_link ul li {
+	.zCore_footer_1 .footer_link ul li {
 	    display: inline-block;
 	    margin-left: 23px;
 	    margin-right: 23px;
@@ -668,11 +668,11 @@
 	.map_img_box,
 	.faq_img_box,
 	.single_blog_main_content,
-	.onova_left_box .about_img_1,
-	.onova_left_box .about_img_2,
+	.zCore_left_box .about_img_1,
+	.zCore_left_box .about_img_2,
 	.counter_box,
 	.categories_box,
-	.onova_skill_area .skill_left,
+	.zCore_skill_area .skill_left,
 	.testimonial_img,
 	.blog_box,
 	.service_box,
@@ -689,13 +689,13 @@
 	.single_slider{
 		padding: 50px 0 50px;
 	}
-	.onova_btn_2 {
+	.zCore_btn_2 {
 	    margin-right: 20px;
 	    width: 200px;
 	    margin-bottom: 30px;
 	    text-align: center;
 	}
-	.onova_main_content_2 h1 {
+	.zCore_main_content_2 h1 {
 	    color: #fff;
 	    font-size: 32px;
 	    line-height: 42px;
@@ -707,11 +707,11 @@
 	    margin-top: 0;
 	    padding: 120px 15px;
 	}
-	.onova_left_box .about_img_2{
+	.zCore_left_box .about_img_2{
 		position: relative;
 		bottom: 0;
 	}
-	.onova_right_box .about_right_content h4{
+	.zCore_right_box .about_right_content h4{
 		font-size: 18px;
     	line-height: 28px;
 	}
@@ -719,7 +719,7 @@
 	    text-align: center !important;
 	    margin-bottom: 40px;
 	}
-	.onova_left_box .video_content h2 {
+	.zCore_left_box .video_content h2 {
 	    font-size: 26px;
 	}
 	.service_box_2{
@@ -749,17 +749,17 @@
 		font-size: 22px;
 		line-height: 35px;
 	}
-	.onova_skill_area .skill_left, .onova_skill_area .skill_right {
+	.zCore_skill_area .skill_left, .zCore_skill_area .skill_right {
 	    width: 100%;
 	}
-	.onova_skill_area .skill_left {
+	.zCore_skill_area .skill_left {
 	    padding: 40px;
 	}
-	.onova_skill_area .skill_left .skill_content h2 {
+	.zCore_skill_area .skill_left .skill_content h2 {
 		font-size: 30px;
 	}
 	/*bredcumb section*/
-	.onova_breadcrumb{
+	.zCore_breadcrumb{
 		padding: 100px 0 100px;
 	}
 	.breadcrumb_text{
@@ -821,17 +821,17 @@
 	    height: 35px;
 	    line-height: 35px;
 	}
-	.onova_paginaition.blog_pagination {
+	.zCore_paginaition.blog_pagination {
 	    text-align: center;
 	    margin-top: 60px;
 	}
-	.onova_paginaition ul li a {
+	.zCore_paginaition ul li a {
 	    width: 45px;
 	    height: 45px;
 	    line-height: 45px;
 	}
 	/*faq.html*/
-	.onova_same_faq .faq_accoridian .card-header {
+	.zCore_same_faq .faq_accoridian .card-header {
 	    padding: 20px 10px;
 	}
 	.faq_content_box h2 {
@@ -872,16 +872,16 @@
 	    border: none;
 	}
 	/*team.html*/
-	.onova_testimonial_2 .testimonial_item .tesimonial_content{
+	.zCore_testimonial_2 .testimonial_item .tesimonial_content{
 		margin-bottom: 60px;
 	}
     .main_container_1 .main_right .main_img {
         padding-left: 0;
     }
-    .onova_content h1 {
+    .zCore_content h1 {
         font-size: 34px;
     }
-    .onova_content mark {
+    .zCore_content mark {
         display: inline-block;
         padding: 16px 20px;
     }
@@ -901,7 +901,7 @@
     .mobile_menu {
         padding: 30px 10px;
     }
-    .onova_content mark h2 {
+    .zCore_content mark h2 {
         font-size: 16px;
     }
     .choose_box_1 .choose_info h3 {
@@ -928,11 +928,11 @@
 		padding: 160px 0;
 	}
 
-	.onova_main_2 .onova_main_content_2 h1 {
+	.zCore_main_2 .zCore_main_content_2 h1 {
 		font-size: 45px;
 		line-height: 44px;
 	}
-	.onova_btn_2 {
+	.zCore_btn_2 {
 		width: auto;
 	}
 
@@ -942,13 +942,13 @@
 	.post_meta ul {
 		text-align: left;
 	}
-	.onova_main_content_2 span {
+	.zCore_main_content_2 span {
 		font-size: 22px;
 	}
 	.categories_main .categories_box .categories_info h3 {
 		font-size: 28px;
 	}
-	.onova_video_2 .onova_left_box .video_content h2 {
+	.zCore_video_2 .zCore_left_box .video_content h2 {
 		font-size: 24px;
 	}
 	.blog_box_2 .blog_info .post_meta ul li {
@@ -966,19 +966,19 @@
 		text-align: center;
 		justify-content: center;
 	}
-	.onova_faq_1 .faq_left, .onova_faq_1 .faq_right {
+	.zCore_faq_1 .faq_left, .zCore_faq_1 .faq_right {
 		width: 100%;
 	}
-	.onova_faq_1 .onova_faq_area {
+	.zCore_faq_1 .zCore_faq_area {
 		display: block;	
 	}
-	.onova_faq_1 .faq_left {
+	.zCore_faq_1 .faq_left {
 		padding: 120px 30px;
 	}
 	.about_service_box {
 		width: 100%;
 	}
-	.onova_faq_1 .faq_left .faq_content h2 {
+	.zCore_faq_1 .faq_left .faq_content h2 {
 		font-size: 44px;
 	}
 	.pricing_box_1 {
@@ -1022,10 +1022,10 @@
 	.service_box_4 .service_head h3 {
 		font-size: 22px;
 	}
-	.onova_faq_1 .faq_left {
+	.zCore_faq_1 .faq_left {
 		width: 100%;
 	}
-	 .onova_faq_1 .faq_right {
+	 .zCore_faq_1 .faq_right {
 		width: 0;
 	}
 	span.theme_span {
@@ -1035,17 +1035,17 @@
 	.about_video_main .video_content h2 {
 		font-size: 42px;
 	}
-	.onova_btn {
+	.zCore_btn {
 		padding: 15px 18px;
 	}
-	.onova_about_3 .about_content_3 h2 {
+	.zCore_about_3 .about_content_3 h2 {
 		font-size: 33px;
 	}
 
-	.onova_about_3 .about_content_3 h4 {
+	.zCore_about_3 .about_content_3 h4 {
 		font-size: 20px;
 	}
-	.onova_testimonial {
+	.zCore_testimonial {
 		padding-bottom: 70px;
 	}
 	.shop_main_top .shop_main_sort {
@@ -1124,13 +1124,13 @@
 		text-align: center;
 	}
 
-	.onova_paginaition {
+	.zCore_paginaition {
 		margin-top: 30px;
 	}
-	.onova_paginaition ul li {
+	.zCore_paginaition ul li {
 		margin-right: 12px;
 	}
-	.onova_paginaition ul li a {
+	.zCore_paginaition ul li a {
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
@@ -1198,11 +1198,11 @@
 	    font-size: 16px;
 	    line-height: 22px;
 	}
-	.onova_main_2 .onova_main_content_2 h1 {
+	.zCore_main_2 .zCore_main_content_2 h1 {
 		font-size: 82px;
 		line-height: 90px;
 	}
-	.onova_main_content_2 span {
+	.zCore_main_content_2 span {
 		font-size: 26px;
 	}
 	.categories_main .categories_box .categories_info h3 {
@@ -1211,7 +1211,7 @@
 	.about_img_1 .overlay_qoute {
 		right: -7%;
 	}
-	.onova_video_2 .onova_left_box .video_content h2 {
+	.zCore_video_2 .zCore_left_box .video_content h2 {
 		font-size: 26px;
 	}
 	.content_box h2 {
@@ -1219,7 +1219,7 @@
 	    line-height: 32px;
 	    margin-bottom: 30px;
 	}
-	.onova_skill_area .skill_left .skill_content h2 {
+	.zCore_skill_area .skill_left .skill_content h2 {
 	    font-size: 40px;
 	}
 	.blog_box_2 .blog_info .post_meta ul li {
@@ -1277,7 +1277,7 @@
 	.blog_sidebar .widget_sidebar_box {
 		padding: 40px 25px;
 	}
-	.onova_btn {
+	.zCore_btn {
 		padding: 15px 30px;
 	}
 	.social_area {

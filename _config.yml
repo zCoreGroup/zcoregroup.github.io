@@ -1,27 +1,37 @@
 
-title: "zCore Group - Bleeding Edge Government Software Contracting"
-email: "mbastos@zcoregroup.com"
+title: "Onova - IT Solutions and Services Company"
 description: >- # this means to ignore newlines until "baseurl:"
-  zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution. 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://onova.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+phone_number: "+8801763633959"
+email: "rubel2585@gmail.com"
+company_name: "themeaffair"
+site_logo_one: "/assets/images/logo_1.png"
+site_logo_two: "/assets/images/logo_3.png"
+site_logo_three: "/assets/images/logo_2.png"
+site_name: "Onova"
 
-# General Settings
-twitter_username: jekyllrb
-github_username:  jekyll
+facebook_url: "https://facebook.com/onva"
+twitter_url: "https://twitter.com/onva"
+pinterest_url: "https://pinterest.com/onva"
+linkedin_url: "https://linkedin.com/onva"
+instagram_url: "https://www.instagram.com/onva"
 
-twitter_username: https://twitter.com/zcoregroup
-linkedin_username: https://www.linkedin.com/company/zcoregroup/
 
-logo_url: "/assets/img/logo/logo.jpeg"
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-permalink: /:title
 
+
+collections:
+  home_one_services:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -38,7 +48,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 5
+  per_page: 6
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
@@ -81,21 +91,7 @@ pagination:
   # Without file extension
   indexpage: 'index'
 
-
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
-
-jekyll-archives:
-  enabled: all
-  layout: category
-  permalinks:
-    category: '/category/:name/'
-
-feed:
-  collections:
-    posts:
-      path: "/index.xml"
+############################################################
 
 tag_page_layout: tag_page
 tag_page_dir: tag

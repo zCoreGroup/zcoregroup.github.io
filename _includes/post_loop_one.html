@@ -1,0 +1,29 @@
+<div class="row">
+ {% for post in paginator.posts %}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="blog_box blog_box_1 blog_box_3">
+            <div class="blog_img onova_img">
+                <a href="{{post.url}}"><img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}"></a>
+            </div>
+            <div class="blog_info">
+                <div class="post_tag">
+                    {% assign category_name = post.categories[0] %}
+                    <a href="{{relative_url}}/category/{{ category_name }}" class="tag_link">{{category_name}}</a>
+                   
+                </div>
+                <div class="post_text">
+                    <h3><a href="{{post.url}}">{{post.title | truncatewords: "7" }}</a></h3>
+                    <p>{{post.content | strip_html | truncatewords: "25" }}</p>
+                </div>
+            </div>
+            <div class="post_meta">
+                <ul>
+                    <li><i class="fal fa-user"></i>{{post.author}}</li>
+                    <li><i class="fal fa-calendar-alt"></i>{{post.date | date_to_long_string}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ {% endfor %}
+</div>
+{% include pagination.html %}

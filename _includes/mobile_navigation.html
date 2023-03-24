@@ -1,0 +1,19 @@
+<nav class="sidebar-menu">
+<ul>
+    <li><a href="#" class="search_btn search-open"><i class="far fa-search"></i></a></li>
+{% for navigation in site.data.navigation %}
+
+    <li>
+        <a href="{{navigation.url}}">{{navigation.text}}  {% if navigation.dropdown %} <span><i class="far fa-angle-down"></i></span> {% endif %}</a>
+        {% if navigation.dropdown %}
+            <ul class="sidebar-submenu">
+              {% for dropdown in navigation.dropdown %}
+                <li><a href="{{dropdown.url}}">{{dropdown.text}}</a></li>
+              {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+
+{% endfor %}
+</ul>
+</nav>

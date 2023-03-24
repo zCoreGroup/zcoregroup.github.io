@@ -1,0 +1,25 @@
+<!-- Start onova_header  -->
+<header class="onova_header onova_header_2">
+    <div class="header_container_2">
+        <div class="onova_logo_2">
+            <ul>
+                <li class="menu_link_list"><a href="#" class="menu_link"><i class="far fa-bars"></i></a></li>
+                <li><a href="{{site.url}}"><img src="{{site.site_logo_two}}" class="img-fluid" alt="{{site.title}}"></a></li>
+            </ul>
+        </div>
+        <div class="onova_main_menu onova_main_menu_2">
+           {% include navigation.html %}
+        </div>
+        <div class="menu_get_button">
+            <div class="get_btn_icon">
+                <i class="fal fa-envelope"></i>
+            </div>
+            <div class="get_btn_info">
+                <h5>Get A Quote</h5>
+                <a href="mailto:{{site.email}}">{{site.email}}</a>
+            </div>
+        </div>
+    </div>
+{% include mobile_menu.html %}
+</header>
+<!-- End onova_header  -->

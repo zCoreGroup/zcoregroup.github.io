@@ -1,0 +1,50 @@
+ - text: Home
+   url: "/"
+   dropdown:
+    - text: "Home IT Business"
+      url: "index_2.html"
+    - text: "Home IT Startup"
+      url: "index_3.html"
+
+ - text: Company
+   url: "#"
+   dropdown:
+    - text: "About us"
+      url: "about.html"
+    - text: "Our Services"
+      url: "services.html"
+    - text: "Our History"
+      url: "history.html"
+
+ - text: Portfolio
+   url: "#"
+   dropdown:
+    - text: "Portfolios 01"
+      url: "portfolios_1.html"
+    - text: "Portfolio 02"
+      url: "portfolios_2.html"
+    - text: "Portfolio 03"
+      url: "portfolios_3.html"
+    - text: "Portfolio details"
+      url: "case_details.html"
+
+ - text: Pages
+   url: "#"
+   dropdown:
+    - text: "FAQ"
+      url: "faq.html"
+    - text: "Our Team"
+      url: "team.html"
+    - text: "404"
+      url: "404.html"
+
+ - text: "News"
+   url: "#"
+   dropdown: 
+    - text: "Blog grid"
+      url: "blog_grid.html"
+    - text: "Blog List"
+      url: "blog_list.html"
+
+ - text: "Contact"
+   url: "contact.html"

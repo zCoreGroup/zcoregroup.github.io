@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Blog Grid"
+pagination: 
+  enabled: true
+permalink: "/blog_grid.html/"
+---
+
+{% include header_2.html %}
+{% include page_header_2.html %}
+<!-- Start onova_blog section -->
+<section class="onova_blog onova_blog_3 section_padding">
+    <div class="container">
+      {% include post_loop_one.html %}
+    </div>
+</section>
+<!-- End onova_blog section -->
+
+{% include call_to_action_2.html %}
+{% include footer_2.html %}

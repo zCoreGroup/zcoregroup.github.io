@@ -1,70 +1,56 @@
-<!-- services area -->
-<div class="services-area section-ptb bgs" id="services">
+<!-- Start onova_service section -->
+<section class="why_choose why_choose_2">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-7 col-md-9">
-                <div class="section-title text-center">
-                    <h3 class="section-name pc">About</h3>
-                    <h2>zCore Group</h2>
-                    <p>
-                        zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution. 
-                    </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="theme_title">
+                    <span class="theme_span">services</span>
+                    <h2>what we do</h2>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row service-row mt-45">
-            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-                <div class="project-card text-center bgp">
-                    <div class="icon mb-20">
-                        <img src="/assets/img/icons/pen.png" alt="design" />
-                        <img class="d-none" src="/assets/img/icons/pen-yellow.png" alt="design" />
-                    </div>
-                    <div class="skill-project">
-                        <h4 class="mb-5">Our Mission</h4>
-                        <p>To solve challenges by combining business understanding and collaborative modernization.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-                <div class="project-card text-center bgp">
-                    <div class="icon mb-20">
-                        <img src="/assets/img/icons/code-white.png" alt="design" />
-                        <img class="d-none" src="/assets/img/icons/code.png" alt="design" />
-                    </div>
-                    <div class="skill-project">
-                        <h4 class="mb-5">Our Vision</h4>
-                        <p>To build trusted partnerships to optimize business outcomes.</p>
+        <div class="choose_slide_1">
+         {% for service in site.home_one_services %}
+            <div class="single_service_list">
+                <div class="choose_box choose_box_2 onova_box">
+                    <a href="{{service.link}}" class="choose_box_bg bg_image" style="background-image:url({{relative_url}}{{service.apps_logo}});">
+                        <div class="choose_content_1">
+                            <i class="pe-7s-diamond"></i>
+                            <h4>{{service.title}}</h4>
+                            <p>{{service.description}}</p>
+                            <span class="choose_btn">Read More</span>
+                        </div>
+                    </a>
+                    <div class="choose_info bg_image"  style="background-image:url({{relative_url}}{{service.apps_logo}});">
+                        <div class="choose_overlay"></div>
+                        <div class="choose_content_2">
+                            {{service.apps_icon}}
+                            <h4>{{service.title}}</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="project-card text-center bgp">
-                    <div class="icon mb-20">
-                        <img src="/assets/img/icons/search.png" alt="design" />
-                        <img class="d-none" src="/assets/img/icons/search-yellow.png" alt="design" />
-                    </div>
-                    <div class="skill-project">
-                        <h4 class="mb-5">Our Values</h4>
-                        <p>Trust, Understanding, Modernization</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-                <div class="project-card text-center bgp">
-                    <div class="icon mb-20">
-                        <img src="/assets/img/icons/marketing-white.png" alt="design" />
-                        <img class="d-none" src="/assets/img/icons/marketing.png" alt="design" />
-                    </div>
-                    <div class="skill-project">
-                        <h4 class="mb-5">Our History</h4>
-                        <p>Read More</p>
+                {% if service.related_app %}
+                <div class="choose_box choose_box_2 onova_box">
+                    <a href="{{service.related_app.link}}" class="choose_box_bg bg_image" style="background-image:url({{relative_url}}{{service.related_app.apps_logo}});">
+                        <div class="choose_content_1">
+                            {{service.related_app.apps_icon}}
+                            <h4>{{service.related_app.title}}</h4>
+                            <p>{{service.related_app.description}}</p>
+                            <span class="choose_btn">Read More</span>
+                        </div>
+                    </a>
+                    <div class="choose_info bg_image"  style="background-image:url({{relative_url}}{{service.related_app.apps_logo}});">
+                        <div class="choose_overlay"></div>
+                        <div class="choose_content_2">
+                            {{service.related_app.apps_icon}}
+                            <h4>{{service.related_app.title}}</h4>
+                        </div>
                     </div>
                 </div>
+                {% endif %}
             </div>
+            {% endfor %}
         </div>
-    </div>
-    {% include countdown.html %}
-</div>
-<!-- services area ends -->
+    </div>    
+</section>
+<!-- End onova_service section -->

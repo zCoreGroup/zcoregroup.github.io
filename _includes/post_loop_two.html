@@ -1,0 +1,27 @@
+<div class="blog_main_list">
+    {% for post in paginator.posts %}
+    <div class="blog_box blog_box_5">
+        <div class="blog_img">
+            {% if post.post_image %}
+              <a href="{{post.url}}"><img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}"></a>
+            {% endif %}
+            {% if post.video_url %}
+            <div class="blog_play">
+                <a href="{{post.video_url}}" class="play_btn"><i class="fal fa-play"></i></a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="blog_info">
+            <div class="post_meta">
+                <ul>
+                    <li><i class="far fa-user"></i>by {{post.author}}</li>
+                    <li><i class="far fa-clock"></i>{{post.date | date_to_long_string }}</li>
+                </ul>
+            </div>
+            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+            <p>{{post.content | truncatewords: "50" | strip_html }}</p>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+{% include pagination.html %}

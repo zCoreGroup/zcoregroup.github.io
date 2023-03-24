@@ -1,0 +1,140 @@
+<div class="onova_sidebar blog_sidebar">
+    <div class="widget_sidebar_box instagram_widget">
+        <div class="sidebar_widget_title">
+            <h3>Photos Gallery</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/01.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/01.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/02.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/02.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/03.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/03.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/04.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/04.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/05.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/05.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/06.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/06.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/07.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/07.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/08.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/08.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6 ins_pa">
+                <div class="insta_img">
+                    <a href="{{relative_url}}/assets/images/blog/09.jpg" data-lightbox="gallery" data-title="My caption">
+                        <img src="{{relative_url}}/assets/images/blog/09.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="widget_sidebar_box social_widget">
+        <div class="sidebar_widget_title">
+            <h3>Follow Us</h3>
+        </div>
+        <ul class="social_widget_link">
+            <li><a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="widget_sidebar_box categroies_widget">
+        <div class="sidebar_widget_title">
+            <h3>Categories</h3>
+        </div>
+        <ul class="categories_list text-left">
+            {% assign categories_list = site.categories %}
+              {% if categories_list.first[0] == null %}
+                {% for category in categories_list %}
+                  <li><a href="/category/{{ category | downcase | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} <span>({{ site.tags[category].size }})</span></a></li>
+                {% endfor %}
+              {% else %}
+                {% for category in categories_list %}
+                  <li><a href="/category/{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} <span>({{ category[1].size }})</span></a></li>
+                {% endfor %}
+              {% endif %}
+            {% assign categories_list = nil %}
+        </ul>
+    </div>
+    <div class="widget_sidebar_box feeds_widget">
+        <div class="sidebar_widget_title">
+            <h3>Latest News</h3>
+        </div>
+        {% for post in site.posts limit: "6" %}
+        <div class="feeds_single">
+            {% if post.post_image %}
+            <div class="feeds_img">
+                <img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}">
+            </div>
+            {% endif %}
+            <div class="feeds_info">
+                <h6><a href="{{post.url}}">{{post.title}}</a></h6>
+                <p><i class="far fa-clock"></i>{{post.date | date_to_long_string }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="widget_sidebar_box tags_widget">
+        <div class="sidebar_widget_title">
+            <h3>Popular Tags</h3>
+        </div>
+        <div id="tag-cloud">
+         <ul class="tags_list">
+            {% capture tags %}
+              {% for tag in site.tags %}
+                <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
+                   <a class="tag_1" href="/{{ site.tag_page_dir }}/{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }} <span> ({{ tag[1].size }})</span></a>
+                </li>
+              {% endfor %}
+            {% endcapture %}
+            {{ tags | split:'</li>' | sort | join:'</li>' }}
+        </ul>
+      </div>
+    </div>
+    <div class="add_widget">
+     {% include add.html %}
+    </div>
+</div>

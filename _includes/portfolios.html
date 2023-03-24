@@ -1,84 +1,129 @@
-<!-- portfolio area -->
-<div class="portfolio-area section-ptb-2" id="portfolio">
+<!-- Start onova_portfolio section -->
+<section class="onova_portfolio section_padding onova_portfolio_4 bg_image" style="background-image: url({{relative_url}}/assets/images/portfolio_bg_2.jpg);" id="portfolio_filter">
+    <div class="onova_overlay"></div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-7 col-md-9">
-                <div class="section-title text-center">
-                    <h3 class="section-name pc">PORTFOLIO</h3>
-                    <h2>My Masterpiece Collection</h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida
-                        non proident, sunt in culpa qui officia</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-9 mx-auto">
-                <div class="pofo-cat mb-40 text-center">
-                    <button class="active" data-filter="*">ALL</button>
-                    <button data-filter=".cat1">UI / UX</button>
-                    <button data-filter=".cat2">WEB DEVELOPMENT</button>
-                    <button data-filter=".cat3">WEB RESEARCH</button>
-                    <button data-filter=".cat4">MARKETING</button>
-                </div>
-                <div class="pofo-line d-sm-none"></div>
-            </div>
-        </div>
-        <div class="row grid mt-20">
-            <div class="col-md-3 col-sm-6 grid-item cat1 cat4">
-                <div class="portfolio-wrapper mb-30">
-                    <div class="portfolio-thumb">
-                        <img src="/assets/img/portfolio/1.png" alt="portfolio 1"/>
-                    </div>
-                    <div class="overlay">
-                        <a href="assets/img/portfolio/1.png">
-                            <img class="m-auto" src="/assets/img/portfolio/icon.png" alt="plus icon"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 grid-item cat2 cat3">
-                <div class="portfolio-wrapper mb-30">
-                    <div class="portfolio-thumb">
-                        <img src="/assets/img/portfolio/3.png" alt="portfolio 3">
-                    </div>
-                    <div class="overlay">
-                        <a href="assets/img/portfolio/3.png">
-                            <img src="/assets/img/portfolio/icon.png" alt="plus icon"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 grid-item grid-item-4 cat4">
-                <div class="portfolio-wrapper mb-30">
-                    <div class="portfolio-thumb">
-                        <img src="/assets/img/portfolio/4.png" alt="portfolio 4"/>
-                    </div>
-                    <div class="overlay">
-                        <a href="assets/img/portfolio/4.png">
-                            <img src="/assets/img/portfolio/icon.png" alt="plus icon"/>
-                        </a>
+        <div class="portfolio_main_wrapper portfolio_main_wrapper_2">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="theme_title overlay_title text-center">
+                        <span class="theme_span">portfolio</span>
+                        <h2>Case Study</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 grid-item cat3">
-                    <div class="portfolio-wrapper mb-30">
-                        <div class="portfolio-thumb">
-                            <a href="portfolio-details.html">
-                                <img src="/assets/img/portfolio/2.png" alt="portfolio 4"/>
-                            </a>
+                <div class="col-lg-12">
+                    <div class="portfolio_button text-center">
+                        <button class="portfolio_btn btn_active" data-filter="*">all works</button>
+                        <button class="portfolio_btn" data-filter=".design">Design (4) </button>
+                        <button class="portfolio_btn" data-filter=".game">Game (2)</button>
+                        <button class="portfolio_btn" data-filter=".website">website (10)</button>
+                        <button class="portfolio_btn" data-filter=".interior">interior (6)</button>
+                        <button class="portfolio_btn" data-filter=".consultancy">consultancy (8)</button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio_grid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single website design">
+                        <div class="portfolio_box portfolio_box_1 portfolio_box_4">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Yoko loko</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
                         </div>
-                        <div class="overlay">
-                            <a href="/assets/img/portfolio/2.png">
-                                <img src="/assets/img/portfolio/icon.png" alt="plus icon"/>
-                            </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single interior game">
+                        <div class="portfolio_box portfolio_box_1 portfolio_box_4">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Vebo Kim</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single game website">
+                        <div class="portfolio_box portfolio_box_1 portfolio_box_4">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Humber A.</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single consultancy interior">
+                        <div class="portfolio_box portfolio_box_1 portfolio_box_4">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_4.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Yoko loko</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single consultancy">
+                        <div class="portfolio_box portfolio_box_1 portfolio_box_4">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_5.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Humber A.</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single design">
+                        <div class="portfolio_box portfolio_box_4 portfolio_box_1">
+                            <div class="portfolio_img onova_img">
+                                <img src="{{relative_url}}/assets/images/portfolio_6.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio_info">
+                                <div class="portfolio_text">
+                                    <span>ui/ux</span>
+                                    <h3>Vebo Kim</h3>
+                                </div>
+                                <div class="portfolio_icon">
+                                    <i class="fal fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- portfolio area ends -->
+</section>
+<!-- End onova_about_service section -->

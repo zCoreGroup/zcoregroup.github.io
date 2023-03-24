@@ -1,21 +1,18 @@
-<!-- page title area starts -->
-<div class="page-title-area">
+<!-- Start onova_breadcrumb section -->
+<section class="onova_breadcrumb" style="background-image: url({{relative_url}}{{page.page_header_bg}});">
+    <div class="onova_overlay_2"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xl-7">
-                <div class="page-title pt-80 pb-60">
-                    <h1>{{page.title | capitalize}}</h1>
-                    <div class="post-category">
-                    	{% if page.categories.size > 0 %}
-                         <p class="my-3"><span class="pc">Category: </span> {{page.categories[0] | capitalize}} </p>
-                        {% endif %}
-                        {% if page.sub_title %}
-                         <p>{{page.sub_title}}</p>
-                        {% endif %}
-                    </div>
+            <div class="col-lg-12">
+                <div class="breadcrumb_text">
+                    <h2>{{page.title}}</h2>
+                    <ul>
+                        <li><a href="{{site.url}}">Home</a></li>
+                        <li class="active"><a href="{{page.url}}">{{page.title}}</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- page title area end -->
+</section>
+<!-- End onova_breadcrumb section -->

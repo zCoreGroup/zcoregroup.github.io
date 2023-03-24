@@ -1,0 +1,48 @@
+<!-- Start onova_blog_2 section -->
+<section class="onova_blog onova_blog_2 bg_image" style="background-image: url({{relative_url}}/assets/images/blog_bg.jpg);">
+    <div class="onova_overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="theme_title overlay_title text-center">
+                    <span class="theme_span">blog</span>
+                    <h2>News feeds</h2>
+                </div>
+            </div>
+        </div>
+        <div class="blog_area_2">
+            <div class="row">
+               {% for post in site.posts limit: "3" %}
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_box blog_box_2">
+                        {% if post.post_image %}
+                        <div class="blog_img onova_img">
+                            <img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}">
+                        </div>
+                        {% endif %}
+                        <div class="blog_info">
+                            <div class="post_meta">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-user"></i> {{post.author}}</a></li>
+                                    <li><a href="#"><i class="fal fa-calendar-alt"></i>  {{post.date | date_to_long_string }}</a></li>
+                                </ul>
+                            </div>
+                            <div class="post_text">
+                                <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                                <p>{{post.content | strip_html | truncatewords: "20" }}</p>
+                            </div>
+                            <div class="post_tag">
+                                <ul>
+                                    <li><a href="/category/{{post.categories[0] | replace:" ","-" }}" class="tag">{{post.categories[0]}}</a></li>
+                                    <li><a href="{{post.url}}" class="replay"><i class="fal fa-reply"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End onova_blog_2 section -->

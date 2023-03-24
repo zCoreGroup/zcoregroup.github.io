@@ -50,7 +50,7 @@ GEM
       nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.1)
+    kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -91,6 +91,7 @@ GEM
 PLATFORMS
   x64-mingw32
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2.1)

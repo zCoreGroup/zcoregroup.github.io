@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sverrirs/jekyll-paginate-v2.git
-  revision: e4e1d01cb6ca1c3f97c84fb8172d908ec5d85b65
+  revision: 7bc2634c04c49120b674cc3506275f85c4389f5c
   specs:
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)

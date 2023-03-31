@@ -7,9 +7,9 @@ url: "https://zcoregroup.github.io" # the base hostname & protocol for your site
 phone_number: "+8583350190"
 email: "mbastos@zcoregroup.com"
 company_name: "zCoreGroup"
-site_logo_one: "/assets/images/logo_1.jpeg"
-site_logo_two: "/assets/images/logo_1.jpeg"
-site_logo_three: "/assets/images/logo_1.jpeg"
+site_logo_one: "/assets/images/logos/logo_1.jpeg"
+site_logo_two: "/assets/images/logos/logo_1.jpeg"
+site_logo_three: "/assets/images/logos/logo_1.jpeg"
 site_name: "zCore Group"
 
 twitter_url: "https://twitter.com/zcoregroup"

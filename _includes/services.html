@@ -5,12 +5,12 @@
             <div class="col-lg-6">
                 <div class="theme_title">
                     <span class="theme_span">services</span>
-                    <h2>what we do</h2>
+                    <h2>what zCG does</h2>
                 </div>
             </div>
         </div>
         <div class="choose_slide_1">
-         {% for service in site.home_one_services %}
+         {% for service in site.services %}
             <div class="single_service_list">
                 <div class="choose_box choose_box_2 zCore_box">
                     <a href="{{service.link}}" class="choose_box_bg bg_image" style="background-image:url({{relative_url}}{{service.apps_logo}});">

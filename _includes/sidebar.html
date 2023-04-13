@@ -1,14 +1,14 @@
 <div class="zCore_sidebar blog_sidebar">
     <div class="widget_sidebar_box social_widget">
         <div class="sidebar_widget_title">
-            <h3>Follow Us</h3>
+            <h3>Share On Social</h3>
         </div>
         <ul class="social_widget_link">
-            <li><a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a></li>
-            <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://pinterest.com/pin/create/button/?url={{site.url}}{{page.url}}&description={{page.title}}"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}&summary=&source="><i class="fab fa-linkedin-in"></i></a></li>
+            <!-- <li><a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li> -->
         </ul>
     </div>
     <div class="widget_sidebar_box categroies_widget">
@@ -64,6 +64,18 @@
         </ul>
       </div>
     </div>
+    <div class="widget_sidebar_box social_widget">
+      <div class="sidebar_widget_title">
+          <h3>Follow Us</h3>
+      </div>
+      <ul class="social_widget_link">
+          <li><a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a></li>
+          <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+  </div>
     <div class="add_widget">
      {% include add.html %}
     </div>

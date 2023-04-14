@@ -2,16 +2,16 @@
    url: ""
 
  - text: Solutions
-   url: "#"
-   dropdown:
-    - text: "Portfolios 01"
-      url: "portfolios_1"
-    - text: "Portfolio 02"
-      url: "portfolios_2"
-    - text: "Portfolio 03"
-      url: "portfolios_3"
-    - text: "Portfolio details"
-      url: "case_details"
+   url: "solutions"
+  #  dropdown:
+  #   - text: "Portfolios 01"
+  #     url: "portfolios_1"
+  #   - text: "Portfolio 02"
+  #     url: "portfolios_2"
+  #   - text: "Portfolio 03"
+  #     url: "portfolios_3"
+  #   - text: "Portfolio details"
+  #     url: "case_details"
 
  - text: "Insights"
    url: "blog"

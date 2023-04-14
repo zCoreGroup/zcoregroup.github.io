@@ -1,0 +1,94 @@
+---
+layout: default
+title: "Tailored Solutions"
+---
+
+{% include header_2.html %}
+{% include page_header_2.html %}
+<!-- Start it_service section -->
+<section class="zCore_it_service zCore_it_service_1 section_padding">
+    <div class="container">
+        <div class="row">
+            {% for service in site.services %}
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="service_box service_box_1">
+                    <a class="service_img" href="#">
+                        <img src="{{relative_url}}/assets/images/service_1.jpg" alt="">
+                        <div class="service_icon">
+                            <span class="{{service.apps_icon}}"></span>
+                            <i class="icon_btn fal fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    <div class="service_info">
+                        <h4>{{service.title}}</h4>
+                        <p>{{service.description}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End it_service section -->
+<!-- start zCore_map section -->
+<section class="zCore_map zCore_map_1 section_padding">
+    <div class="map_pattern"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="map_left_box">
+                    <div class="map_box phone_box wow slideInLeft">
+                        <div class="icon">
+                            <i class="fal fa-phone"></i>
+                        </div>
+                        <div class="icon_info">
+                            <span>Phone Number</span>
+                            <h2><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></h2>
+                        </div>
+                    </div>
+                    <div class="map_img_box wow slideInUp">
+                        <img src="{{relative_url}}/assets/images/map_1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map_right_box">
+                    <div class="map_img_box wow slideInUp">
+                        <img src="{{relative_url}}/assets/images/map_2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="map_box email_box wow slideInRight">
+                        <div class="icon">
+                            <i class="fal fa-envelope"></i>
+                        </div>
+                        <div class="icon_info">
+                            <span>Email Address</span>
+                            <h2><a href="mailto:{{site.email}}">{{site.email}}</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End zCore_map section -->
+<!-- Start call_to_action_3 section -->
+<section class="call_to_action_3 dark_blue section_padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-9">
+                <div class="call_title_3 ">
+                    <span class="theme_span">Request for Proposal (RFQ)</span>
+                    <h2>What can we do to help you succeed?</h2>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="call_action_btn">
+                    <a href="#" class="zCore_btn qoute_btn_3">Request a Quotation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End call_to_action_3 section -->
+
+{% include footer_2.html %}

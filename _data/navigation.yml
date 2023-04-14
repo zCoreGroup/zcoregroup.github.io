@@ -14,7 +14,7 @@
       url: "case_details"
 
  - text: "Insights"
-   url: "blog_list.html"
+   url: "blog"
 
  - text: Careers
    url: "#"

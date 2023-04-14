@@ -11,11 +11,9 @@
                 <div class="col-lg-10">
                     <div class="footer_social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -23,43 +21,14 @@
         </div>
         <div class="widget_area widget_area_1">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="widget_box widget_box_1">
-                        <div class="footer_title">
-                            <h5>Services</h5>
-                        </div>
-                        <div class="footer_widget_list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <ul class="widget_list">
-                                        <li><a href="#">Product Strategy</a></li>
-                                        <li><a href="#">Product Engineering</a></li>
-                                        <li><a href="#">Architecture</a></li>
-                                        <li><a href="#">UX / UI Design</a></li>
-                                        <li><a href="#">App Development</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="widget_list">
-                                        <li><a href="#">Video Editing</a></li>
-                                        <li><a href="#">Software Development</a></li>
-                                        <li><a href="#">Game Design</a></li>
-                                        <li><a href="#">Business Planning</a></li>
-                                    </ul>
-                                </div>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="widget_box widget_box_1">
                         <div class="footer_title">
                             <h5>Contact</h5>
                         </div>
                         <div class="footer_contact_info">
-                            <p><a href="#">info@example.com</a></p>
-                            <p><a href="#">+8789 676 534 56 7</a></p>
-                            <p>12/A, CDA Epic Hub, US <br>example.com</p>
+                            <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
+                            <p><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +69,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copyright_text">
-                    <p>Copyright By @{{site.company_name}} - {{date | format: "Y"}}</p>
+                    <p>Copyright By {{site.company_name}} - {{date | format: "Y"}}</p>
                 </div>
             </div>
             <div class="col-lg-6">

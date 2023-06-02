@@ -4,7 +4,7 @@ title: "The Evolving Landscape of Government Contracting: Navigating Emerging Te
 tags: tech
 categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/intel.webp"
+post_image: "/assets/images/blog/artificial.jpg"
 ---
 
 Government contracting has always been subject to change, adapting to the demands of an ever-evolving landscape. In recent years, emerging technologies such as artificial intelligence (AI), blockchain, and cybersecurity have taken center stage, transforming the way contracts are awarded, executed, and managed. As contractors seek new avenues for growth and success, understanding the potential opportunities that lie within these technologies becomes paramount. In this blog post, we delve into the impact of emerging trends and technologies on government contracting, explore real-world examples of successful implementations, and highlight how zCore Group can help clients and partners navigate this transformative era.

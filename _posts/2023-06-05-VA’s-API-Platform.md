@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VA’s API Platform: Seamless and Secure Access to VA Data for Veterans, Their Families, and Advocates"
-tags: tech
+tags: tech,
 categories: [technology]
 author: mackenzie
 post_image: "/assets/images/blog/VA API'S.jpg"

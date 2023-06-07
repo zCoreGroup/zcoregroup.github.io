@@ -103,3 +103,5 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+    careers:
+      path: "/careers.xml"

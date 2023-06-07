@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 .DS_Store
 .wakatime-project
+.vscode/settings.json

@@ -1,252 +1,96 @@
 ---
 layout: default
 title: "Careers"
-pagination:
-    enabled: true
-permalink: "/careers/"
 ---
 
 {% include header_2.html %}
 {% include page_header_2.html %}
-<!-- Start zCore_portfolio section -->
-<section class="zCore_portfolio_1 section_padding">
+<!-- Start _careers section -->
+<section class="zCore_it_service zCore_it_service_1 section_padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="portfolio_button text-center">
-                    <button class="portfolio_btn btn_active" data-filter="*">IT & Cybersecurity</button>
-                    <button class="portfolio_btn" data-filter=".design">Data Science(4) </button>
-                    <button class="portfolio_btn" data-filter=".game">Project Management(2)</button>
-                    <button class="portfolio_btn" data-filter=".website">DevOps (10)</button>
-                    <button class="portfolio_btn" data-filter=".interior">Engineering (6)</button>
-                    <button class="portfolio_btn" data-filter=".consultancy">Consultancy (8)</button>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio_grid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_4.jpg" class="img-fluid" alt="">
+            {% for career in site.careers %}
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="service_box service_box_1">
+                    <a class="service_img" href="#">
+                        <img src="{{ site.baseurl }}/assets/images/careers/{{ career.image }}" alt="">
+                        <div class="service_icon">
+                            <span class="{{career.icon}}"></span>
+                            <i class="icon_btn fal fa-arrow-right"></i>
                         </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>DevOps</span>
-                                <h3>Integrator</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_5.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>engineering</span>
-                                <h3>Mobile Developer</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_6.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>project manager</span>
-                                <h3>Veterans Administration</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_7.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_8.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_9.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_10.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_11.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_12.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_13.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_14.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single">
-                    <div class="portfolio_box portfolio_box_1">
-                        <div class="portfolio_img zCore_img">
-                            <img src="assets/images/portfolio_15.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="portfolio_info">
-                            <div class="portfolio_text">
-                                <span>area descriptor</span>
-                                <h3>role</h3>
-                            </div>
-                            <div class="portfolio_icon">
-                                <i class="fal fa-arrow-circle-right"></i>
-                            </div>
-                        </div>
+                    </a>
+                    <div class="service_info">
+                        <h4>{{career.title}}</h4>
+                        <p>{{career.description}}</p>
                     </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
+    </div>
+</section>
+<!-- End _careers section -->
+<!-- start zCore_map section -->
+<section class="zCore_map zCore_map_1 section_padding">
+    <div class="map_pattern"></div>
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="load_button text-center">
-                    <a href="#" class="load_btn">load more</a>
+            <div class="col-lg-6">
+                <div class="map_left_box">
+                    <div class="map_box phone_box wow slideInLeft">
+                        <div class="icon">
+                            <i class="fal fa-phone"></i>
+                        </div>
+                        <div class="icon_info">
+                            <span>Phone Number</span>
+                            <h2><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></h2>
+                        </div>
+                    </div>
+                    <div class="map_img_box wow slideInUp">
+                        <img src="{{ site.baseurl }}/assets/images/map_1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map_right_box">
+                    <div class="map_img_box wow slideInUp">
+                        <img src="{{ site.baseurl }}/assets/images/map_2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="map_box email_box wow slideInRight">
+                        <div class="icon">
+                            <i class="fal fa-envelope"></i>
+                        </div>
+                        <div class="icon_info">
+                            <span>Email Address</span>
+                            <h2><a href="mailto:{{site.email}}">{{site.email}}</a></h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End zCore_portfolio section -->
+<!-- End zCore_map section -->
 <!-- Start call_to_action_3 section -->
 <section class="call_to_action_3 dark_blue section_padding">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="call_title_3 ">
-                    <span class="theme_span">Work with us</span>
-                    <h2>Join a team committed <br>To Your Success</h2>
+                    <span class="theme_span">We are rapidly growing</span>
+                    <h2>Ready to join a team where you matter?</h2>
+                    <span class="theme_span">Community - Care - Communications</span>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">Openings</a>
+                    <a href="#" class="zCore_btn qoute_btn_3">Learn More About Us</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- End call_to_action_3 section -->
+
 
 {% include footer_2.html %}

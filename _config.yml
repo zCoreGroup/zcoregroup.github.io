@@ -28,6 +28,8 @@ plugins:
 collections:
   services:
     output: true
+  careers:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -104,4 +106,5 @@ feed:
     posts:
       path: "/index.xml"
     careers:
+      output: true
       path: "/careers.xml"

@@ -32,29 +32,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12">
-                            <div class="widget_box news_widget widget_box_1">
-                                <div class="footer_title">
-                                    <h5>The Latest Insights, Ideas, And Perspectives</h5>
-                                </div>
-                                <div class="news_post">
-                                    <div class="news_single">
-                                        <div class="news_thumb">
-                                            <img src="{{relative_url}}/assets/images/feed_1.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="news_link">
-                                            <h3><a href="#">Lorem ipsum dolor sit amet,consectetur adipisicing.</a></h3>
-                                            <a href="#" class="post_admin"><i class="fal fa-user"></i> by admin</a>
-                                        </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="widget_box news_widget widget_box_1">
+                                    <div class="footer_title">
+                                        <h5>The Latest Insights, Ideas, And Perspectives</h5>
                                     </div>
-                                    <div class="news_single">
-                                        <div class="news_thumb">
-                                            <img src="{{relative_url}}/assets/images/feed_1.jpg" class="img-fluid" alt="">
+                                    <div class="news_post row"> <!-- Add a row here -->
+                                        {% for post in site.posts limit:2 %}
+                                        <div class="col-lg-6"> <!-- Add a column for each post -->
+                                            <div class="news_single">
+                                                <div class="news_thumb">
+                                                    <img src="{{ post.image | relative_url }}" class="img-fluid" alt="">
+                                                </div>
+                                                <div class="news_link">
+                                                    <h3>
+                                                        <a href="{{ post.url | relative_url }}">
+                                                            <!-- Truncate the title to the first seven words -->
+                                                            {% assign words = post.title | split: " " %}
+                                                            {{ words | slice: 0, 5| join: " " }}[...]
+                                                        </a>
+                                                    </h3>
+                                                    <a href="#" class="post_admin"><i class="fal fa-user"></i> by {{ post.author }}</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="news_link">
-                                            <h3><a href="#">Lorem ipsum dolor sit amet,consectetur adipisicing.</a></h3>
-                                            <a href="#" class="post_admin"><i class="fal fa-user"></i> by admin</a>
-                                        </div>
+                                        {% endfor %}
                                     </div>
                                 </div>
                             </div>

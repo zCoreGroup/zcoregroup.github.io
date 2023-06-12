@@ -31,7 +31,7 @@ Technical debt can function like real debt as developers rush to impress the cus
 
 Technical debt can especially be prevalent in the government contracting space where contracts are feature or performance based. The incentives for these contracts can put contractors in a position where they de-prioritize addressing technical debt in order to satisfy client priorities. This creates a situation where debt is transferred to their future selves or the new incumbent.
 
-At zCore Group we help our clients build tenable and flexible software. Software is continuously evolving in the private sector and these monumental changes disrupt or push innovation in the public sector. Avoiding technical debt while still delivering the software features is an art of negotiation and trust. 
+At zCore Group we help our clients build tenable and flexible software. Software is continuously evolving in the private sector and these monumental changes disrupt or push innovation in the public sector. Avoiding technical debt while still delivering the software features is an art of negotiation and trust.
 
 Here are a few things that insure against technical debt in federal contracts as well as how to implement preventative measures in already existing contracts.
 
@@ -49,4 +49,4 @@ Here are a few things that insure against technical debt in federal contracts as
 
 7. Set realistic expectations of what can be accomplished in each time limit and/or whether the idea has been done before. We like to take the ‘Working Backwards’ approach popularized by Amazon and other companies. We start a project with the equivalent of what a PR release for what an application would and should look like. When we refine a PR release document ahead of time, we give the developers and remaining team members a better idea of what they are building and why. Using a Frequently Asked Questions section covers any unknown parts of the project.
 
-Building good software is hard; that’s why thousands of companies around the world both succeed and fail every day. Creating forcing functions like the ones described here may slow you down but it will reduce technical debt on your team and project which can be the real measure of success.
+Building good software is hard; that’s why thousands of companies around the world both succeed and fail every day. Creating forcing functions like the ones described here may slow you down but it will reduce technical debt on your team and project which can be the real measure of success. zCore Group is committed to helping you navigate the complexities of software development in the federal space. Our expertise and innovative approach can help you avoid the pitfalls of technical debt and ensure your project's success. [Learn more about how we can support your software development](/about).

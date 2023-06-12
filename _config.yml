@@ -110,3 +110,6 @@ feed:
     careers:
       output: true
       path: "/careers.xml"
+    about:
+      output: true
+      path: "/about.xml"

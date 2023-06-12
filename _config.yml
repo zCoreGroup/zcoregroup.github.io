@@ -32,6 +32,8 @@ collections:
     output: true
   about:
     output: true
+  team:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -113,3 +115,6 @@ feed:
     about:
       output: true
       path: "/about.xml"
+    team:
+      output: true
+      path: "/team.xml"

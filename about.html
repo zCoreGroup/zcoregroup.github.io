@@ -12,14 +12,18 @@ title: "About Us"
             <div class="col-lg-6">
                 <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s" style="position: relative;">
                     <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">
-                    <div class="overlay_img" style="margin-bottom: 9px;"></div>
+                    <div class="overlay_img" style="margin-bottom: 10px;"></div>
                     <div class="overlay_content">
                         {% for item in site.about %}
                             {% if item.title == "25+" %}
-                            <h2>{{ item.title }}</h2>
-                        {% endif %}
+                                <h3>{{ item.title }}</h3>
+                            {% endif %}
                             <p>{{ item.detail }}</p>
+                            <p>{{ item.text }}</p>
                         {% endfor %}
+                        <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
+                            <a href="{{ item.link }}" class="zCore_btn" style="margin: 5px;">Meet the Team</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -27,12 +31,14 @@ title: "About Us"
             <div class="col-lg-6">
                 <div class="about_right">
                     <div class="about_content about_content_3 zCore_content_box">
-                        <h2>{{ item.description }}</h2>
-                        <p>{{ item.extra_detail }}</p> -->
+                        <h3>{{ item.description }}</h3>
+                        <p>{{ item.extra_detail }}</p>
                     </div>
+                    {% if forloop.first %}
                     <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
-                        <a href="{{ item.link }}" class="zCore_btn">solutions</a>
+                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 10px;">solutions</a>
                     </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
@@ -40,6 +46,8 @@ title: "About Us"
     </div>
 </section>
 <!-- End zCore_about section -->
+
+
 <!-- Start zCore_service section -->
 <section class="zCore_service zCore_service_3 light_bg">
     <div class="container">

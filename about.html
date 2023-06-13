@@ -67,9 +67,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>What We Can Do</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.service %}
+                                {% if page.section == "service" and page.title == "Deliver Innovation" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/solutions/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -80,9 +84,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Become A Member</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.about %}
+                             {% if page.section == "service" and page.title == "Deliver Insights" %}
+                               <h3>{{ page.title }}</h3>
+                               <p>{{ page.description }}</p>
+                            {% endif %}
+                        {% endfor %}
+                        <a href="/blog/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -93,9 +101,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Terms & Conditions</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                        {% for page in site.about %}
+                             {% if page.section == "service" and if page.title == "Contact Us" %}
+                               <h3>{{ page.title }}</h3>
+                               <p>{{ page.description }}</p>
+                            {% endif %}
+                        {% endfor %}
+                        <a href="/contact/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

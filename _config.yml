@@ -30,6 +30,8 @@ collections:
     output: true
   careers:
     output: true
+  team:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

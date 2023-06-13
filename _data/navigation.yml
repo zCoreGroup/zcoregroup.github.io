@@ -15,8 +15,11 @@
 
  - text: "Insights"
    url: "blog"
-
  - text: Careers
    url: "careers"
  - text: "Contact"
    url: "contact"
+ - text: "About"
+   url: "about"
+ - text: "Team"
+   url: "team"

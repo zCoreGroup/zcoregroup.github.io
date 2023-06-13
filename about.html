@@ -67,8 +67,8 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                            {% for page in site.service %}
-                                {% if page.section == "service" and page.title == "Deliver Innovation" %}
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Innovation" %}
                                     <h3>{{ page.title }}</h3>
                                     <p>{{ page.description }}</p>
                                 {% endif %}
@@ -84,12 +84,12 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                            {% for page in site.about %}
-                             {% if page.section == "service" and page.title == "Deliver Insights" %}
-                               <h3>{{ page.title }}</h3>
-                               <p>{{ page.description }}</p>
-                            {% endif %}
-                        {% endfor %}
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Insights" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
                         <a href="/blog/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
@@ -101,12 +101,12 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        {% for page in site.about %}
-                             {% if page.section == "service" and if page.title == "Contact Us" %}
-                               <h3>{{ page.title }}</h3>
-                               <p>{{ page.description }}</p>
-                            {% endif %}
-                        {% endfor %}
+                        {% for page in site.delivery %}
+                                {% if page.title == "Deliver Results" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
                         <a href="/contact/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ title: "About Us"
                             <i class="pe-7s-users"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
+                            <h2><span class="counter">15</span>+</h2>
                             <h6>Happy Clients</h6>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ title: "About Us"
                             <i class="pe-7s-helm"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
+                            <h2><span class="counter">15</span>+</h2>
                             <h6>Product Launch</h6>
                         </div>
                     </div>
@@ -144,8 +144,8 @@ title: "About Us"
                             <i class="pe-7s-help2"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
-                            <h6>Cup Of Coffee</h6>
+                            <h2><span class="counter">16785</span>+</h2>
+                            <h6>Lines of Code</h6>
                         </div>
                     </div>
                 </div>
@@ -155,8 +155,8 @@ title: "About Us"
                             <i class="pe-7s-help2"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">100</span>+</h2>
-                            <h6>Awards Winning</h6>
+                            <h2><span class="counter">999</span>+</h2>
+                            <h6>Push Ups</h6>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ title: "About Us"
                     </div>
                     <div class="video_content text-center">
                         <span class="theme_span">intro video</span>
-                        <h2>Geeks On Call has been<br>a nationwide leader</h2>
+                        <h2>Accelerate Innovation<br></h2>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ title: "About Us"
 </section>
 <!-- End zCore_video section -->
 <!-- Start zCore_faq seciton -->
-<section class="zCore_faq zCore_faq_1">
+<!-- <section class="zCore_faq zCore_faq_1">
     <div class="container">
         <div class="zCore_faq_area zCore_faq_area_4">
             <div class="faq_left">
@@ -242,7 +242,7 @@ title: "About Us"
             <div class="faq_right" style="background-image: url({{relative_url}}/assets/images/faq_1.jpg);"></div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End zCore_faq seciton -->
 <!-- Start call_to_action_3 section -->
 <section class="call_to_action_3 dark_blue section_padding">
@@ -250,13 +250,13 @@ title: "About Us"
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="call_title_3 ">
-                    <span class="theme_span">call to action</span>
-                    <h2>Representing All Of The Major <br>Telecom Companies</h2>
+                    <span class="theme_span"></span>
+                    <h2>Bleeding Edge Software Solutions for Government</h2>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">get a qoute</a>
+                    <a href="#" class="zCore_btn qoute_btn_3">Contact Us</a>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ title: "Revolutionizing Government Supply Chain Management with Technology"
 tags: technology
 categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/sp-tech.webp"
+post_image: "/assets/images/blog/supply.jpg"
 ---
 
 In today's fast-paced world, effective supply chain management is vital for the smooth functioning of any organization. While the private sector has long embraced technology to enhance their supply chains, the government sector has sometimes lagged behind in adopting modern solutions. However, the potential benefits of integrating technology into government supply chain management are immense. From improving efficiency and transparency to enhancing decision-making capabilities, technology holds the key to revolutionizing the way the government manages its supply chains.

@@ -4,7 +4,7 @@ title: "Navigating the Complexities: Climate Risks, Foreign Influence, and Cyber
 tags: contracting
 categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/contracting.jpg"
+post_image: "/assets/images/blog/Climate-system.jpeg"
 ---
 
 Introduction:

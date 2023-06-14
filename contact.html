@@ -84,9 +84,9 @@ title: "Contact Us"
                     <i class="fal fa-phone"></i>
                 </div>
                 <div class="information_info">
-                    <h3>Phone Number</h3>
-                    <p>+88 97 876 765 9</p>
-                    <p>(879) 876 567 867 56</p>
+                    {% for card in site.contact %}
+                    {% include contact_card.html card=card %}
+                    {% endfor %}
                 </div>
                 <div class="info_button">
                     <a href="#" class="info_btn">Call Us</a>
@@ -101,9 +101,9 @@ title: "Contact Us"
                     <i class="fal fa-envelope"></i>
                 </div>
                 <div class="information_info">
-                    <h3>Phone Number</h3>
-                    <p>+88 97 876 765 9</p>
-                    <p>(879) 876 567 867 56</p>
+                    {% for card in site.contact %}
+                    {% include contact_card.html card=card %}
+                    {% endfor %}
                 </div>
                 <div class="info_button">
                     <a href="#" class="info_btn">Mail Us</a>
@@ -118,9 +118,9 @@ title: "Contact Us"
                     <i class="fal fa-map-marker-alt"></i>
                 </div>
                 <div class="information_info">
-                    <h3>Phone Number</h3>
-                    <p>+88 97 876 765 9</p>
-                    <p>(879) 876 567 867 56</p>
+                    {% for card in site.contact %}
+                    {% include contact_card.html card=card %}
+                    {% endfor %}
                 </div>
                 <div class="info_button">
                     <a href="#" class="info_btn">locate us</a>

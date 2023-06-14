@@ -80,57 +80,60 @@ title: "Contact Us"
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="contact_information_box">
             <div class="information_box">
-                <div class="information_icon">
-                    <i class="fal fa-phone"></i>
-                </div>
-                <div class="information_info">
-                    {% assign phone_cards = site.contact | where:"title", "Phone Number" %}
-                    {% for card in phone_cards %}
-                    {% include contact_card.html card=card %}
+                    {% for contact in site.contact %}
+                        {% if contact.title == "Phone Number" %}
+                        <div class="information_icon">
+                            <i class="{{ contact.icon }}"></i>
+                        </div>
+                        <div class="information_info">
+                            <h3>{{ contact.title }}</h3>
+                            <!-- You can add more information here if needed -->
+                        </div>
+                        <div class="info_button">
+                            <a href="{{ contact.button_link }}" class="info_btn"><h3>{{ contact.button_text }}</h3></a>
+                        </div>
+                        {% endif %}
                     {% endfor %}
                 </div>
-                <div class="info_button">
-                    <a href="{{ page.button_link }}" class="info_btn">Call Us</a>
-                </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="contact_information_box">
+            <div class="information_box">
+                {% for contact in site.contact %}
+                    {% if contact.title == "Email" %}
+                    <div class="information_icon">
+                        <i class="{{ contact.icon }}"></i>
+                    </div>
+                    <div class="information_info">
+                        <h3>{{ contact.title }}</h3>
+                    <!-- You can add more information here if needed -->
+                    </div>
+                    <div class="info_button">
+                        <a href="{{ contact.button_link }}" class="info_btn" style="text-decoration: none;"><h3>{{ contact.button_text }}</h3>></a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="contact_information_box">
             <div class="information_box">
+                {% for contact in site.contact %}
+                {% if contact.title == "Offices" %}
                 <div class="information_icon">
-                    <i class="fal fa-envelope"></i>
+                    <i class="{{ contact.icon }}"></i>
                 </div>
                 <div class="information_info">
-                    {% assign email_cards = site.contact | where:"title", "Email" %}
-                    {% for card in email_cards %}
-                    {% include contact_card.html card=card %}
-                    {% endfor %}
+                    <h3>{{ contact.title }}</h3>
+                    <!-- You can add more information here if needed -->
                 </div>
                 <div class="info_button">
-                    <a href="#" class="info_btn">Mail Us</a>
+                    <a href="{{ contact.button_link }}" class="info_btn"><h3>{{ contact.button_text }}</h3></a>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="contact_information_box">
-            <div class="information_box">
-                <div class="information_icon">
-                    <i class="fal fa-map-marker-alt"></i>
-                </div>
-                <div class="information_info">
-                    {% assign address_cards = site.contact | where:"title", "Offices" %}
-                    {% for card in address_cards %}
-                    {% include contact_card.html card=card %}
-                    {% endfor %}
-                    {% for card in site.offices %}
-                    {% include contact_card.html card=card %}
-                    {% endfor %}
-                </div>
-                <div class="info_button">
-                    <a href="#" class="info_btn">locate us</a>
-                </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>

@@ -103,7 +103,19 @@ title: "Contact Us"
                 {% for contact in site.contact %}
                     {% if contact.title == "Email" %}
                     <div class="information_icon">
-                        <i class="{{ contact
+                        <i class="{{ contact.icon }}"></i>
+                    </div>
+                    <div class="information_info">
+                        <h3>{{ contact.title }}</h3>
+                    <!-- You can add more information here if needed -->
+                    </div>
+                    <div class="info_button">
+                        <a href="{{ contact.button_link }}" class="info_btn" style="text-decoration: none;"><h3>{{ contact.button_text }}</h3>></a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="contact_information_box">

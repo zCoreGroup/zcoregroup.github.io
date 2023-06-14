@@ -84,7 +84,8 @@ title: "Contact Us"
                     <i class="fal fa-phone"></i>
                 </div>
                 <div class="information_info">
-                    {% for card in site.contact %}
+                    {% assign phone_cards = site.contact | where:"title", "Phone Number" %}
+                    {% for card in phone_cards %}
                     {% include contact_card.html card=card %}
                     {% endfor %}
                 </div>
@@ -101,7 +102,8 @@ title: "Contact Us"
                     <i class="fal fa-envelope"></i>
                 </div>
                 <div class="information_info">
-                    {% for card in site.contact %}
+                    {% assign email_cards = site.contact | where:"title", "Email" %}
+                    {% for card in email_cards %}
                     {% include contact_card.html card=card %}
                     {% endfor %}
                 </div>
@@ -118,7 +120,11 @@ title: "Contact Us"
                     <i class="fal fa-map-marker-alt"></i>
                 </div>
                 <div class="information_info">
-                    {% for card in site.contact %}
+                    {% assign address_cards = site.contact | where:"title", "Offices" %}
+                    {% for card in address_cards %}
+                    {% include contact_card.html card=card %}
+                    {% endfor %}
+                    {% for card in site.offices %}
                     {% include contact_card.html card=card %}
                     {% endfor %}
                 </div>

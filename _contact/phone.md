@@ -1,8 +1,7 @@
 ---
-layout: contact_card
 title: Phone Number
 icon: fal fa-phone
-button_text: Call Us
+button_text:
 button_link: #
 ---
 

@@ -21,40 +21,34 @@ This repo contains the source code for the zCore Group website for the migration
 This is the source code for the zCore Group website. It is a static website built with [Jekyll](https://jekyllrb.com/). The website is hosted on [GitHub Pages](https://pages.github.com/) until the migration to the legacy host GoDaddy is complete.
 ### Table of Contents
 <div style="display: flex; justify-content: space-between;">
-
-<div style="width: 45%;">
-
-1. Understanding Jekyll
-2. Directory Structure
-    - 2.1 _about
-    - 2.2 _action
-    - 2.3 _careers
-    - 2.4 _contact
-    - 2.5 _counter
-    - 2.6 _data
-    - 2.7 _delivery
-    - 2.8 _includes
-
-</div>
-<div style="width: 45%;">
-
-1. Directory Structure Cont'd
-    - 2.9 _layouts
-    - 2.10 _posts
-    - 2.11 _services
-    - 2.12 _site
-    - 2.13 _team
-3. YAML files
-    - 3.1 _config.yml
-    - 3.2 navigation.yml
-4. Workflows
-    - 4.1 GitHub Actions
-        - 4.1.1 CI.yml
-        - 4.1.2 jekyll.yml
-        - 4.1.3 dependabot.yml
-
-</div>
-
+    <div style="width: 45%;">
+        1. Understanding Jekyll
+        2. Directory Structure
+            - 2.1 _about
+            - 2.2 _action
+            - 2.3 _careers
+            - 2.4 _contact
+            - 2.5 _counter
+            - 2.6 _data
+            - 2.7 _delivery
+            - 2.8 _includes
+    </div>
+    <div style="width: 45%;">
+        2. Directory Structure Cont'd
+            - 2.9 _layouts
+            - 2.10 _posts
+            - 2.11 _services
+            - 2.12 _site
+            - 2.13 _team
+        3. YAML files
+            - 3.1 _config.yml
+            - 3.2 navigation.yml
+        4. Workflows
+            - 4.1 GitHub Actions
+                - 4.1.1 CI.yml
+                - 4.1.2 jekyll.yml
+                - 4.1.3 dependabot.yml
+    </div>
 </div>
 
 ===============================================================================

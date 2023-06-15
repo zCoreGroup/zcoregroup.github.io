@@ -13,7 +13,7 @@
                                     ___] |__| |     |  |_|_| |  | |  \ |___
 
 ===============================================================================
-### Copyright [zCore Group](https://zcoregroup.com) 2023
+### © Copyright 2023 [zCore Group](https://zcoregroup.com)
 
 ### zCore Group Website Repository
 This repo contains the source code for the zCore Group website for the migration from v1 to v2.

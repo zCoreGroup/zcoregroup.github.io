@@ -13,7 +13,7 @@
                                     ___] |__| |     |  |_|_| |  | |  \ |___
 
 ===============================================================================
-### [zCore Group](https://zcoregroup.com)
+### Copyright [zCore Group](https://zcoregroup.com) 2023
 
 ### zCore Group Website Repository
 This repo contains the source code for the zCore Group website for the migration from v1 to v2.
@@ -22,24 +22,24 @@ This is the source code for the zCore Group website. It is a static website buil
 ### Table of Contents
 1. Understanding Jekyll
 2. Directory Structure
-2.1. _about
-2.2. _action
-2.3 _careers
-2.4 _contact
-2.5 _counter
-2.6 _data
-2.8 _delivery
-2.9 _includes
-2.10 _layouts
-2.11 _posts
-2.12 _services
-2.13 _site
-2.14 _team
+    - 2.1 _about
+    - 2.2 _action
+    - 2.3 _careers
+    - 2.4 _contact
+    - 2.5 _counter
+    - 2.6 _data
+    - 2.7 _delivery
+    - 2.8 _includes
+    - 2.9 _layouts
+    - 2.10 _posts
+    - 2.11 _services
+    - 2.12 _site
+    - 2.13 _team
 3. YAML files
-3.1 _config.yml
-3.2 navigation.yml
+    - 3.1 _config.yml
+    - 3.2 navigation.yml
 4. Workflows
-4.1 GitHub Actions
-4.1.1 CI.yml
-4.1.2 jekyll.yml
-4.1.3 dependabot.yml
+    - 4.1 GitHub Actions
+        - 4.1.1 CI.yml
+        - 4.1.2 jekyll.yml
+        - 4.1.3 dependabot.yml

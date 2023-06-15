@@ -44,7 +44,7 @@ This is the source code for the zCore Group website. It is a static website buil
         - 4.1.2 jekyll.yml
         - 4.1.3 dependabot.yml
 
-===============================================================================
+==========================================================================
 1. Understanding Jekyll
 Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.
 To add a new page to the site, all you need to do is create a markdown file in the root directory. For example, to create a new page at https://zcoregroup.com/about, create a file named about.md and add the following content:

@@ -88,7 +88,6 @@ This will create a page that uses the layout found in _layouts/page.html and set
 - [ ] Add blog post - Newsletter integration that automates the newsletter as an event-driven workflow
 - [ ] Automate everything else
 ===============================================================================
-### Issues tracking
 ### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
 
 ### © 2023 [zCore Group](https://zcoregroup.com)

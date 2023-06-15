@@ -56,8 +56,8 @@ permalink: /about/
 This will create a page that uses the layout found in _layouts/page.html and sets the title of the page to About. The permalink is the URL of the page. The page will be accessible at https://zcoregroup.com/about.
 
 2. Directory Structure
-2.1 _about - Contains the about page content (about-us.md, years-experience.md).
-2.2 _action - Contains the action page content (call-to-action.md).
-2.3 _careers - Contains the careers page content (open-position-1 -- open-position-6.md). These files are used to generate the open positions on the careers page.
-2.4 _contact - Contains the contact page content (phone.md, email.md, offices.md, contact-us.md). These files are used to generate the contact cards on the contact page.
-2.5 _counter - Contains the counter page content (counter-1 -- counter-4.md). These files serve text into the counter animation that is handled by the counter.js script.
+- 2.1 _about - Contains the about page content (about-us.md, years-experience.md).
+- 2.2 _action - Contains the action page content (call-to-action.md).
+- 2.3 _careers - Contains the careers page content (open-position-1 -- open-position-6.md). These files are used to generate the open positions on the careers page.
+- 2.4 _contact - Contains the contact page content (phone.md, email.md, offices.md, contact-us.md). These files are used to generate the contact cards on the contact page.
+- 2.5 _counter - Contains the counter page content (counter-1 -- counter-4.md). These files serve text into the counter animation that is handled by the counter.js script.

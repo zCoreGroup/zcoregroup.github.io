@@ -89,6 +89,6 @@ This will create a page that uses the layout found in _layouts/page.html and set
 - [ ] Automate everything else
 ===============================================================================
 ### Issues tracking
-[Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
+### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
 
 ### © 2023 [zCore Group](https://zcoregroup.com)

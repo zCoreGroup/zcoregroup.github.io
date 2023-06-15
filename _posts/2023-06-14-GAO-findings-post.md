@@ -4,7 +4,7 @@ title: "Observations on IT Contracting Trends and Management Oversight at the De
 tags: contracting,VA
 categories: [contracting]
 author: mackenzie
-post_image: "/assets/images/blog/mistake.png"
+post_image: "/assets/images/blog/GAO-analysis.png"
 ---
 
 
@@ -30,3 +30,5 @@ In its March 2023 report, GAO recommended that the VA implement automated contro
 
 
 The VA's reliance on IT systems to fulfill its mission of providing benefits and healthcare to veterans necessitates effective IT contracting and management oversight. However, GAO's observations highlight concerning trends in IT contracting, such as increased obligations to fewer contractors, and the need for enhanced management oversight. By implementing GAO's recommendations and addressing open recommendations, the VA can strengthen its IT governance, enhance competition, and ensure the successful delivery of IT projects. Improving IT management will contribute to better services and outcomes for the veterans who rely on the VA's support.
+
+Use this link to locate the full report. [Link to PDF for reference](https://www.gao.gov/assets/gao-23-106845.pdf)

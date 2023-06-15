@@ -20,6 +20,10 @@ This repo contains the source code for the zCore Group website for the migration
 ### Description
 This is the source code for the zCore Group website. It is a static website built with [Jekyll](https://jekyllrb.com/). The website is hosted on [GitHub Pages](https://pages.github.com/) until the migration to the legacy host GoDaddy is complete.
 ### Table of Contents
+<div style="display: flex; justify-content: space-between;">
+
+<div style="width: 45%;">
+
 1. Understanding Jekyll
 2. Directory Structure
     - 2.1 _about
@@ -30,6 +34,11 @@ This is the source code for the zCore Group website. It is a static website buil
     - 2.6 _data
     - 2.7 _delivery
     - 2.8 _includes
+
+</div>
+<div style="width: 45%;">
+
+1. Directory Structure Cont'd
     - 2.9 _layouts
     - 2.10 _posts
     - 2.11 _services
@@ -43,3 +52,9 @@ This is the source code for the zCore Group website. It is a static website buil
         - 4.1.1 CI.yml
         - 4.1.2 jekyll.yml
         - 4.1.3 dependabot.yml
+
+</div>
+
+</div>
+
+===============================================================================

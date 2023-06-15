@@ -10,33 +10,44 @@ title: "About Us"
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s">
+                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s" style="position: relative;">
                     <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">
-                    <div class="overlay_img"></div>
+                    <div class="overlay_img" style="margin-bottom: 10px;"></div>
                     <div class="overlay_content">
-                        <h2>25+</h2>
-                        <p>Years of experience</p>
+                        {% for item in site.about %}
+                            {% if item.title == "25+" %}
+                                <h3>{{ item.title }}</h3>
+                            {% endif %}
+                            <p>{{ item.detail }}</p>
+                            <p>{{ item.text }}</p>
+                        {% endfor %}
+                        <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
+                            <a href="{{ item.link }}" class="zCore_btn" style="margin: 5px;">Meet the Team</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            {% for item in site.about %}
             <div class="col-lg-6">
                 <div class="about_right">
                     <div class="about_content about_content_3 zCore_content_box">
-                        <span class="theme_span">about us</span>
-                        <h2>Many Companies <br>Provide Services</h2>
-                        <h4>Voice and Data Systems are crucial to the success or failure of most businesses. any companies provide laptops, cell phones.</h4>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service and the best rates for their clients. Their new professional telecom audit service helps.</p>
+                        <h3>{{ item.description }}</h3>
+                        <p>{{ item.extra_detail }}</p>
                     </div>
+                    {% if forloop.first %}
                     <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
-                        <a href="#" class="zCore_btn">learn more</a>
-                        <a href="#" class="zCore_btn play_btn"><i class="far fa-play"></i></a>
+                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 10px;">solutions</a>
                     </div>
+                    {% endif %}
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 <!-- End zCore_about section -->
+
+
 <!-- Start zCore_service section -->
 <section class="zCore_service zCore_service_3 light_bg">
     <div class="container">
@@ -56,9 +67,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>What We Can Do</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Innovation" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/solutions/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -69,9 +84,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Become A Member</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Insights" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/blog/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,9 +101,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Terms & Conditions</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                        {% for page in site.delivery %}
+                                {% if page.title == "Deliver Results" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/contact/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -99,7 +122,7 @@ title: "About Us"
                             <i class="pe-7s-users"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
+                            <h2><span class="counter">15</span>+</h2>
                             <h6>Happy Clients</h6>
                         </div>
                     </div>
@@ -110,7 +133,7 @@ title: "About Us"
                             <i class="pe-7s-helm"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
+                            <h2><span class="counter">15</span>+</h2>
                             <h6>Product Launch</h6>
                         </div>
                     </div>
@@ -121,8 +144,8 @@ title: "About Us"
                             <i class="pe-7s-help2"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
-                            <h6>Cup Of Coffee</h6>
+                            <h2><span class="counter">16785</span>+</h2>
+                            <h6>Lines of Code</h6>
                         </div>
                     </div>
                 </div>
@@ -132,8 +155,8 @@ title: "About Us"
                             <i class="pe-7s-help2"></i>
                         </div>
                         <div class="counter_info">
-                            <h2><span class="counter">100</span>+</h2>
-                            <h6>Awards Winning</h6>
+                            <h2><span class="counter">999</span>+</h2>
+                            <h6>Push Ups</h6>
                         </div>
                     </div>
                 </div>
@@ -154,7 +177,7 @@ title: "About Us"
                     </div>
                     <div class="video_content text-center">
                         <span class="theme_span">intro video</span>
-                        <h2>Geeks On Call has been<br>a nationwide leader</h2>
+                        <h2>Accelerate Innovation<br></h2>
                     </div>
                 </div>
             </div>
@@ -163,7 +186,7 @@ title: "About Us"
 </section>
 <!-- End zCore_video section -->
 <!-- Start zCore_faq seciton -->
-<section class="zCore_faq zCore_faq_1">
+<!-- <section class="zCore_faq zCore_faq_1">
     <div class="container">
         <div class="zCore_faq_area zCore_faq_area_4">
             <div class="faq_left">
@@ -219,7 +242,7 @@ title: "About Us"
             <div class="faq_right" style="background-image: url({{relative_url}}/assets/images/faq_1.jpg);"></div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End zCore_faq seciton -->
 <!-- Start call_to_action_3 section -->
 <section class="call_to_action_3 dark_blue section_padding">
@@ -227,13 +250,13 @@ title: "About Us"
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="call_title_3 ">
-                    <span class="theme_span">call to action</span>
-                    <h2>Representing All Of The Major <br>Telecom Companies</h2>
+                    <span class="theme_span"></span>
+                    <h2>Bleeding Edge Software Solutions for Government</h2>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">get a qoute</a>
+                    <a href="#" class="zCore_btn qoute_btn_3">Contact Us</a>
                 </div>
             </div>
         </div>

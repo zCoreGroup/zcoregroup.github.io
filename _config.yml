@@ -30,6 +30,14 @@ collections:
     output: true
   careers:
     output: true
+  about:
+    output: true
+  team:
+    output: true
+  delivery:
+    output: true
+  action:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -108,3 +116,9 @@ feed:
     careers:
       output: true
       path: "/careers.xml"
+    about:
+      output: true
+      path: "/about.xml"
+    team:
+      output: true
+      path: "/team.xml"

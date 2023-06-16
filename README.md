@@ -91,6 +91,6 @@ This will create a page that uses the layout found in _layouts/page.html and set
 ### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
 ===============================================================================
 ### Changelog
-- 2023-06-16 - Install `jekyll-responsive-image` plugin in Gemfile. See documentation [here](https://github.com/wildlyinaccurate/jekyll-responsive-image/blob/master/README.md).
+- 2023-06-16 - Install `jekyll-responsive-image` plugin in Gemfile. See documentation [here](https://github.com/wildlyinaccurate/jekyll-responsive-image/blob/master/README.md). This plugin is used to generate responsive images for the website and requires ImageMagick to be installed on the system. See documentation [here](https://imagemagick.org/index.php) and the gem [mini_magick](https://github.com/minimagick/minimagick).
 
 ### © 2023 [zCore Group](https://zcoregroup.com)

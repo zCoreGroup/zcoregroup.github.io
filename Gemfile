@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
+  gem 'jekyll-responsive-image' # Added to resolve Issue #103 https://github.com/zCoreGroup/zcoregroup.github.io/issues/103
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

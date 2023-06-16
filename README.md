@@ -89,5 +89,8 @@ This will create a page that uses the layout found in _layouts/page.html and set
 - [ ] Automate everything else
 ===============================================================================
 ### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
+===============================================================================
+### Changelog
+- 2023-06-16 - Install `jekyll-responsive-image` plugin in Gemfile. See documentation [here](https://github.com/wildlyinaccurate/jekyll-responsive-image/blob/master/README.md).
 
 ### © 2023 [zCore Group](https://zcoregroup.com)

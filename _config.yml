@@ -23,8 +23,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-  - jekyll-responsive-image
-
+  # - jekyll-responsive-image
+  - jekyll-responsive-magick
 
 collections:
   services:

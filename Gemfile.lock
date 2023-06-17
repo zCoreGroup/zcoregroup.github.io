@@ -23,6 +23,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    imagemagick-identify (0.0.1)
     jekyll (4.3.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -43,6 +44,7 @@ GEM
       jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-responsive-magick (1.2.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.7.1)
@@ -101,12 +103,14 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  imagemagick-identify (~> 0.0.1)
   jekyll (~> 4.3.2)
   jekyll-archives
   jekyll-feed (~> 0.17)
   jekyll-paginate-v2!
+  jekyll-responsive-magick (~> 1.2)
   jekyll-tagging
-  mini_magick
+  mini_magick (~> 4.12)
   minima (~> 2.5)
   tzinfo (~> 2.0)
   tzinfo-data

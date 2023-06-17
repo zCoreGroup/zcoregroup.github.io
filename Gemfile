@@ -20,9 +20,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
-  gem 'mini_magick', '~> 4.12' # Added to resolve Issue #103
-  gem 'imagemagick-identify', '~> 0.0.1' # Added to resolve Issue #103
-  gem 'jekyll-responsive-magick', '~> 1.2' # Added to resolve Issue #103
+
 
 end
 

@@ -108,9 +108,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.17)
   jekyll-paginate-v2!
-  jekyll-responsive-magick (~> 1.2)
   jekyll-tagging
-  mini_magick (~> 4.12)
   minima (~> 2.5)
   tzinfo (~> 2.0)
   tzinfo-data

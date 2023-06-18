@@ -10,7 +10,7 @@ permissions:
 jobs:
   # Build job
   build:
-    name: 'Build 📦'
+    name: "Build 📦"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
         with:
-          ruby-version: '3.0'
+          ruby-version: "3.0"
           bundler-cache: true
           cache-version: 0
 
@@ -35,7 +35,7 @@ jobs:
           JEKYLL_ENV: production
 
   dependabot:
-    name: 'Dependabot'
+    name: "Dependabot"
     needs: [build]
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}}
@@ -44,7 +44,7 @@ jobs:
         id: metadata
         uses: dependabot/fetch-metadata@v1.5.1
         with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge for Dependabot PRs
         run: gh pr merge --auto --merge "$PR_URL"
         env:

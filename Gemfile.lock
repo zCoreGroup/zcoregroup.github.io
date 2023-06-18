@@ -106,6 +106,7 @@ DEPENDENCIES
   jekyll-paginate-v2!
   jekyll-tagging
   minima (~> 2.5)
+  sass-embedded (= 1.63.4)
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)

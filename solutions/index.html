@@ -12,7 +12,7 @@ title: "Tailored Solutions"
             {% for service in site.services %}
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="service_box service_box_1">
-                    <a class="service_img" href="#">
+                    <a class="service_img" href="{{ service.link }}">
                         <img src="{{relative_url}}/assets/images/service_1.jpg" alt="">
                         <div class="service_icon">
                             <span class="{{service.apps_icon}}"></span>

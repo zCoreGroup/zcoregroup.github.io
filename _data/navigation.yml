@@ -18,5 +18,13 @@
 
  - text: Careers
    url: "careers"
+   dropdown:
+    - text: "About"
+      url: "about"
+    - text: "Team"
+      url: "team"
+    - text: "Join"
+      url: "careers"
+
  - text: "Contact"
    url: "contact"

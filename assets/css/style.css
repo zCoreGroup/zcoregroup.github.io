@@ -1,5 +1,5 @@
 /*-------------------------------------
-Template Name: zCore  
+Template Name: zCore
 Template URI: https://ryetheme.com/
 Description: IT Solutions and Services Company HTML Template.
 Author: webtend
@@ -26,9 +26,9 @@ CSS INDEX:-
 14.faq.html css
 15.shop.html css
 16.shop_2.html css
-17.shop_details.html 
+17.shop_details.html
 18.blog_grid.html css
-19.blog_standard.html css 
+19.blog_standard.html css
 21.blog_details.html css
 22.contact.html css
 23.comeingsoon.html css
@@ -41,7 +41,7 @@ CSS INDEX:-
 /*google fonts*/
 
 /*
-	1. Satrt Default css 
+	1. Satrt Default css
 */
 @font-face {
     font-family: 'Gilroy-Bold.ttf';
@@ -212,11 +212,11 @@ span.theme_span {
 }
 
 /*
-	End Default css 
+	End Default css
 */
 
 /*
-	2. Start Preloader css 
+	2. Start Preloader css
 */
 .preloader_area {
     position: fixed;
@@ -283,7 +283,7 @@ span.theme_span {
 }
 
 /*
-	End Preloader css 
+	End Preloader css
 */
 
 /*==================================================
@@ -4949,6 +4949,11 @@ textarea.form_control {
     margin-right: 6px;
 }
 
+.single_blog_main_content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .content_text_area h2 {
     font-size: 30px;
     line-height: 46px;
@@ -5396,7 +5401,7 @@ textarea:focus{
 
 
 /*===========================
-    SEARCH css 
+    SEARCH css
 ===========================*/
 .search-box {
     position: fixed;
@@ -5537,7 +5542,7 @@ textarea:focus{
 .search-results {
     margin-top: 10px;
 }
-.search-results ul li a { 
+.search-results ul li a {
     display: inline-block;
     padding: 10px 0;
     border-bottom: 1px solid rgb(5, 116, 255);

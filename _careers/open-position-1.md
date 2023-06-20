@@ -3,7 +3,7 @@ title: "Open Position Title"
 description: "Description,<br> Skills,<br> and Scope"
 apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
-link: "https://www.linkedin.com/company/zcoregroup/jobs/view/open-position-id"
+link: "/careers/open-position-1"
 order: 1
 tags:
 ---

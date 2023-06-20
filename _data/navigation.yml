@@ -23,6 +23,8 @@
       url: "about"
     - text: "Team"
       url: "team"
+    - text: "Join"
+      url: "careers"
 
  - text: "Contact"
    url: "contact"

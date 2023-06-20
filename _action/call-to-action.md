@@ -1,5 +1,5 @@
 ---
-title: Representing All Of The Major Telecom Companies
-button_text: get a quote
+title: zCore Call to Action - Bleeding Edge Software
+button_text: Win with Us
 button_link: #
 ---

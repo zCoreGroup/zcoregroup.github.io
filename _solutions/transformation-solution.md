@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Transformation Solutions"
 description: "We help you transform your business with the latest technologies that solve your needs."
 apps_logo: "/assets/images/solutions/transformation.jpeg"

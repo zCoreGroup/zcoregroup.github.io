@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Technology Innovation"
 description: "We help you innovate and transform your business with the latest technologies that solve your needs."
 apps_logo: "/assets/images/solutions/technology_innovation.jpeg"

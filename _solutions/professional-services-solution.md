@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Professional Services
 description: "We provide a wide range of professional services to help you achieve your goals."
 apps_logo: "/assets/images/solutions/professional_services.jpeg"

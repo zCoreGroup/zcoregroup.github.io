@@ -38,6 +38,9 @@ collections:
     output: true
   action:
     output: true
+  solutions:
+    output: true
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -122,3 +125,6 @@ feed:
     team:
       output: true
       path: "/team.xml"
+    solutions:
+      output: true
+      path: "/solutions.xml"

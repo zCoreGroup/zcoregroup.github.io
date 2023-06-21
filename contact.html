@@ -50,6 +50,9 @@ title: "Contact Us"
                         </div>
                     </div>
                     <div class="col-lg-12">
+                        <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+                    </div>
+                    <div class="col-lg-12">
                         <div class="submit_btn">
                             <button class="form_btn zCore_btn" type="submit">Submit</button>
                         </div>
@@ -110,7 +113,7 @@ title: "Contact Us"
                     <!-- You can add more information here if needed -->
                     </div>
                     <div class="info_button">
-                        <a href="{{ contact.button_link }}" class="info_btn" style="text-decoration: none;"><h3>{{ contact.button_text }}</h3>></a>
+                        <a href="{{ contact.button_link }}" class="info_btn"><h3>{{ contact.button_text }}</h3></a>
                     </div>
                     {% endif %}
                 {% endfor %}
@@ -153,7 +156,7 @@ title: "Contact Us"
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">Contact Us</a>
+                    <a href="/solutions/" class="zCore_btn qoute_btn_3">Learn More</a>
                 </div>
             </div>
         </div>

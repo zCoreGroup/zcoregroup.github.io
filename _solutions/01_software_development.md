@@ -1,9 +1,10 @@
 ---
-title: "Transformation"
-description: "Organization Change Management,<br> Communications and Engagement,<br> Strategic Planning and Execution<br>and Budgeting"
-apps_logo: "/assets/images/solutions/transformation.jpeg"
-apps_icon: 'pe-7s-headphones'
-link: "/solutions/transformation"
+title: "Software Development111"
+description: "Agile Planning,<br> Human Centered Design,<br> and Mobile App Development"
+apps_logo: "/assets/images/solutions/software_development.jpeg"
+apps_icon: 'pe-7s-phone'
+link: "/solutions/software-development"
+order: 1
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

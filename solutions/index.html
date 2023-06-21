@@ -11,19 +11,21 @@ title: "Tailored Solutions"
         <div class="row">
             {% for service in site.services %}
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="service_box service_box_1">
-                    <a class="service_img" href="#">
-                        <img src="{{relative_url}}/assets/images/service_1.jpg" alt="">
-                        <div class="service_icon">
-                            <span class="{{service.apps_icon}}"></span>
-                            <i class="icon_btn fal fa-arrow-right"></i>
+                <a href="{{ site.baseurl }}{{ service.link }}">
+                    <div class="service_box service_box_1">
+                        <div class="service_img">
+                            <img src="{{ site.baseurl }}/assets/images/service_1.jpg" alt="">
+                            <div class="service_icon">
+                                <span class="{{service.apps_icon}}"></span>
+                                <i class="icon_btn fal fa-arrow-right"></i>
+                            </div>
                         </div>
-                    </a>
-                    <div class="service_info">
-                        <h4>{{service.title}}</h4>
-                        <p>{{service.description}}</p>
+                        <div class="service_info">
+                            <h4>{{service.title}}</h4>
+                            <p>{{service.description}}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>

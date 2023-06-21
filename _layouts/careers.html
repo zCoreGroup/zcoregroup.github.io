@@ -13,15 +13,18 @@ pagination:
         <div class="row">
             <div class="col-lg-8">
                 <div class="service_box service_box_1">
-                    <div class="content_text_area">
-                       {{content}}
-                    </div>
-                    <div class="content_share_area" style="text-align: right;">
-                        <div class="row">
-                            <div class="col-lg-12" style="display: flex;">
-                                <div class="social_area" style="margin-left: auto;">
-                                    <h4>View on LinkedIn</h4>
-                                    {% include social_share.html %}
+                    <div class="bordered_content" style="border: 20px; padding: 20px;">
+                        <div class="content_text_area">
+                           {{content}}
+                        </div>
+                        <div class="content_share_area" style="text-align: right;">
+                            <div class="row">
+                                <div class="col-lg-12" style="display: flex;">
+                                    <div class="social_area" style="margin-left: auto;">
+                                        <h4><a href="https://www.linkedin.com/company/zcoregroup/jobs/view/open-position-id">View on LinkedIn</a></h4>
+
+                                        {% include social_share.html %}
+                                    </div>
                                 </div>
                             </div>
                         </div>

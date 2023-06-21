@@ -1,9 +1,10 @@
 ---
-title: "Professional Services"
-description: "Program Management,<br> Governance,<br>Business Process Management<br>and Enterprise Risk Management"
-apps_logo: "/assets/images/solutions/professional_services.jpeg"
-apps_icon: 'pe-7s-copy-file'
-link: "/solutions/professional-services"
+layout: solution
+title: "Technology Innovation"
+description: "Healthcare IT Design, <br>Modernization,<br> Technology Scouting,<br>and Value Chain Analysis"
+apps_logo: "/assets/images/solutions/technology_innovation.jpeg"
+apps_icon: 'pe-7s-config'
+link: "/solutions/technology-innovation"
 order: 1
 ---
 

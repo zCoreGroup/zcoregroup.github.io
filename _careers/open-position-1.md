@@ -1,7 +1,8 @@
 ---
 layout: careers
 title: "Open Position Title"
-description: "Description,<br>\nSkills,<br>\nand Scope"
+description: "Description,<br>\nSkills,<br>\nand Scope.
+"
 apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
 link: "/careers/open-position-1"

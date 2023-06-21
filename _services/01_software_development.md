@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Software Development"
 description: "Agile Planning,<br> Human Centered Design,<br> and Mobile App Development"
 apps_logo: "/assets/images/solutions/software_development.jpeg"

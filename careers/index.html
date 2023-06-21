@@ -11,25 +11,28 @@ title: "Careers"
         <div class="row">
             {% for career in site.careers %}
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="service_box service_box_1">
-                    <a class="service_img" href="#">
-                        <img src="{{ site.baseurl }}/assets/images/careers/{{ career.image }}" alt="">
-                        <div class="service_icon">
-                            <span class="{{career.icon}}"></span>
-                            <i class="icon_btn fal fa-arrow-right"></i>
+                <a href="{{ career.link }}">
+                    <div class="service_box service_box_1">
+                        <div class="service_img">
+                            <img src="{{ site.baseurl }}/assets/images/careers/{{ career.image }}" alt="">
+                            <div class="service_icon">
+                                <span class="{{career.icon}}"></span>
+                                <i class="icon_btn fal fa-arrow-right"></i>
+                            </div>
                         </div>
-                    </a>
-                    <div class="service_info">
-                        <h4>{{career.title}}</h4>
-                        <p>{{career.description}}</p>
+                        <div class="service_info">
+                            <h4>{{career.title}}</h4>
+                            <p>{{career.description}}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>
     </div>
 </section>
 <!-- End _careers section -->
+
 <!-- start zCore_map section -->
 <section class="zCore_map zCore_map_1 section_padding">
     <div class="map_pattern"></div>

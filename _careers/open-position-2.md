@@ -1,5 +1,5 @@
 ---
-title: "Open Position Title"
+title: "Software Developer"
 description: "Description,<br> Skills,<br> and Scope"
 apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'

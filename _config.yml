@@ -45,7 +45,10 @@ collections:
   posts:
     output: true
     # permalink: /:year/:month/:day/:title/
-  paginator:
+  # paginator:
+  #   output: true
+  #   # permalink: /:num/
+  pagination:
     output: true
     # permalink: /:num/
 
@@ -64,7 +67,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 0
+  per_page: 6
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num' # Pages are index.html inside this folder (default)
@@ -75,7 +78,7 @@ pagination:
   title: ':title - page :num'
 
   # Limit how many pagenated pages to create (default: 0, means all)
-  limit: 0
+  limit: 6
 
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
   sort_field: 'date'

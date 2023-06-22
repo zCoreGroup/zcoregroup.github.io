@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Extending GitHub with Custom Apps: Unlocking the Power of Granularity and Ownership"
-tags: tech
+tags: tech, github
 categories: [technology]
 author: mackenzie
 post_image: "/assets/images/blog/GitHub-Apps.png"

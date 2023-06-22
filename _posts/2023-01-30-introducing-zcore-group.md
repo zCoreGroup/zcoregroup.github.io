@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introducing zCore Group"
+date: 2023-01-30
 tags: news
 categories: [announcements]
 author: alexis

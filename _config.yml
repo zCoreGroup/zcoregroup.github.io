@@ -40,6 +40,8 @@ collections:
     output: true
   solutions:
     output: true
+  posts:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -59,7 +61,7 @@ pagination:
   per_page: 6
 
   # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+  permalink: '/page/page/:num/' # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 

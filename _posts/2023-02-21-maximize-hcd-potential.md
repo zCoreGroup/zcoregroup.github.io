@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Maximizing the Potential of Human Centered Design (HCD) in Software Development"
-tags: projects, hcd
-categories: [design]
 author: bastos
-post_image: "/assets/images/blog/hcd.png"
+categories:
+- design
+layout: post
+post_image: /assets/images/blog/hcd.png
+tags:
+- projects
+- hcd
+title: Maximizing the Potential of Human Centered Design (HCD) in Software Development
 ---
 
 Human Centered Design (HCD) is a people-centered approach to software development that prioritizes understanding the needs and experiences of its users over features. The goal is to develop solutions that solve the right problems by creating small and simple inventions. This process involves designing and prototyping applications in an agile development process.

@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "zCore's Website Rebrand and Redesign with a focus on Insights"
-tags: news
-categories: [announcements]
 author: bastos
-post_image: "/assets/images/blog/new-website.png"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/new-website.png
+tags:
+- news
+title: zCore's Website Rebrand and Redesign with a focus on Insights
 ---
 
 We're excited to announce that [zCore](https://zcoregroup.com/), a contracting technology firm, has recently undergone a website rebrand and redesign. The new website is now focused on providing insights about technology and the federal contracting space, aimed at helping customers like us better understand the latest trends and developments in these areas.

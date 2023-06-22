@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Navigating the Complexities: Climate Risks, Foreign Influence, and Cybersecurity Measures for Contractors"
-tags: contracting
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/Climate-system.jpeg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/Climate-system.jpeg
+tags:
+- contracting
+title: 'Navigating the Complexities: Climate Risks, Foreign Influence, and Cybersecurity
+  Measures for Contractors'
 ---
 
 Introduction:

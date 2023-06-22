@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Embracing Change: The Ever-Evolving Federal Workspace"
-tags: federal
-categories: [process]
 author: mackenzie
-post_image: "/assets/images/blog/change.jpg"
+categories:
+- process
+layout: post
+post_image: /assets/images/blog/change.jpg
+tags:
+- federal
+title: 'Embracing Change: The Ever-Evolving Federal Workspace'
 ---
 
 The federal workspace has long been a hub of innovation, policy-making, and transformative initiatives. As we delve into the captivating realm of this dynamic environment, we uncover a tapestry of ideas, challenges, and opportunities that constantly shape its landscape. In this blog post, we'll explore a random topic that currently engrosses the federal workspace, unearthing its perplexity and reveling in the burstiness that characterizes human ingenuity.

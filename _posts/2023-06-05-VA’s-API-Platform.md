@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "VA’s API Platform: Seamless and Secure Access to VA Data for Veterans, Their Families, and Advocates"
-tags: tech,
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/VA API'S.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/VA API'S.jpg
+tags:
+- tech
+title: 'VA’s API Platform: Seamless and Secure Access to VA Data for Veterans, Their
+  Families, and Advocates'
 ---
 
 Planning a vacation has never been easier. With just a few clicks, you can find hundreds of flights tailored to your needs. This convenience is made possible by Application Programming Interfaces (APIs), which play a crucial role in allowing apps and platforms to access, share, and control data across the web. APIs effortlessly compile information from various sources and present it to users in one centralized location, saving time and effort. Just as APIs simplify travel planning, the Department of Veterans Affairs (VA) has harnessed their power to improve the connection between Veterans and VA services.

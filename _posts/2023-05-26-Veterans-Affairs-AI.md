@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Unleashing the Power of AI: The Department of Veterans Affairs' Visionary Strategy"
-tags: tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/va-ai.jpeg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/va-ai.jpeg
+tags:
+- tech
+title: 'Unleashing the Power of AI: The Department of Veterans Affairs'' Visionary
+  Strategy'
 ---
 
 In an era of rapid technological advancements, the Department of Veterans Affairs (VA) is embracing the potential of Artificial Intelligence (AI) to revolutionize its services and enhance the well-being of our nation's veterans. The VA's AI Strategy, informed by national initiatives and legislation, aims to harness the power of AI capabilities for the benefit of veterans and society as a whole. By leveraging its extensive resources and network, the VA seeks to become a hub for AI innovation, ensuring that veterans receive the best possible care and support.

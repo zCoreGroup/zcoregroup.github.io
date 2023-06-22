@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Introducing zCore Group"
-tags: news
-categories: [announcements]
 author: alexis
-post_image: "/assets/images/logos/logo_3.webp"
+categories:
+- announcements
+- ZCG
+layout: post
+post_image: /assets/images/logos/logo_3.webp
+tags:
+- news
+title: Introducing zCore Group
 ---
 
 At zCore Group (zCG), our mission is to solve challenges by combining our deep understanding of business needs with collaborative innovation. We do this by building trusted partnerships with our clients to optimize their business outcomes. Our aspiration is to close the collaboration gap between technology and federal agencies, and provide valuable solutions to both.

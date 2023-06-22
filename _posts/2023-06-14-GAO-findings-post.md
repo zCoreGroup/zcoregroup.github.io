@@ -1,12 +1,15 @@
 ---
-layout: post
-title: "Observations on IT Contracting Trends and Management Oversight at the Department of Veterans Affairs"
-tags: contracting,VA
-categories: [contracting]
 author: mackenzie
-post_image: "/assets/images/blog/GAO-analysis.png"
+categories:
+- contracting
+layout: post
+post_image: /assets/images/blog/GAO-analysis.png
+tags:
+- contracting
+- VA
+title: Observations on IT Contracting Trends and Management Oversight at the Department
+  of Veterans Affairs
 ---
-
 
 The efficient management of information technology (IT) systems is crucial for the Department of Veterans Affairs (VA) to provide benefits and healthcare services to millions of veterans and their families. The VA heavily relies on IT systems and has obligated over $25 billion for IT procurement between fiscal years 2017 and 2021, making it one of the largest IT spenders among federal agencies. However, the Government Accountability Office (GAO) has identified concerning trends in IT contracting and management oversight within the VA.
 

@@ -47,23 +47,26 @@
         </div>
         {% endfor %}
     </div>
-    <div class="widget_sidebar_box tags_widget">
-        <div class="sidebar_widget_title">
-            <h3>Popular Tags</h3>
-        </div>
-        <div id="tag-cloud">
-         <ul class="tags_list">
+<div class="widget_sidebar_box tags_widget">
+    <div class="sidebar_widget_title">
+        <h3>Popular Tags</h3>
+    </div>
+    <div id="tag-cloud">
+        <ul class="tags_list">
             {% capture tags %}
-              {% for tag in site.tags %}
-                <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
-                   <a class="tag_1" href="/{{ site.tag_page_dir }}/{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }} <span> ({{ tag[1].size }})</span></a>
-                </li>
-              {% endfor %}
+                {% for tag in site.tags %}
+                    {% if tag[1].size >= 3 %}
+                        <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
+                            <a class="tag_1" href="/{{ site.tag_page_dir }}/{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }} <span> ({{ tag[1].size }})</span></a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
             {% endcapture %}
             {{ tags | split:'</li>' | sort | join:'</li>' }}
         </ul>
-      </div>
     </div>
+</div>
+
     <div class="widget_sidebar_box social_widget">
       <div class="sidebar_widget_title">
           <h3>Follow Us</h3>

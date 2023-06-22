@@ -40,7 +40,11 @@ collections:
     output: true
   solutions:
     output: true
+<<<<<<< HEAD
   posts:
+=======
+  contact:
+>>>>>>> 2ab4b80465b111260bd21dc64396ac38d8910715
     output: true
 
 ############################################################

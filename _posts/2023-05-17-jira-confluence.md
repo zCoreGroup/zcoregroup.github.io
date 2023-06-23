@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Streamlining Project Management and Collaboration with Jira and Confluence"
-tags: tech
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/jira.jpeg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/jira.jpeg
+tags:
+- tech
+title: Streamlining Project Management and Collaboration with Jira and Confluence
 ---
 
 Effective project management and seamless collaboration are crucial elements for the success of any team or organization. To tackle these challenges, Atlassian has developed two powerful software tools: Jira and Confluence. Jira serves as a comprehensive issue tracking and project management solution, while Confluence acts as a collaboration and knowledge sharing platform. In this blog post, we will explore the features and benefits of Jira and Confluence and how they can streamline your project management and enhance team collaboration.

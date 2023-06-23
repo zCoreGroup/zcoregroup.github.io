@@ -1,10 +1,12 @@
 ---
-layout: post
-title: " Migrating to VA Enterprise Cloud: What You Need to Know"
-tags: tech
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/migrate.jpeg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/migrate.jpeg
+tags:
+- tech
+title: ' Migrating to VA Enterprise Cloud: What You Need to Know'
 ---
 
 In a constant pursuit of enhanced user experience and improved security measures, the Department of Veterans Affairs (VA) is embarking on a significant migration journey. On May 26, 2023, the VA OIT DevOps Tools Team (DOTS) will bid farewell to MAX.GOV hosting and migrate the VA's Jira and Confluence platforms to the VA Enterprise Cloud (VAEC), DevOps Tools Enclave (DTE). This blog post aims to provide you with all the essential information regarding this migration and what you, as a user, need to know.

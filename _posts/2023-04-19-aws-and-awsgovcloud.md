@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "AWS and AWS GovCloud: A Closer Look at Cloud Computing for Government Workloads"
-tags: tech,software
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/aws.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/aws.jpg
+tags:
+- tech
+- software
+title: 'AWS and AWS GovCloud: A Closer Look at Cloud Computing for Government Workloads'
 ---
 
 Are you familiar with Amazon Web Services (AWS)? If you're not, don't worry! I'm here to help you understand what AWS is, what it does, and how it can help you and your business. AWS is a cloud computing platform that provides a vast array of computing resources and services on demand over the internet. In simple terms, it's like having your own virtual data center, without the overhead costs and complexity of traditional IT infrastructure.

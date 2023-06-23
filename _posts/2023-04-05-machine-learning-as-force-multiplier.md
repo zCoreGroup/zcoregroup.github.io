@@ -1,10 +1,16 @@
 ---
-layout: post
-title: "Machine Learing as a Force Multiplier"
-tags: ML,classification,prediction,interpretation,generation
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/machine-learning.jpeg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/machine-learning.jpeg
+tags:
+- ML
+- classification
+- prediction
+- interpretation
+- generation
+title: Machine Learing as a Force Multiplier
 ---
 
 Machine Learning (ML) is a powerful tool that can help organizations unlock valuable insights from their data. By using ML algorithms, businesses can automate tasks, make predictions, and identify patterns in large datasets that would be impossible for humans to do manually. In this blog post, we'll explore the four types of ML - classification, prediction, interpretation, and generation - and how they can be used to improve your organization's workflows.

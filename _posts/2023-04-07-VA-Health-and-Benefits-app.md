@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "The Benefits of the VA's Health and Benefits App"
-tags: VA,health,tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/health-app.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/health-app.jpg
+tags:
+- VA
+- health
+- tech
+title: The Benefits of the VA's Health and Benefits App
 ---
 
 The VA: Health and Benefits app is a revolutionary tool designed to help veterans access the healthcare and benefits they need. With its advanced features and user-friendly interface, the app promises to be a game-changer in the world of veteran healthcare. In this article, we will explore the potential benefits and drawbacks of the VA: Health and Benefits app, as well as the role that zCore, a software development firm, can play in helping veterans and the VA implement this app more effectively.

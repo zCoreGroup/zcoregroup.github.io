@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "SQL Techniques in Federal Projects"
-tags: SQL,oracle,tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/SQL.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/SQL.jpg
+tags:
+- SQL
+- oracle
+- tech
+title: SQL Techniques in Federal Projects
 ---
 
 As businesses continue to collect more and more data, the importance of being able to effectively analyze and manipulate that data becomes increasingly important. SQL (Structured Query Language) has long been the go-to tool for managing and analyzing data, but many businesses are unaware of the advanced SQL techniques available to them.

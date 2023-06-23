@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "GitHub Projects: The Ultimate Tool for Agile Project Management"
-tags: tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/git-projects.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/git-projects.jpg
+tags:
+- tech
+title: 'GitHub Projects: The Ultimate Tool for Agile Project Management'
 ---
 
 GitHub Projects is a reincarnation of the original GitHub, but with a new focus on project management. The objective of GitHub Projects is to put the control back in the teams' hands. The developers behind GitHub Projects wanted to create a tool that allows flexibility for methodology and let tasks flow without using methodology but still using the same kind of functionality.

@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Small Businesses in the Federal Workspace: Unleashing Opportunities with SDVOSBs"
-tags: business
-categories: [business]
 author: mackenzie
-post_image: "/assets/images/blog/small.jpg"
+categories:
+- business
+layout: post
+post_image: /assets/images/blog/small.jpg
+tags:
+- business
+title: 'Small Businesses in the Federal Workspace: Unleashing Opportunities with SDVOSBs'
 ---
 
 In the expansive realm of the federal workspace, small businesses have emerged as vital players, injecting dynamism, innovation, and adaptability into government operations. Their significance cannot be overstated, as they contribute to a vibrant ecosystem that fuels economic growth and provides exceptional value to both federal agencies and the broader society. In this blog post, we delve into the importance of small businesses in the federal workspace, shedding light on the benefits they bring and the transformative role they play. We also explore the significance of Service-Disabled Veteran-Owned Small Businesses (SDVOSBs) and their unique contributions. As a leading SDVOSB, zCore Group exemplifies the potential of such businesses, delivering cutting-edge IT management consulting solutions to federal agencies.

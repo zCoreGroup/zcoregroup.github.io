@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "The VA and Government Contracting: Unveiling the Symbiotic Partnership"
-tags: VA
-categories: [information]
 author: mackenzie
-post_image: "/assets/images/blog/va.jpg"
+categories:
+- information
+layout: post
+post_image: /assets/images/blog/va.jpg
+tags:
+- VA
+title: 'The VA and Government Contracting: Unveiling the Symbiotic Partnership'
 ---
 
 The Department of Veterans Affairs (VA) stands as a beacon of hope for those who have selflessly served their nation. Behind the scenes, however, lies a complex web of operations and partnerships that enable the VA to fulfill its mission effectively. Among these partnerships, government contracting emerges as a crucial force, seamlessly intertwining with the VA's operations to enhance its capacity to serve veterans and their families. In this article, we delve into the importance of government contracting for the VA, exploring the process and shedding light on the invaluable role it plays.

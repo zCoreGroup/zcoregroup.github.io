@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Unleashing the Monday Motivation Magic: 5 Epic Ways to Fuel Your Workweek!"
-tags: motivation
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/motivation.jpg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/motivation.jpg
+tags:
+- motivation
+title: 'Unleashing the Monday Motivation Magic: 5 Epic Ways to Fuel Your Workweek!'
 ---
 
 Ah, Mondays, the enigmatic portals that transport us from the tranquility of the weekend to the bustling world of work. As we navigate this transition, it's crucial to arm ourselves with an arsenal of motivation, ensuring that we charge into the week with vigor and purpose. In this blog post, we'll explore five mind-bending strategies that promise to infuse your Mondays with a delightful concoction of perplexity and burstiness, elevating your work game to extraordinary heights. Brace yourselves for a rollercoaster ride of inspiration!

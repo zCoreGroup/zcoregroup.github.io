@@ -9,7 +9,9 @@ order: 1
 tags:
 ---
 
-## Location: near Boston, MA
+## Location: 
+
+near Boston, MA
 
 ### Description: 
 

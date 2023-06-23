@@ -5,7 +5,7 @@ description: "Virtual virtuoso in the art of contract management, you'll navigat
 apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'
 link: "/careers/idiq-contract-conductor"
-order: 1
+order: 2
 tags:
 ---
 

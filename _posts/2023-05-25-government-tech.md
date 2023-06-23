@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Exploring the Complexity of Government Technology Adoption"
-tags: tech,government
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/gov-technology.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/gov-technology.jpg
+tags:
+- tech
+- government
+title: Exploring the Complexity of Government Technology Adoption
 ---
 
 The intricate relationship between technology and the public sector has long been a subject of discussion. As the digital revolution continues to reshape our world, governments are faced with the challenge of adopting technology to improve service provision. However, unlike the private sector, government entities have been historically slower in embracing technological advancements. In this blog post, we will delve into the perplexing realm of government technology adoption, analyzing the reasons behind this sluggishness and the potential benefits and risks associated with integrating technology into public services.

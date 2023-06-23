@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Unlocking the Power of Data with Alteryx: Revolutionizing Analytics and Automation"
-tags: tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/tool.png"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/tool.png
+tags:
+- tech
+title: 'Unlocking the Power of Data with Alteryx: Revolutionizing Analytics and Automation'
 ---
 
 In today's data-driven world, organizations are constantly seeking innovative tools to streamline their analytical processes and drive data-driven decision-making. One such tool that has gained significant popularity is Alteryx, a self-service analytic software. With its powerful data transformation toolkit and user-friendly interface, Alteryx empowers users to tackle complex data tasks with ease. In this blog post, we will explore the capabilities of Alteryx, its benefits for different user roles, and how zCore Group can leverage it to help our clients and partners.

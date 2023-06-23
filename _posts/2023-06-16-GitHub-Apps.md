@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Extending GitHub with Custom Apps: Unlocking the Power of Granularity and Ownership"
-tags: tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/GitHub-Apps.png"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/GitHub-Apps.png
+tags:
+- tech
+title: 'Extending GitHub with Custom Apps: Unlocking the Power of Granularity and
+  Ownership'
 ---
 
 GitHub, the leading platform for version control and collaboration, offers a range of powerful features and integrations. Among these are GitHub Apps, which provide a unique way to extend GitHub's functionality and enhance development workflows. In this blog post, we will delve into the world of GitHub Apps, exploring their capabilities, authentication methods, and the advantages they offer over regular user accounts.

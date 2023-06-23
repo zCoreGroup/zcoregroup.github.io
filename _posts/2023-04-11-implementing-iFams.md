@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Implementing iFams: The Complexities and Challenges of a Federal Agency ERP Data Migration"
-tags: tech
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/ifams.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/ifams.jpg
+tags:
+- tech
+title: 'Implementing iFams: The Complexities and Challenges of a Federal Agency ERP
+  Data Migration'
 ---
 
 The implementation of a new ERP system can be a daunting task for any organization, and the US Department of Veterans Affairs (VA) is no exception. With a need to replace their current Financial Management System (FMS) and several other smaller projects, the VA turned to CGI, a leading IT and business consulting services firm, to create a COTS (Commercial Off-The-Shelf) application called Momentum.

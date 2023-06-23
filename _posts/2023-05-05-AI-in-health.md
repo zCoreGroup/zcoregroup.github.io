@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "AI in Healthcare: Pros and Cons of a Revolutionizing Technology"
-tags: tech,health
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/health.jpg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/health.jpg
+tags:
+- tech
+- health
+title: 'AI in Healthcare: Pros and Cons of a Revolutionizing Technology'
 ---
 
 As the medical field continues to evolve, so does the role of artificial intelligence (AI). AI has the potential to revolutionize healthcare in a myriad of ways, from improving diagnosis and treatment to enhancing patient outcomes and reducing healthcare costs. However, as with any new technology, there are both pros and cons to its use in medicine.

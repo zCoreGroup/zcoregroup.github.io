@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Avoiding Technical Debt in Federal Software Development"
-tags: tech
-categories: [technology]
 author: bastos
-post_image: "/assets/images/blog/iceberg.webp"
+categories:
+- technology
+- software development
+layout: post
+post_image: /assets/images/blog/iceberg.webp
+tags:
+- tech
+title: Avoiding Technical Debt in Federal Software Development
 ---
 
 Technical debt is the process by which a software development project (or a project of a technical nature) starts to accumulate any number of technical tasks that have not been accomplished. This can sometimes occur when a project is “moving fast” to accomplish the mission and in some, if not most, cases the scope and complexity of this debt is known to the development team but not known by the product and or planning team.

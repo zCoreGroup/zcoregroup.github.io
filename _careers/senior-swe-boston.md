@@ -9,7 +9,7 @@ order: 1
 tags:
 ---
 
-## Location: Hanscom AFB, Boston
+## Location: near Boston, MA
 
 ### Description: 
 

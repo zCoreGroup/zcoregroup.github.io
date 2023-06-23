@@ -8,7 +8,7 @@ link: "/solutions/software-development"
 order: 1
 ---
 
-
+> 
 Welcome to the forefront of software development excellence, where zCore Group (zCG) takes the lead in crafting tailored solutions that drive digital mission success for Federal Agencies. As a military veteran-led IT and management consulting firm, we combine our deep-rooted military culture of discipline, teamwork, and mission-driven thinking with the expertise of experienced professionals in computer science and engineering.
 
 At zCore Group, software development is at the core of our competencies, empowering us to deliver exceptional results. We offer a comprehensive range of professional services that revolve around your software development needs. Our commitment to strategic planning, DevOps technology, and data analytics ensures that we are equipped to tackle the most complex challenges.

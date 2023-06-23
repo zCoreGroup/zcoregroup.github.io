@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Switching to GitHub from Jira: A Guide for Project Managers"
-tags: projects, github
-categories: [process]
 author: bastos
-post_image: "/assets/images/blog/issues-board.png"
+categories:
+- process
+layout: post
+post_image: /assets/images/blog/issues-board.png
+tags:
+- projects
+- github
+title: 'Switching to GitHub from Jira: A Guide for Project Managers'
 ---
 
 Program or Project Managers in the federal space are likely well-versed in the use of Jira, a tool used for tracking and managing project tasks. Jira is to PMs as GitHub Projects is to developers. Many developers prefer to live and work in GitHub due to direct access to code. In this post we explore how GitHub Projects can be used like Jira and why a switch may be beneficial for your team.

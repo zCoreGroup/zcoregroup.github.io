@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Python Takes the Crown: How It Became the Top Computer Language"
-tags: tech,software
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/python.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/python.jpg
+tags:
+- tech
+- software
+title: 'Python Takes the Crown: How It Became the Top Computer Language'
 ---
 
 For many years, JavaScript has been the dominant programming language among software developers worldwide. However, in December 2021, Python rose to the top of the list of the most used programming languages. This is a significant milestone for Python, as it has been steadily gaining popularity over the past few years.

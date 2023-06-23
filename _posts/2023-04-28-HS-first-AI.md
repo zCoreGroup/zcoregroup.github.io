@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "Exploring the Power of AI: The Department of Homeland Security's New Task Force for National Security"
-tags: tech,AI
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/HS.jpg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/HS.jpg
+tags:
+- tech
+- AI
+title: 'Exploring the Power of AI: The Department of Homeland Security''s New Task
+  Force for National Security'
 ---
 
 The Department of Homeland Security (DHS) has announced the establishment of its first-ever AI Task Force, aimed at exploring the potential of AI in the field of national security. This move comes as a response to the growing need for advanced technologies to counter emerging threats and stay ahead of the curve.

@@ -40,7 +40,8 @@ collections:
     output: true
   solutions:
     output: true
-
+  contact:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -107,10 +108,14 @@ tag_page_dir: tag
 tag_permalink_style: pretty
 
 jekyll-archives:
-  enabled: all
+  enabled:
+    - tags
+    - categories
   layout: category
   permalinks:
+    tag: '/tag/:name/'
     category: '/category/:name/'
+
 
 feed:
   collections:

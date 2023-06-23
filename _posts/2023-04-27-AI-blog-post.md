@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "Deterministic AI pseudocode"
-tags: tech,software
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/AI.jpg"
+categories:
+- announcements
+- technology
+layout: post
+post_image: /assets/images/blog/AI.jpg
+tags:
+- tech
+- software
+title: Deterministic AI pseudocode
 ---
 
 Deterministic AI pseudocode is a type of code that allows programmers to describe the steps a computer program will take to complete a task in a deterministic manner. This means that the output of the program will always be the same for a given input, making it an essential tool for software developers looking to create reliable and consistent programs.

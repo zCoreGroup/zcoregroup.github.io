@@ -1,10 +1,15 @@
 ---
-layout: post
-title: "How Retailers Can Use The VAs Verification APIs to Validate Veterans"
-tags: APIs,verification,e-commerce,usability
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/retail-APIs.png"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/retail-APIs.png
+tags:
+- APIs
+- verification
+- e-commerce
+- usability
+title: How Retailers Can Use The VAs Verification APIs to Validate Veterans
 ---
 
 As retailers continue to seek ways to provide better services to their customers, the use of technology has become increasingly important. One area where technology can play a significant role is in the verification of veteran status. By using VA verification APIs, retailers can validate veterans and help them take advantage of veteran discounts, using real VA data. In this blog post, we will explore how retailers can use VA verification APIs to enhance the value, accessibility, and usability of commerce data for government, business, and the public.

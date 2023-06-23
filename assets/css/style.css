@@ -5322,6 +5322,13 @@ textarea:focus{
     text-transform: capitalize;
 }
 
+.info_link {
+    font-size: 16px;
+    color: #a4b2bf;
+    text-transform: capitalize;
+}
+
+
 .call_title_3 span {
     color: #7d94a6;
 }

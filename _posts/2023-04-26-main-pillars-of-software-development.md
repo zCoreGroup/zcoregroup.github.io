@@ -1,10 +1,14 @@
 ---
-layout: post
-title: "Exploring the Main Pillars of Modern Software Development: From Cloud Computing to 5G Connectivity"
-tags: tech,software
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/sd.jpg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/sd.jpg
+tags:
+- tech
+- software
+title: 'Exploring the Main Pillars of Modern Software Development: From Cloud Computing
+  to 5G Connectivity'
 ---
 
 In today's digital age, software development has become an integral part of modern businesses, with various technologies emerging to facilitate the process. These technologies have revolutionized the way software developers design, build, and deploy applications. In this blog post, we will explore the main pillars of modern software development, including cloud computing, microservices, blockchain, IoT, AI, augmented reality, the LCNC approach, and 5G connectivity. Additionally, we will discuss some of the leading programming tools and emerging concepts used in modern software development.

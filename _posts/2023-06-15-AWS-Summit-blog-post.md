@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "zCore's AWS Summit Washington DC 2023 recap "
-tags: tech,AWS
-categories: [technology]
 author: mackenzie
-post_image: "/assets/images/blog/summit-cover.jpeg"
+categories:
+- technology
+layout: post
+post_image: /assets/images/blog/summit-cover.jpeg
+tags:
+- tech
+- AWS
+title: 'zCore''s AWS Summit Washington DC 2023 recap '
 ---
 
 June 7-8th, we had the incredible opportunity to attend the AWS Summit in Washington D.C. It was an event where industry professionals converged to discuss how Amazon Web Services (AWS) is transforming the public sector and tackling the challenges of today's rapidly changing world. The summit offered valuable insights into driving culture change, digital transformation, and infrastructure modernization. We were eager to explore and learn, and we returned with a plethora of knowledge to share. So let's dive into the key takeaways from the seminars we attended.

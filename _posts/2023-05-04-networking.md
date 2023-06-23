@@ -1,10 +1,13 @@
 ---
-layout: post
-title: "Building Relationships for Success: The Importance of Networking in SDVOSB Government Contracting"
-tags: networking
-categories: [announcements]
 author: mackenzie
-post_image: "/assets/images/blog/networking.jpeg"
+categories:
+- announcements
+layout: post
+post_image: /assets/images/blog/networking.jpeg
+tags:
+- networking
+title: 'Building Relationships for Success: The Importance of Networking in SDVOSB
+  Government Contracting'
 ---
 
 Networking is a critical aspect of business growth and success, and nowhere is this more evident than in the world of government contracting. For companies like zCore Group (ZCG), a Service-Disabled Veteran-Owned Small Business (SDVOSB) specializing in IT and management consulting, networking is essential to building relationships and winning new contracts.

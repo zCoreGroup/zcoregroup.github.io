@@ -61,4 +61,4 @@ zCore is on a quest for a Senior Software Engineer, or as we like to say, a Code
 
 zCore is an equal opportunity employer. We welcome humans, aliens, and all sentient lifeforms to apply. We have coffee, endless high-fives, and a chance to create code that matters. Get on board now!
 
-## [Apply Now on LinkedIn](https://www.linkedin.com/jobs/view/3537166236)
+## [Apply Now via Email](mailto:mbastos@zcoregroup.com?subject=Senior SWE (near Boston, MA)&body=Include your a copy of your Resume!)

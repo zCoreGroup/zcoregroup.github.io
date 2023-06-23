@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: "IDIQ PM (aka Contract Conductor)"
+title: "IDIQ PM (Contract Conductor)"
 description: "Virtual virtuoso in the art of contract management, you'll navigate the labyrinth of large IDIQ government contracts from the comfort of your own chosen fortress (home), making them sing in harmony to your strategic tune."
 apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'

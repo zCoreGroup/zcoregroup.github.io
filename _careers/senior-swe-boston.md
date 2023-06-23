@@ -1,10 +1,10 @@
 ---
 layout: careers
-title: "Senior SWE (Hanscom AFB, Boston)"
+title: "Senior SWE (near Boston, MA)"
 description: "Lead multiple software teams, create high-performance solutions, implement cutting-edge tech trends, and mentor young engineers to support the Air Operations Command for the Air Force."
 apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
-link: "/careers/swe-hanscom-afb"
+link: "/careers/senior-swe-boston"
 order: 1
 tags:
 ---

@@ -1,4 +1,5 @@
 ---
+layout: careers
 title: "UX Designer (near Boston, MA)"
 description: "We're seeking a talented individual to design intuitive user experiences, balance customer feedback, collaborate with a diverse programming team, and wield design tools like Figma and Adobe Creative Suite with finesse."
 apps_logo: "/assets/images/careers/open-position.jpeg"

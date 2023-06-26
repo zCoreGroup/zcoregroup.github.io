@@ -1351,9 +1351,16 @@ textarea.form_control {
 
 .team_info h3 {
     font-size: 32px;
-    color: #fff;
+    color: #000; /* Default to black for light mode */
     line-height: 70px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .team_info h3 {
+        color: #fff; /* Change to white for dark mode */
+    }
+}
+
 
 .team_info p {
     font-size: 14px;

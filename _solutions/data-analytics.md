@@ -6,8 +6,10 @@ apps_logo: "/assets/images/solutions/data-analytics.jpeg"
 apps_icon: 'pe-7s-graph1'
 link: "/solutions/data-analytics"
 order: 1
+categories:
+    - data
 ---
->
+
 ##### Data Analytics: Unleashing the Power of Your Data
 
 Welcome to zCore Group's tailored solutions in the realm of Data Analytics, where we harness the immense potential hidden within your data to drive innovation, improve decision-making, and unlock unparalleled insights. As a leading IT and management consulting firm, zCore Group combines military precision, extensive expertise, and cutting-edge technologies to revolutionize the way you leverage your data.

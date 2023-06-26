@@ -6,6 +6,8 @@ apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
 link: "/solutions/professional-services"
 order: 1
+categories:
+    - professional-services
 ---
 >
 ##### Professional Services: Empowering Your Federal Agency's Success

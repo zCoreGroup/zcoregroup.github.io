@@ -1346,6 +1346,7 @@ textarea.form_control {
 .team_info {
     padding: 40px;
     border: 1px solid #1d81ff;
+    background: transparent;
     border-top: none;
 }
 
@@ -1355,17 +1356,24 @@ textarea.form_control {
     line-height: 70px;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .team_info h3 {
-        color: #fff; /* Change to white for dark mode */
+        color: #ffffff; /* Change to white for dark mode */
     }
 }
 
+.zCore_team.zCore_team_1.blue_bg.section_padding .team_info h3 {
+    color: #ffffff;
+}
 
 .team_info p {
     font-size: 14px;
     color: #1A7EFB;
     text-transform: uppercase;
+}
+
+.zCore_team.zCore_team_1.blue_bg.section_padding .team_info p {
+    color: #ffffff;
 }
 
 .team_join_button .zCore_btn {

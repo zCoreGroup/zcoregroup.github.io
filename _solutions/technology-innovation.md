@@ -6,6 +6,10 @@ apps_logo: "/assets/images/solutions/technology_innovation.jpeg"
 apps_icon: 'pe-7s-config'
 link: "/solutions/technology-innovation"
 order: 1
+categories:
+    - transformation
+    - process
+    - healthcare
 ---
 >
 ##### Unlock the Full Potential of Technology Innovation

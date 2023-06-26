@@ -41,10 +41,9 @@
                                         {% for post in site.posts limit:2 %}
                                         <div class="col-lg-6"> <!-- Add a column for each post -->
                                             <div class="news_single">
-<div class="news_thumb">
-    <img src="{{ post.post_image | relative_url }}" class="img-fluid" alt="">
-</div>
-
+                                                <div class="news_thumb">
+                                                    <img src="{{ post.post_image | relative_url }}" class="img-fluid" alt="">
+                                                </div>
                                                 <div class="news_link">
                                                     <h3>
                                                         <a href="{{ post.url | relative_url }}">

@@ -1357,12 +1357,12 @@ textarea.form_control {
 
 .team_info p {
     font-size: 14px;
-    color: #add1ff;
+    color: #1A7EFB;
     text-transform: uppercase;
 }
 
 .team_join_button .zCore_btn {
-    background: transparent;
+    background: #;
     border: 1px solid #69acff;
     margin-left: 25px;
     margin-right: 25px;
@@ -3909,7 +3909,7 @@ textarea.form_control {
 }
 
 .team_box_2 .team_info p {
-    color: #0574ff;
+    color: #1A7EFB;
 }
 
 /*

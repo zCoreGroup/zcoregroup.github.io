@@ -7,7 +7,9 @@ apps_icon: 'pe-7s-graph1'
 link: "/solutions/data-analytics"
 order: 1
 categories:
-    - data
+    - technology
+    - data-analytics
+    - information
 ---
 
 ##### Data Analytics: Unleashing the Power of Your Data

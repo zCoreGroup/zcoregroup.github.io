@@ -5,6 +5,12 @@ description: "Organization Change Management,<br> Communications and Engagement,
 apps_logo: "/assets/images/solutions/transformation.jpeg"
 apps_icon: 'pe-7s-headphones'
 link: "/solutions/transformation"
+categories:
+    - management
+    - transformation
+    - information
+    - process
+    - business
 ---
 >
 ##### Empower Your Organization's Transformation with zCore Group: Unleashing Unprecedented Success

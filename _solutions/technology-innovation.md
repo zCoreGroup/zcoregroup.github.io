@@ -8,6 +8,8 @@ link: "/solutions/technology-innovation"
 order: 1
 categories:
     - transformation
+    - process
+    - healthcare
 ---
 >
 ##### Unlock the Full Potential of Technology Innovation

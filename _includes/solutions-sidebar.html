@@ -1,11 +1,12 @@
 <div class="zCore_sidebar blog_sidebar">
     <div class="widget_sidebar_box feeds_widget">
         <div class="sidebar_widget_title">
-            <h3>Latest Insights</h3>
+            <h3>Related Insights</h3>
         </div>
         {% assign counter = 0 %}
         {% for post in site.posts %}
-        {% if post.categories contains 'technology' %}
+        {% for category in post.categories %}
+        {% if page.categories contains category %}
         <div class="feeds_single">
             {% if post.post_image %}
             <div class="feeds_img">
@@ -18,8 +19,10 @@
             </div>
         </div>
         {% assign counter = counter | plus: 1 %}
+        {% break %}
         {% endif %}
-        {% if counter >= 6 %}
+        {% endfor %}
+        {% if counter >= 12 %}
         {% break %}
         {% endif %}
         {% endfor %}

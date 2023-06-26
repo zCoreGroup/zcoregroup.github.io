@@ -7,7 +7,8 @@ apps_icon: 'pe-7s-copy-file'
 link: "/solutions/professional-services"
 order: 1
 categories:
-    - professional-services
+    - business
+    - healthcare
 ---
 >
 ##### Professional Services: Empowering Your Federal Agency's Success

@@ -7,7 +7,8 @@ apps_icon: 'pe-7s-phone'
 link: "/solutions/software-development"
 order: 1
 categories:
-    - tech
+    - software-development
+    - technology
 ---
 >
 ##### Empowering Federal Agencies with Tailored Software Development Solutions

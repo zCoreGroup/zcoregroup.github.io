@@ -6,8 +6,11 @@ apps_logo: "/assets/images/solutions/devops.jpeg"
 apps_icon: 'pe-7s-loop'
 link: "/solutions/devops"
 order: 1
-category:
-    - tech
+categories:
+    - technology
+    - devops
+    - software-development
+    - business
 ---
 >
 ##### Empowering Federal Agencies with DevOps Expertise

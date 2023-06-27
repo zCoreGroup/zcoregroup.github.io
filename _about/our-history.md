@@ -1,6 +1,6 @@
 ---
 title: "Our History"
-detail: "zCore Group is a verified SDVOSB"
+detail: ""
 link: "/team/"
 ---
 

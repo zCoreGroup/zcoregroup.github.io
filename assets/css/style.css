@@ -69,7 +69,7 @@ h4,
 h5,
 h6 {
     font-family: 'Gilroy-Bold.ttf';
-    text-transform: capitalize;
+    text-transform: none;
     margin: 0;
     color: #0d2335;
     font-weight: bold;
@@ -406,7 +406,7 @@ nav.main_menu {
     display: block;
     color: #758ca0;
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 500;
     padding: 45px 0;
     transition: all .5s;
@@ -553,7 +553,7 @@ nav.main_menu {
 .sidebar-menu > li > a {
     font-size: 16px;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: none;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -562,7 +562,7 @@ nav.main_menu {
     padding: 5px 25px;
     font-size: 14px;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .sidebar-menu .sidebar-submenu > li:hover > a {
@@ -1620,7 +1620,7 @@ textarea.form_control {
 .widget_box_1 .news_post .news_single .news_link a.post_admin {
     color: #8fa3b4;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .widget_box_1 .news_post .news_single .news_link a.post_admin i {
@@ -3146,7 +3146,7 @@ textarea.form_control {
 .breadcrumb_text ul li a {
     color: #fff;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .breadcrumb_text ul li:after {
@@ -4097,7 +4097,7 @@ textarea.form_control {
     background: #0d2335;
     color: #fff;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
     margin-bottom: 10px;
 }
 
@@ -4425,7 +4425,7 @@ textarea.form_control {
 
 .portfolio_box_3 .portfolio_info a.btn_link {
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #758ca0;
 }
 
@@ -5188,7 +5188,7 @@ ul.social_link li a:focus {
 .comment_list_area .single_comment .comment_text h5 span {
     float: right;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .comment_list_area .single_comment .comment_text h5 span a {
@@ -5320,13 +5320,13 @@ textarea:focus{
 .info_button a.info_btn {
     font-size: 16px;
     color: #a4b2bf;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .info_link {
     font-size: 16px;
     color: #a4b2bf;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 

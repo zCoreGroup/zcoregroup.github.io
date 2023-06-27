@@ -99,6 +99,10 @@ h6 {
     font-size: 16px;
 }
 
+h7 {
+    font-size: 14px;
+}
+
 p {
     margin: 0;
 }
@@ -111,6 +115,8 @@ ul {
 li {
     list-style: none;
 }
+
+
 
 input,
 input:hover,

@@ -71,9 +71,22 @@ h6 {
     font-family: 'Gilroy-Bold.ttf';
     text-transform: none;
     margin: 0;
-    color: #0d2335;
+    color: #000000; /* Default color for light mode */
     font-weight: bold;
 }
+
+/* Override color for dark mode */
+@media (prefers-color-scheme: dark) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #000000;  /* or any color you want for dark mode */
+    }
+}
+
 
 h1 {
     font-size: 72px;
@@ -100,7 +113,11 @@ h6 {
 }
 
 h7 {
-    font-size: 14px;
+    font-family: 'Gilroy-Bold.ttf';
+    text-transform: none;
+    margin: 0;
+    color: #000000; /* Default color for light mode */
+    font-weight: bold;
 }
 
 p {
@@ -1337,7 +1354,7 @@ textarea.form_control {
 }
 .team_title span.theme_span,
 .team_title h2 {
-    color: #fff;
+    color: #000000;
 }
 
 .team_box_1 {

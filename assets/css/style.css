@@ -3157,6 +3157,7 @@ textarea.form_control {
     height: 100%;
     background: rgb(13, 35, 53);
     opacity: 0.322;
+    padding: 10px; /* or whatever padding is needed */
 }
 
 .breadcrumb_text {
@@ -3202,6 +3203,7 @@ textarea.form_control {
 */
 .zCore_about_3 .about_img_3 {
     position: relative;
+    margin: 10px; /* or whatever margin is needed */
 }
 
 .zCore_about_3 .about_img_3 .overlay_img {
@@ -5106,8 +5108,17 @@ textarea.form_control {
 }
 .zCore_about.zCore_about_3 {
     padding-top: 116px;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .zCore_about.zCore_about_3 {
+        padding-top: 58px; /* half of 116px */
+        padding-bottom: 35px; /* half of 70px */
+    }
+}
+
 .content_share_area,
 .about_admin,
 .comment_area {

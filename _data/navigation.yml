@@ -1,8 +1,8 @@
  - text: Home
-   url: ""
+   url: "/"
 
  - text: Solutions
-   url: "solutions"
+   url: "/solutions/"
   #  dropdown:
   #   - text: "Portfolios 01"
   #     url: "portfolios_1"
@@ -14,17 +14,17 @@
   #     url: "case_details"
 
  - text: "Insights"
-   url: "blog"
+   url: "/blog/"
 
  - text: Careers
-   url: "careers"
+   url: "/careers/"
    dropdown:
     - text: "About"
-      url: "about"
+      url: "/about/"
     - text: "Team"
-      url: "team"
+      url: "/team/"
     - text: "Join"
-      url: "careers"
+      url: "/join/"
 
  - text: "Contact"
-   url: "contact"
+   url: "/contact/"

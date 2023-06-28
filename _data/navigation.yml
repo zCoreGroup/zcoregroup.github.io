@@ -24,7 +24,7 @@
     - text: "Team"
       url: "/team"
     - text: "Join"
-      url: "//join/"
+      url: "/join/"
 
  - text: "Contact"
    url: "/contact"

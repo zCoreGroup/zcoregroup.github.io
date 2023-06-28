@@ -4,7 +4,7 @@ title: "Appealing Your Health Care Decisions as a Veteran: Navigating the Proces
 tags: health
 categories: [health care]
 author: mackenzie
-post_image: "/assets/images/blog/line.jpg"
+post_image: "/assets/images/blog/appeal-post.jpg"
 ---
 
 As a Veteran, navigating the complexities of health care decisions and eligibility can sometimes be challenging. It's essential to understand your rights and options when it comes to appealing decisions that you disagree with. In this blog post, we'll explore the process of appealing health care decisions within the VA system and provide guidance on how to proceed.

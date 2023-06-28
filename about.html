@@ -15,8 +15,8 @@ title: "About Us"
                     <div class="overlay_img" style="margin-bottom: 10px;"></div>
                     <div class="overlay_content">
                         {% for item in site.about %}
-                            {% if item.title == "25+" %}
-                                <h3>{{ item.title }}</h3>
+                            {% if item.title == "25+ Total Years Of Excellence <br>In Government Software Contracting" %}
+                                <h3 style="color: rgb(0, 0, 0);">{{ item.title }}</h3>
                             {% endif %}
                             <p>{{ item.detail }}</p>
                             <p>{{ item.text }}</p>
@@ -46,8 +46,34 @@ title: "About Us"
     </div>
 </section>
 <!-- End zCore_about section -->
+<!---start zCore_history section-->
+<section class="zCore_service zCore_service_3 light_bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="theme_title text-center">
+                    <span class="theme_span">history</span>
+                    <h2>Who We Are</h2>
+                </div>
+            </div>
+        </div>
+
+        {% for page in site.about %}
+            {% if page.title == "Our History" %}
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h7 class="theme_content text-justify custom-text-style">
+                        {{ page.content | markdownify }}
+                    </h7>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
 
 
+<!--end zCore_history section-->
 <!-- Start zCore_service section -->
 <section class="zCore_service zCore_service_3 light_bg">
     <div class="container">
@@ -113,7 +139,7 @@ title: "About Us"
             </div>
         </div>
     </div>
-
+</section>
 <!-- Start call_to_action_3 section -->
 <section class="call_to_action_3 dark_blue section_padding">
     <div class="container">

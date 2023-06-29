@@ -1,13 +1,13 @@
 ---
 author: mackenzie
 categories:
-- technology
+- Business
 layout: post
 post_image: /assets/images/blog/twitter.png
 tags:
 - tech
 - twitter
-title: 'Unveiling the Perils of Parkinson's Law: Lessons from Andrew Wilkinson's Provocative Tweet '
+title: "Unveiling the Perils of Parkinson's Law: Lessons from Andrew Wilkinson's Provocative Tweet"
 ---
 >
 In a recent tweet that stirred up quite a storm, tech entrepreneur Andrew Wilkinson shed light on a seemingly astonishing event in the corporate world. According to Wilkinson, Elon Musk, the renowned innovator, allegedly terminated a significant number of employees at Twitter. As we delve into the implications of this tweet, we uncover a concept called Parkinson's Law, a hidden culprit that can hamper efficiency and innovation within organizations. Join us on this intriguing exploration of how Parkinson's Law influences the complexities and growth of tech companies.

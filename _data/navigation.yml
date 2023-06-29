@@ -1,5 +1,5 @@
  - text: Home
-   url: "/"
+   url: ""
 
  - text: Solutions
    url: "/solutions/"
@@ -29,20 +29,15 @@
     # - text: "Events"
     #   url: "/events"
 
-
  - text: Careers
-   url: "/careers"
-
+   url: "careers"
    dropdown:
     - text: "About"
-      url: "/about"
-
+      url: "about"
     - text: "Team"
-      url: "/team"
-
+      url: "team"
     - text: "Join"
-      url: "/careers"
-
+      url: "careers"
 
  - text: "Contact"
-   url: "/contact"
+   url: "contact"

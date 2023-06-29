@@ -2,17 +2,21 @@
    url: "/"
 
  - text: Solutions
-   url: "/solutions"
+   url: "/solutions/"
 
-  #  dropdown:
-  #   - text: "Portfolios 01"
-  #     url: "portfolios_1"
-  #   - text: "Portfolio 02"
-  #     url: "portfolios_2"
-  #   - text: "Portfolio 03"
-  #     url: "portfolios_3"
-  #   - text: "Portfolio details"
-  #     url: "case_details"
+   dropdown:
+    - text: "Software Development"
+      url: "software-development"
+    - text: "DevOps"
+      url: "devops"
+    - text: "Data Analytics"
+      url: "data-analytics"
+    - text: "Technology Innovation"
+      url: "technology-innovation"
+    - text: "Professional Services"
+      url: "professional-services"
+    - text: Transformation
+      url: "transformation"
 
  - text: "Insights"
    url: "/blog"

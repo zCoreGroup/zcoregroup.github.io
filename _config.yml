@@ -3,7 +3,7 @@ title: "zCoreGroup - Bleeding Edge Government Software Contracting"
 description: >- # this means to ignore newlines until "baseurl:"
   zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zcoregroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zcoregroup.com" # the base hostname & protocol for your site, e.g. http://example.com
 phone_number: ""
 email: "connect@zcoregroup.com"
 company_name: "zCoreGroup"

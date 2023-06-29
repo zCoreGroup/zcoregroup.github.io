@@ -19,7 +19,15 @@
       url: "transformation"
 
  - text: "Insights"
-   url: "/blog"
+   url: "/blog/"
+
+   dropdown:
+    # - text: "Software"
+    #   url: "/category/software"
+    # - text: "News"
+    #   url: "/news"
+    # - text: "Events"
+    #   url: "/events"
 
 
  - text: Careers

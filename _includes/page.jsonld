@@ -1,0 +1,30 @@
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "headline": "{{ page.title }}",
+  "image": "{{ site.url }}{{ page.post_image }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "zCore Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/logos/logo_3.webp"
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  "description": "{{ page.excerpt | strip_html | normalize_whitespace }}",
+  "articleBody": "{{ page.content | strip_html | normalize_whitespace }}",
+  "keywords": "{{ page.tags | join: ', ' }}",
+  "articleSection": "{{ page.categories | join: ', ' }}",
+  "commentCount": "0"
+}
+

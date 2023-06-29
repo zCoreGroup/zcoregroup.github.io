@@ -51,7 +51,7 @@ To add a new page to the site, all you need to do is create a markdown file in t
 `---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---`
 This will create a page that uses the layout found in _layouts/page.html and sets the title of the page to About. The permalink is the URL of the page. The page will be accessible at https://zcoregroup.com/about.
 

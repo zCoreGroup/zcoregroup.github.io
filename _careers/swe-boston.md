@@ -6,7 +6,33 @@ apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'
 link: "/careers/swe-boston"
 order: 1
-tags:
+tags: 
+  - Software Engineering
+  - Full Stack Development
+  - Java
+  - JavaScript
+  - Python
+  - DevSecOps
+  - Git
+  - Cloud Migration
+  - Concourse
+  - GitLabCI
+  - SonarQube
+  - Fortify
+  - ThreadFix
+  - React
+  - Vue
+  - Extreme Programming
+  - Docker
+  - Kubernetes
+  - Mentoring
+  - Secret Clearance
+location: "near Boston (US)"
+salary_min: "100000"
+salary_max: "150000"
+validThrough: "2023-12-31"
+city: Hanscom AFB
+state: MA
 ---
 
 ## Location: 

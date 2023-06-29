@@ -6,7 +6,29 @@ apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'
 link: "/careers/junior-swe-boston"
 order: 2
-tags:
+tags: 
+  - Junior Software Engineer
+  - Full Stack Development
+  - Java
+  - JavaScript
+  - Python
+  - DevSecOps
+  - React
+  - Vue
+  - Extreme Programming
+  - Docker
+  - Kubernetes
+  - Secret Clearance
+  - Cloud Migration
+  - Software Design
+  - Test Authoring
+  - Mentoring
+location: "near Boston (US)"
+salary_min: "70000"
+salary_max: "100000"
+validThrough: "2023-12-31"
+city: Hanscom AFB
+state: MA
 ---
 
 ## Job Title:

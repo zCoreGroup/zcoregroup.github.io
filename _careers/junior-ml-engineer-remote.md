@@ -6,7 +6,27 @@ apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
 link: "/careers/junior-ml-engineer-remote"
 order: 1
-tags:
+tags: 
+  - Junior Machine Learning Engineer
+  - Python
+  - FastAPI
+  - LangChain
+  - Notion API
+  - Typescript
+  - Flutter
+  - Document Management System
+  - GPT-4
+  - AI Technologies
+  - Web Frameworks
+  - PDFMiner
+  - python-docx
+  - HuggingFace
+location: "Remote (US)"
+salary_min: "70000"
+salary_max: "100000"
+validThrough: "2023-12-31"
+city: Austin
+state: TX
 ---
 
 ## Job Title:

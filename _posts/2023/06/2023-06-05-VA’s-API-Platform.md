@@ -26,7 +26,7 @@ Operating at the highest levels, the VA API platform demonstrates operational ex
 
 The VA API platform exemplifies VA's commitment to modernizing its digital infrastructure to better serve Veterans' needs. By harnessing the power of APIs, the VA drives innovation, provides greater access to information and resources, and improves the delivery of services to Veterans. It stands as a testament to the VA's ability to adapt and excel in the rapidly evolving technology landscape while ensuring a delightful user experience for both VA front-line staff and Veterans.
 
-To learn more about the VA API platform, visit the VA developer portal.
+To learn more about the VA API platform, visit the [VA developer portal](https://developer.va.gov).
 
 Implementing VA's API Platform into Your Workflow with zCore
 

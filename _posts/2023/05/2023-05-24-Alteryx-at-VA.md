@@ -13,7 +13,7 @@ In today's data-driven world, organizations are constantly seeking innovative to
 
 At its core, Alteryx provides a comprehensive suite of features to address various data challenges. The data transformation toolkit encompasses four key areas: Data Prep/Quality, Geospatial, Predictive/Machine Learning, and Text/Unstructured Analysis. These tools enable users to cleanse, transform, and analyze data from diverse sources, ensuring data quality and accuracy. With Alteryx, users can create visual workflows, automating manual and repetitive data tasks without the need for extensive coding. It offers both a no-code interface for ease of use and a code-friendly environment for advanced users who prefer scripting. Additionally, Alteryx allows users to schedule workflow executions on a server, ensuring automated and timely data processing.
 
-Let's dive into how Alteryx can benefit different user personas:
+## Let's dive into how Alteryx can benefit different user personas:
 
 Data Workers: Alteryx simplifies their tasks by providing a low-code platform that reduces the manual burden. Automation capabilities eliminate repetitive work, enabling data workers to focus on more strategic activities. Moreover, the short learning curve of Alteryx allows data workers to quickly level up their skillsets and become proficient in data analysis.
 
@@ -25,7 +25,7 @@ Consumers: Alteryx empowers consumers by providing quicker and more accurate dec
 
 Furthermore, Alteryx boasts agnostic integration with over 100 direct connectors, APIs, and command line script interoperability. This flexibility allows seamless integration with various data systems and empowers users to work with their preferred tools and platforms.
 
-When it comes to values, Alteryx delivers significant advantages:
+## When it comes to values, Alteryx delivers significant advantages:
 
 Save time and money: By automating manually intensive and repetitive data tasks, Alteryx enables organizations to save valuable time and resources. The increased efficiency translates into cost savings and improved productivity.
 

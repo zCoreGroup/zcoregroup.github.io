@@ -12,23 +12,23 @@ title: Exploring the Complexity of Government Technology Adoption
 
 The intricate relationship between technology and the public sector has long been a subject of discussion. As the digital revolution continues to reshape our world, governments are faced with the challenge of adopting technology to improve service provision. However, unlike the private sector, government entities have been historically slower in embracing technological advancements. In this blog post, we will delve into the perplexing realm of government technology adoption, analyzing the reasons behind this sluggishness and the potential benefits and risks associated with integrating technology into public services.
 
-The Landscape of Government Employment
+## The Landscape of Government Employment
 
 In the United States, over 20 million people, constituting approximately 15% of the workforce, are employed by local, state, or federal government entities. Local government employs the majority, with roles ranging from schools and police departments to county social service agencies. State government encompasses institutions such as universities, tax bureaus, and state hospitals. The federal government employs individuals in various sectors, including post offices and national parks. Additionally, millions work for private employers funded by public contracts or grants, further entangling the public and private sectors.
 
-The Slow Pace of Government Technology Adoption
+## The Slow Pace of Government Technology Adoption
 
 With the exception of the military, government entities have faced numerous obstacles in adopting technology at a similar pace to the private sector. Several factors contribute to this disparity. Limited funding, heightened public scrutiny, complex contracting processes, insufficient internal IT capacity, and agency fragmentation have impeded the swift integration of technology. As a result, the vision of a fully digital government, which federal policymakers outlined in the 1990s, remains unrealized. However, the utilization of technology in the public sector holds immense promise for both workers and the public, with potential benefits ranging from streamlining processes to enhancing accessibility and expediting assistance.
 
-Bursting the Bubble: Considerations for Technology Implementation
+## Bursting the Bubble: Considerations for Technology Implementation
 
 Despite the prospects of improved efficiency, caution must be exercised when implementing technology in the public sector. The recent surge in technology funding has opened floodgates for consultants and contractors pitching their products. It is crucial to acknowledge that technology alone cannot compensate for the lack of investment in the public sector that has persisted for the past two decades. Merely layering technology atop overwhelmed workers and processes without the capacity for evaluation and recalibration may lead to unforeseen consequences. The variation in size, resources, mission, and social context across different public sector entities adds complexity to technology implementation. While revenues have failed to keep pace with the costs of providing government services since 2008, public sector employment has stagnated or declined, in contrast to private sector growth and increased demand for government services.
 
-Navigating the Risks: Responsible Technology Adoption
+## Navigating the Risks: Responsible Technology Adoption
 
 Certain technologies, particularly those intended to supplement or replace human decision-making, present inherent risks. Research indicates that individuals are often hesitant to deviate from the decisions suggested by analytics designed to augment their judgment, which can result in suboptimal outcomes. Furthermore, advanced technologies have been shown to perpetuate or exacerbate racial and ethnic biases. Hence, governments must approach technology adoption with deliberation and caution. Involving workers in all stages, including scoping, design, implementation, and evaluation of advanced technologies, can safeguard public trust. Implementing technology as a cost-saving measure must be accompanied by recognition of the vital role public workers play in assessing whether systems serve the intended beneficiaries.
 
-Exploring Government Technology Applications
+## Exploring Government Technology Applications
 
 Within the public sector, technology assumes various roles. To understand the breadth of government technology adoption, we categorize technologies into the following five overlapping groups:
 

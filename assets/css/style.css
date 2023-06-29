@@ -2645,6 +2645,7 @@ textarea.form_control {
     top: 0px;
     width: 100%;
     z-index: 337;
+    padding: 10px 0;  /* Add a padding of 10px to the top and bottom, and 0 to the left and right */
 }
 .zCore_header_3.sticky{
     position: fixed;
@@ -2655,7 +2656,10 @@ textarea.form_control {
     background: #222;
 }
 
-
+.zCore_header_3 img {  /* This rule targets images inside the .zCore_header_3 class */
+    max-height: calc(100% - 20px);  /* constrain the height of the image to the height of the parent element (100%) minus the padding (20px) */
+    width: auto;  /* maintain the aspect ratio of the image */
+}
 
 
 .zCore_header_3.sticky .main_menu ul li > a {

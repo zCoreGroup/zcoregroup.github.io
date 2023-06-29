@@ -1,43 +1,62 @@
  - text: Home
-   url: ""
+   url: "/"
 
  - text: Solutions
    url: "/solutions/"
 
    dropdown:
     - text: "Software Development"
-      url: "software-development"
+      url: "/solutions/software-development"
     - text: "DevOps"
-      url: "devops"
+      url: "/solutions/devops"
     - text: "Data Analytics"
-      url: "data-analytics"
+      url: "/solutions/data-analytics"
     - text: "Technology Innovation"
-      url: "technology-innovation"
+      url: "/solutions/technology-innovation"
     - text: "Professional Services"
-      url: "professional-services"
+      url: "/solutions/professional-services"
     - text: Transformation
-      url: "transformation"
+      url: "/solutions/transformation"
 
  - text: "Insights"
    url: "/blog/"
 
    dropdown:
-    # - text: "Software"
-    #   url: "/category/software"
-    # - text: "News"
-    #   url: "/news"
-    # - text: "Events"
-    #   url: "/events"
+    - text: "Announcements"
+      url: "/category/announcements/"
+    - text: "zCG"
+      url: "/category/zcg/"
+    - text: "technology"
+      url: "/category/technology"
+    - text: "Software Development"
+      url: "/category/software-development"
+    - text: "Design"
+      url: "/category/design"
+    - text: "Process"
+      url: "/category/process"
+    - text: "Business"
+      url: "/category/business"
+    - text: "Information"
+      url: "/category/information"
+    - text: "Health Care"
+      url: "/category/health-care"
+    - text: "Contracting"
+      url: "/category/contracting"
+
 
  - text: Careers
-   url: "careers"
+   url: "/careers"
+
    dropdown:
     - text: "About"
-      url: "about"
+      url: "/about"
+
     - text: "Team"
-      url: "team"
+      url: "/team"
+
     - text: "Join"
-      url: "careers"
+      url: "/careers"
+
 
  - text: "Contact"
-   url: "contact"
+   url: "/contact"

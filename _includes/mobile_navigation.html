@@ -4,11 +4,11 @@
 {% for navigation in site.data.navigation %}
 
     <li>
-        <a href="{{ site.baseurl }}{{navigation.url}}">{{navigation.text}}  {% if navigation.dropdown %} <span><i class="far fa-angle-down"></i></span> {% endif %}</a>
+        <a href="{{navigation.url}}">{{navigation.text}}  {% if navigation.dropdown %} <span><i class="far fa-angle-down"></i></span> {% endif %}</a>
         {% if navigation.dropdown %}
             <ul class="sidebar-submenu">
               {% for dropdown in navigation.dropdown %}
-                <li><a href="{{ site.baseurl }}{{dropdown.url}}">{{dropdown.text}}</a></li>
+                <li><a href="{{dropdown.url}}">{{dropdown.text}}</a></li>
               {% endfor %}
             </ul>
         {% endif %}

@@ -1,9 +1,31 @@
  - text: Home
    url: ""
+   url: ""
 
  - text: Solutions
+<<<<<<< HEAD
    url: "/solutions/"
 
+=======
+   url: "solutions"
+  #  dropdown:
+  #   - text: "Portfolios 01"
+  #     url: "portfolios_1"
+  #   - text: "Portfolio 02"
+  #     url: "portfolios_2"
+  #   - text: "Portfolio 03"
+  #     url: "portfolios_3"
+  #   - text: "Portfolio details"
+  #     url: "case_details"
+
+ - text: "Insights"
+   url: "blog"
+   url: "/blog/"
+
+
+ - text: Careers
+   url: "careers"
+>>>>>>> 0cfa5ab44ad88e861ce8b17fe98cfbbb6854508c
    dropdown:
     - text: "Software Development"
       url: "/solutions/software-development"
@@ -48,10 +70,14 @@
    dropdown:
     - text: "About"
       url: "about"
+      url: "about"
     - text: "Team"
+      url: "team"
       url: "team"
     - text: "Join"
       url: "careers"
+      url: "careers"
 
  - text: "Contact"
+   url: "contact"
    url: "contact"

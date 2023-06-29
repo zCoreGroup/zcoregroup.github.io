@@ -14,8 +14,8 @@
   "hiringOrganization": {
     "@type": "Organization",
     "name": "zCore Group",
-    "sameAs": "https://zcoregroup.com",
-    "logo": "https://zcoregroup.com{{ page.apps_logo }}"
+    "sameAs": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/images/logos/logo_3.webp"
   },
   "jobLocation": {
     "@type": "Place",

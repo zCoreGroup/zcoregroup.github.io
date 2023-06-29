@@ -24,8 +24,6 @@
    dropdown:
     - text: "Announcements"
       url: "/category/announcements/"
-    - text: "zCG"
-      url: "/category/zcg/"
     - text: "technology"
       url: "/category/technology"
     - text: "Software Development"

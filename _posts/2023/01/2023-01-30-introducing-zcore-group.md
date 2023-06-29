@@ -2,7 +2,6 @@
 author: alexis
 categories:
 - announcements
-- ZCG
 layout: post
 post_image: /assets/images/logos/logo_3.webp
 tags:

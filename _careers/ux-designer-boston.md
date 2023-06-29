@@ -6,7 +6,26 @@ apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'
 link: "/careers/ux-designer-boston"
 order: 1
-tags:
+tags: 
+  - UX Design
+  - User Experience
+  - Figma
+  - Adobe Creative Suite
+  - User Research
+  - Wireframing
+  - Prototyping
+  - Visual Design
+  - Iterative Development
+  - Lean UX
+  - Agile Development
+  - Secret Clearance
+  - Product Design
+location: "near Boston (US)"
+salary_min: "70000"
+salary_max: "100000"
+validThrough: "2023-12-31"
+city: Hanscom AFB
+state: MA
 ---
 
 ## Location: 

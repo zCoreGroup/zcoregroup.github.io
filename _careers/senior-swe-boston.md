@@ -6,7 +6,29 @@ apps_logo: "/assets/images/solutions/professional_services.jpeg"
 apps_icon: 'pe-7s-copy-file'
 link: "/careers/senior-swe-boston"
 order: 1
-tags:
+tags: 
+  - Senior Software Engineer
+  - Leadership
+  - Software Architecture
+  - Tech Trends
+  - Cloud Migration
+  - Rapid Prototyping
+  - Mentoring
+  - DevOps
+  - JavaScript
+  - Java
+  - React
+  - Vue
+  - Extreme Programming
+  - Docker
+  - Kubernetes
+  - Secret Clearance
+location: "near Boston (US)"
+salary_min: "150000"
+salary_max: "190000"
+validThrough: "2023-12-31"
+city: Hanscom AFB
+state: MA
 ---
 
 ## Location: 

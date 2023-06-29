@@ -6,7 +6,26 @@ apps_logo: "/assets/images/careers/open-position.jpeg"
 apps_icon: 'pe-7s-briefcase'
 link: "/careers/idiq-contract-conductor"
 order: 2
-tags:
+tags: 
+  - IDIQ
+  - Project Management
+  - Contract Management
+  - Government Contracts
+  - Remote Work
+  - Hybrid
+  - Strategic Management
+  - Procurement
+  - Risk Management
+  - Leadership
+  - Business
+  - Management
+  - Federal
+location: "Hybrid (DC)"
+salary_min: "70000"
+salary_max: "100000"
+validThrough: "2023-12-31"
+city: Washington
+state: DC
 ---
 
 ## Location: 

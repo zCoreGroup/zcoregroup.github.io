@@ -3,6 +3,9 @@ layout: default
 ---
 
 {% include header_2.html %}
+<script type="application/ld+json">
+    {% include page.jsonld %}
+  </script>
 {% include page_header_2.html %}
 <!-- Start single_blog_main section -->
 <section class="zCore_single_blog single_blog_main section_padding">
@@ -17,7 +20,7 @@ layout: default
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="tags_area">
-                                    <h4>Releted Tags</h4>
+                                    <h4>Related Tags</h4>
                                     {{page | tags | capitalize | replace: ",","  "}}
                                 </div>
                             </div>
@@ -52,26 +55,6 @@ layout: default
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="discus-comments mt-5">
-                	<div id="disqus_thread"></div>
-					<script>
-
-
-					var disqus_config = function () {
-					 this.page.url = '{{site.url}}{{page.url}}';  
-					 this.page.identifier = '{{page.url}}'; 
-					};
-					
-					(function() { // DON'T EDIT BELOW THIS LINE
-					var d = document, s = d.createElement('script');
-					s.src = 'https://zCore-netlify-com.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-					})();
-					</script>
-					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-					<script id="dsq-count-scr" src="//zCore-netlify-com.disqus.com/count.js" async></script>
                 </div>
             </div>
             <div class="col-lg-4">

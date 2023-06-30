@@ -11,19 +11,21 @@ title: "Tailored Solutions"
         <div class="row">
             {% for service in site.services %}
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="service_box service_box_1">
-                    <a class="service_img" href="#">
-                        <img src="{{relative_url}}/assets/images/service_1.jpg" alt="">
-                        <div class="service_icon">
-                            <span class="{{service.apps_icon}}"></span>
-                            <i class="icon_btn fal fa-arrow-right"></i>
+                <a href="{{ service.link }}">
+                    <div class="service_box service_box_1">
+                        <div class="service_img">
+                            <img src="{{ site.baseurl }}/assets/images/service_1.jpg" alt="">
+                            <div class="service_icon">
+                                <span class="{{service.apps_icon}}"></span>
+                                <i class="icon_btn fal fa-arrow-right"></i>
+                            </div>
                         </div>
-                    </a>
-                    <div class="service_info">
-                        <h4>{{service.title}}</h4>
-                        <p>{{service.description}}</p>
+                        <div class="service_info">
+                            <h4>{{service.title}}</h4>
+                            <p>{{service.description}}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>
@@ -35,7 +37,7 @@ title: "Tailored Solutions"
     <div class="map_pattern"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="map_left_box">
                     <div class="map_box phone_box wow slideInLeft">
                         <div class="icon">
@@ -50,7 +52,7 @@ title: "Tailored Solutions"
                         <img src="{{relative_url}}/assets/images/map_1.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-6">
                 <div class="map_right_box">
                     <div class="map_img_box wow slideInUp">
@@ -77,13 +79,13 @@ title: "Tailored Solutions"
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="call_title_3 ">
-                    <span class="theme_span">Request for Proposal (RFQ)</span>
+                    <span class="theme_span">Request for Proposal</span>
                     <h2>What can we do to help you succeed?</h2>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">Request a Quote</a>
+                    <a href="/contact/" class="zCore_btn qoute_btn_3">Request a Quote</a>
                 </div>
             </div>
         </div>

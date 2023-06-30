@@ -10,33 +10,70 @@ title: "About Us"
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s">
+                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s" style="position: relative;">
                     <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">
-                    <div class="overlay_img"></div>
+                    <div class="overlay_img" style="margin-bottom: 10px;"></div>
                     <div class="overlay_content">
-                        <h2>25+</h2>
-                        <p>Years of experience</p>
+                        {% for item in site.about %}
+                            {% if item.title == "25+ Total Years Of Excellence <br>In Government Software Contracting" %}
+                                <h3 style="color: rgb(0, 0, 0);">{{ item.title }}</h3>
+                            {% endif %}
+                            <p>{{ item.detail }}</p>
+                            <p>{{ item.text }}</p>
+                        {% endfor %}
+                        <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
+                            <a href="/team/" class="zCore_btn" style="margin: 5px;">Meet the Team</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            {% for item in site.about %}
             <div class="col-lg-6">
                 <div class="about_right">
                     <div class="about_content about_content_3 zCore_content_box">
-                        <span class="theme_span">about us</span>
-                        <h2>Many Companies <br>Provide Services</h2>
-                        <h4>Voice and Data Systems are crucial to the success or failure of most businesses. any companies provide laptops, cell phones.</h4>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service and the best rates for their clients. Their new professional telecom audit service helps.</p>
+                        <h3>{{ item.description }}</h3>
+                        <p>{{ item.extra_detail }}</p>
                     </div>
+                    {% if forloop.first %}
                     <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
-                        <a href="#" class="zCore_btn">learn more</a>
-                        <a href="#" class="zCore_btn play_btn"><i class="far fa-play"></i></a>
+                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 10px;">solutions</a>
                     </div>
+                    {% endif %}
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 <!-- End zCore_about section -->
+<!---start zCore_history section-->
+<section class="zCore_service zCore_service_3 light_bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="theme_title text-center">
+                    <span class="theme_span">history</span>
+                    <h2>Who We Are</h2>
+                </div>
+            </div>
+        </div>
+
+        {% for page in site.about %}
+            {% if page.title == "Our History" %}
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h7 class="theme_content text-justify custom-text-style">
+                        {{ page.content | markdownify }}
+                    </h7>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+
+<!--end zCore_history section-->
 <!-- Start zCore_service section -->
 <section class="zCore_service zCore_service_3 light_bg">
     <div class="container">
@@ -44,7 +81,7 @@ title: "About Us"
             <div class="col-lg-6">
                 <div class="theme_title text-center">
                     <span class="theme_span">service</span>
-                    <h2>what we do</h2>
+                    <h2>What We Do</h2>
                 </div>
             </div>
         </div>
@@ -56,9 +93,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>What We Can Do</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Innovation" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/solutions/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -69,9 +110,13 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Become A Member</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
+                            {% for page in site.delivery %}
+                                {% if page.title == "Deliver Insights" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/blog/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,158 +127,32 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                        <h3>Terms & Conditions</h3>
-                        <p>Representing all of the major telecom companies Geeks On Call finds the right service. </p>
-                        <a href="#" class="categories_btn"><i class="far fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="zCore_counterup zCore_counterup_1 zCore_about_counterup">
-        <div class="counterup_container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter_box counter_box_1">
-                        <div class="counter_icon">
-                            <i class="pe-7s-users"></i>
-                        </div>
-                        <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
-                            <h6>Happy Clients</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter_box counter_box_1">
-                        <div class="counter_icon">
-                            <i class="pe-7s-helm"></i>
-                        </div>
-                        <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
-                            <h6>Product Launch</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter_box counter_box_1">
-                        <div class="counter_icon">
-                            <i class="pe-7s-help2"></i>
-                        </div>
-                        <div class="counter_info">
-                            <h2><span class="counter">786</span>+</h2>
-                            <h6>Cup Of Coffee</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter_box counter_box_1">
-                        <div class="counter_icon">
-                            <i class="pe-7s-help2"></i>
-                        </div>
-                        <div class="counter_info">
-                            <h2><span class="counter">100</span>+</h2>
-                            <h6>Awards Winning</h6>
-                        </div>
+                        {% for page in site.delivery %}
+                                {% if page.title == "Deliver Results" %}
+                                    <h3>{{ page.title }}</h3>
+                                    <p>{{ page.description }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        <a href="/contact/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End zCore_service section -->
-<!-- Start zCore_video section -->
-<section class="zCore_video zCore_video_2 zCore_video_3" style="background-image: url({{relative_url}}/assets/images/video_bg_3.jpg);">
-    <div class="zCore_overlay"></div>
-    <div class="about_video_main">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="video_play text-center">
-                        <a href="https://www.youtube.com/watch?v=3AtDnEC4zak" class="play_btn"><i class="fal fa-play"></i></a>
-                    </div>
-                    <div class="video_content text-center">
-                        <span class="theme_span">intro video</span>
-                        <h2>Geeks On Call has been<br>a nationwide leader</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End zCore_video section -->
-<!-- Start zCore_faq seciton -->
-<section class="zCore_faq zCore_faq_1">
-    <div class="container">
-        <div class="zCore_faq_area zCore_faq_area_4">
-            <div class="faq_left">
-                <div class="faq_content">
-                    <span class="theme_span">faq</span>
-                    <h2>get some<br>Answers</h2>
-                </div>
-                <div class="faq_accoridian_1">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"><span>01.</span>How can i install this theme?</a></h5>
-                            </div>
-                            <div id="collapseOne" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h5><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"><span>02.</span>How can i install this theme?</a></h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse show" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h5><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"><span>03.</span>How can i install this theme?</a></h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="heading4">
-                                <h5><a href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="false"><span>04.</span>How can i install this theme?</a></h5>
-                            </div>
-                            <div id="collapse4" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="faq_right" style="background-image: url({{relative_url}}/assets/images/faq_1.jpg);"></div>
-        </div>
-    </div>
-</section>
-<!-- End zCore_faq seciton -->
 <!-- Start call_to_action_3 section -->
 <section class="call_to_action_3 dark_blue section_padding">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="call_title_3 ">
-                    <span class="theme_span">call to action</span>
-                    <h2>Representing All Of The Major <br>Telecom Companies</h2>
+                    <span class="theme_span"></span>
+                    <h2>Bleeding Edge Software Solutions for Government</h2>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">get a qoute</a>
+                    <a href="/contact/" class="zCore_btn qoute_btn_3">Contact Us</a>
                 </div>
             </div>
         </div>

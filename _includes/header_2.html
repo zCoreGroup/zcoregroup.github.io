@@ -1,54 +1,21 @@
 <!-- Start zCore_header  -->
-<header class="zCore_header zCore_header_1">
-    <div class="header-menu-area d-none d-lg-block">
-        <div class="header_container_1 px-3">
-            <div class="zCore_logo_1">
-                <a href="{{site.url}}"><img src="{{site.site_logo_one}}" class="img-fluid" alt="{{site.title}}"/></a>
+<header class="zCore_header zCore_header_3">
+    <div class="header_container_3">
+        <div class="zCore_logo_3">
+            <a href="{{site.url}}"><img class="img-fluid" src="{{site.baseurl}}{{site.site_logo_three}}" alt="{{site.title}}"/></a>
+        </div>
+        <div class="zCore_main_menu zCore_main_menu_3">
+          {% include navigation.html %}
+        </div>
+        <div class="menu_get_right">
+            <div class="menu_get_icon search_icon">
+                <a href="#" class="search_btn search-open"><i class="far fa-search"></i></a>
             </div>
-            <div class="zCore_main_menu zCore_main_menu_1">
-             {% include navigation.html %}
-            </div>
-            <div class="header_menu_right">
-                <div class="menu_avatar_group">
-                    <div class="menu_avater d-none d-lg-inline-block">
-                        <img src="/assets/images/avatar_1.png" class="img-fluid" alt="">
-                    </div>
-                    <a class="btn_phone d-none d-lg-inline-block" href="tel:{{site.phone_number}}"><i class="far fa-phone"></i><span>{{site.phone_number}}</span></a>
-                </div>
-                <div class="menu_box_group">
-                    <div class="menu_box_list search_box">
-                        <a href="#" class="search_icon menu_box search-open"><i class="far fa-search"></i></a>
-                    </div>
-                </div>
+            <div class="menu_get_icon bar_icon menu_link_list">
+                <a href="#" class="menu_icon"><i class="far fa-bars"></i></a>
             </div>
         </div>
     </div>
-    <!-- mobile menu -->
-    <div class="mobile_menu">
-        <div class="row">
-            <div class="col-6">
-                <div class="mobile_menu_logo">
-                    <a href="{{site.url}}" class="logo">
-                        <img src="{{site.site_logo_one}}" alt="{{site.title}}"/>
-                    </a>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="mobile_menu_icon text-right">
-                    <a class="menu_icon"><i class="far fa-bars"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="sidenav_menu">
-            <div class="times_icon">
-                <a href="#" class="menu_icon"><i class="far fa-times"></i></a>
-            </div>
-            <div class="brand_logo text-center">
-                <a href="{{site.url}}"><img src="{{site.site_logo_two}}" class="img-fluid" alt="{{site.title}}"/></a>
-            </div>
-             {% include mobile_navigation.html %}
-        </div>
-    </div>
-    <!-- mobile menu -->
+   {% include mobile_menu.html %}
 </header>
-<!-- End zCore_header -->
+<!-- End zCore_header  -->

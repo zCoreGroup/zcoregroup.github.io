@@ -3,13 +3,14 @@ title: "zCoreGroup - Bleeding Edge Government Software Contracting"
 description: >- # this means to ignore newlines until "baseurl:"
   zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zcoregroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-phone_number: "(571) 228-2803"
-email: "ezenteno@zcoregroup.com"
+url: "https://zcoregroup.com" # the base hostname & protocol for your site, e.g. http://example.com
+phone_number: ""
+email: "connect@zcoregroup.com"
 company_name: "zCoreGroup"
 site_logo_one: "/assets/images/logos/logo_1.jpeg"
 site_logo_two: "/assets/images/logos/logo_1.jpeg"
 site_logo_three: "/assets/images/logos/logo_1.jpeg"
+site_logo_four: "/assets/images/logos/logo_3_white.png"
 site_name: "zCore Group"
 
 twitter_url: "https://twitter.com/zcoregroup"
@@ -23,12 +24,25 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-sitemap
 
 
 collections:
   services:
     output: true
   careers:
+    output: true
+  about:
+    output: true
+  team:
+    output: true
+  delivery:
+    output: true
+  action:
+    output: true
+  solutions:
+    output: true
+  contact:
     output: true
 
 ############################################################
@@ -40,16 +54,16 @@ pagination:
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+  debug: true
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 6
+  per_page: 3
 
   # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+  permalink: '/:num/' # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
@@ -87,7 +101,7 @@ pagination:
 
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: 'index'
+  indexpage: 'blog/index'
 
 ############################################################
 
@@ -96,10 +110,14 @@ tag_page_dir: tag
 tag_permalink_style: pretty
 
 jekyll-archives:
-  enabled: all
+  enabled:
+    - tags
+    - categories
   layout: category
   permalinks:
+    tag: '/tag/:name/'
     category: '/category/:name/'
+
 
 feed:
   collections:
@@ -108,3 +126,12 @@ feed:
     careers:
       output: true
       path: "/careers.xml"
+    about:
+      output: true
+      path: "/about.xml"
+    team:
+      output: true
+      path: "/team.xml"
+    solutions:
+      output: true
+      path: "/solutions.xml"

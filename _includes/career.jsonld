@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "{{ page.title }}",
+  "description": "{{ page.description | strip_html | normalize_whitespace | escape_once }}",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "zCore Group",
+    "value": "{{ page.title | slugify }}"
+  },
+  "datePosted": "{{ page.date | date_to_xmlschema }}",
+  "validThrough": "{{ page.validThrough | date_to_xmlschema }}",
+  "employmentType": "FULL_TIME",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "zCore Group",
+    "sameAs": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/images/logos/logo_3.webp"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{page.city}}",
+      "addressRegion": "{{page.state}}",
+      "addressCountry": "US"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "minValue": {
+      "@type": "Number",
+      "value": "{{ page.salary_min }}"
+    },
+    "maxValue": {
+      "@type": "Number",
+      "value": "{{ page.salary_max }}"
+    },
+    "unitText": "YEAR"
+  },
+  "jobLocationType": "{{ page.location }}",
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "skills": "{{ page.tags | join: ', ' }}",
+  "occupationalCategory": "{{ page.tags | join: ', ' }}"
+}

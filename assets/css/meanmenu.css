@@ -79,7 +79,7 @@ a.meanmenu-reveal {
 	color: #fff;
 	border-top: 1px solid #fff;
 	text-decoration: none;
-	text-transform: capitalize;
+	text-transform: none;
 }
 
 .mean-container .mean-nav ul li li a {
@@ -167,5 +167,5 @@ a.meanmenu-reveal {
 	position: absolute;
 	top: 12px;
 	font-family: 'Open sans';
-	text-transform: capitalize;
+	text-transform: none;
 }

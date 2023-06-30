@@ -2,21 +2,55 @@
    url: ""
 
  - text: Solutions
-   url: "solutions"
-  #  dropdown:
-  #   - text: "Portfolios 01"
-  #     url: "portfolios_1"
-  #   - text: "Portfolio 02"
-  #     url: "portfolios_2"
-  #   - text: "Portfolio 03"
-  #     url: "portfolios_3"
-  #   - text: "Portfolio details"
-  #     url: "case_details"
+   url: "/solutions/"
+
+   dropdown:
+    - text: "Software Development"
+      url: "/solutions/software-development"
+    - text: "DevOps"
+      url: "/solutions/devops"
+    - text: "Data Analytics"
+      url: "/solutions/data-analytics"
+    - text: "Technology Innovation"
+      url: "/solutions/technology-innovation"
+    - text: "Professional Services"
+      url: "/solutions/professional-services"
+    - text: Transformation
+      url: "/solutions/transformation"
 
  - text: "Insights"
-   url: "blog"
+   url: "/blog/"
+
+   dropdown:
+    - text: "Announcements"
+      url: "/category/announcements/"
+    - text: "technology"
+      url: "/category/technology"
+    - text: "Software Development"
+      url: "/category/software-development"
+    - text: "Design"
+      url: "/category/design"
+    - text: "Process"
+      url: "/category/process"
+    - text: "Business"
+      url: "/category/business"
+    - text: "Information"
+      url: "/category/information"
+    - text: "Health Care"
+      url: "/category/health-care"
+    - text: "Contracting"
+      url: "/category/contracting"
 
  - text: Careers
-   url: "careers"
+   url: "/careers"
+
+   dropdown:
+    - text: "About"
+      url: "/about"
+    - text: "Team"
+      url: "/team"
+    - text: "Join"
+      url: "/careers"
+
  - text: "Contact"
-   url: "contact"
+   url: "/contact"

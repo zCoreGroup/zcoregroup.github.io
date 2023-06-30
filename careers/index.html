@@ -11,25 +11,28 @@ title: "Careers"
         <div class="row">
             {% for career in site.careers %}
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="service_box service_box_1">
-                    <a class="service_img" href="#">
-                        <img src="{{ site.baseurl }}/assets/images/careers/{{ career.image }}" alt="">
-                        <div class="service_icon">
-                            <span class="{{career.icon}}"></span>
-                            <i class="icon_btn fal fa-arrow-right"></i>
+                <a href="{{ career.link }}">
+                    <div class="service_box service_box_1">
+                        <div class="service_img">
+                            <img src="{{ site.baseurl }}/assets/images/careers/{{ career.image }}" alt="">
+                            <div class="service_icon">
+                                <span class="{{career.icon}}"></span>
+                                <i class="icon_btn fal fa-arrow-right"></i>
+                            </div>
                         </div>
-                    </a>
-                    <div class="service_info">
-                        <h4>{{career.title}}</h4>
-                        <p>{{career.description}}</p>
+                        <div class="service_info">
+                            <h4>{{career.title}}</h4>
+                            <p style="text-align: justify; padding: 20px;">{{career.description}}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>
     </div>
 </section>
 <!-- End _careers section -->
+
 <!-- start zCore_map section -->
 <section class="zCore_map zCore_map_1 section_padding">
     <div class="map_pattern"></div>
@@ -41,10 +44,10 @@ title: "Careers"
                         <div class="icon">
                             <i class="fal fa-phone"></i>
                         </div>
-                        <div class="icon_info">
+                        <!-- <div class="icon_info">
                             <span>Phone Number</span>
                             <h2><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></h2>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="map_img_box wow slideInUp">
                         <img src="{{ site.baseurl }}/assets/images/map_1.jpg" class="img-fluid" alt="">
@@ -84,13 +87,11 @@ title: "Careers"
             </div>
             <div class="col-lg-3">
                 <div class="call_action_btn">
-                    <a href="#" class="zCore_btn qoute_btn_3">Learn More About Us</a>
+                    <a href="/about" class="zCore_btn qoute_btn_3">Learn More About Us</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- End call_to_action_3 section -->
-
-
 {% include footer_2.html %}

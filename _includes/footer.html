@@ -19,7 +19,7 @@
                         <div class="footer_widget_list">
                             <ul class="widget_list">
                                 <li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
-                                <li><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></li>
+                                <!-- <li><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -32,6 +32,7 @@
                                 <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
                             </ul>
+                            <!--sdvosb logo to go here-->
                         </div>
                     </div>
                 </div>
@@ -46,7 +47,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copyright_text">
-                    <p>Copyright By {{site.company_name}} - {{date | format: "Y"}}</p>
+                    <p>Copyright {{ site.company_name }} - {{ 'now' | date: "%Y" }}</p>
                 </div>
             </div>
             <div class="col-lg-6">

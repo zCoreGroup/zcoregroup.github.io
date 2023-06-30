@@ -1,5 +1,5 @@
 /*-------------------------------------
-Template Name: zCore  
+Template Name: zCore
 Template URI: https://ryetheme.com/
 Description: IT Solutions and Services Company HTML Template.
 Author: webtend
@@ -26,9 +26,9 @@ CSS INDEX:-
 14.faq.html css
 15.shop.html css
 16.shop_2.html css
-17.shop_details.html 
+17.shop_details.html
 18.blog_grid.html css
-19.blog_standard.html css 
+19.blog_standard.html css
 21.blog_details.html css
 22.contact.html css
 23.comeingsoon.html css
@@ -41,7 +41,7 @@ CSS INDEX:-
 /*google fonts*/
 
 /*
-	1. Satrt Default css 
+	1. Satrt Default css
 */
 @font-face {
     font-family: 'Gilroy-Bold.ttf';
@@ -69,11 +69,24 @@ h4,
 h5,
 h6 {
     font-family: 'Gilroy-Bold.ttf';
-    text-transform: capitalize;
+    text-transform: none;
     margin: 0;
-    color: #0d2335;
+    color: #000000; /* Default color for light mode */
     font-weight: bold;
 }
+
+/* Override color for dark mode */
+@media (prefers-color-scheme: dark) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #000000;  /* or any color you want for dark mode */
+    }
+}
+
 
 h1 {
     font-size: 72px;
@@ -99,6 +112,14 @@ h6 {
     font-size: 16px;
 }
 
+h7 {
+    font-family: 'Gilroy-Bold.ttf';
+    text-transform: none;
+    margin: 0;
+    color: #000000; /* Default color for light mode */
+    font-weight: bold;
+}
+
 p {
     margin: 0;
 }
@@ -111,6 +132,8 @@ ul {
 li {
     list-style: none;
 }
+
+
 
 input,
 input:hover,
@@ -212,11 +235,11 @@ span.theme_span {
 }
 
 /*
-	End Default css 
+	End Default css
 */
 
 /*
-	2. Start Preloader css 
+	2. Start Preloader css
 */
 .preloader_area {
     position: fixed;
@@ -283,7 +306,7 @@ span.theme_span {
 }
 
 /*
-	End Preloader css 
+	End Preloader css
 */
 
 /*==================================================
@@ -406,7 +429,7 @@ nav.main_menu {
     display: block;
     color: #758ca0;
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 500;
     padding: 45px 0;
     transition: all .5s;
@@ -553,7 +576,7 @@ nav.main_menu {
 .sidebar-menu > li > a {
     font-size: 16px;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: none;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -562,7 +585,7 @@ nav.main_menu {
     padding: 5px 25px;
     font-size: 14px;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .sidebar-menu .sidebar-submenu > li:hover > a {
@@ -941,6 +964,7 @@ nav.main_menu {
     background: rgb(255, 255, 255);
     box-shadow: 0px 8px 16px 0px rgba(207, 228, 255, 0.2);
     transition: all 5s;
+
 }
 
 .service_box_1:hover {
@@ -1330,7 +1354,7 @@ textarea.form_control {
 }
 .team_title span.theme_span,
 .team_title h2 {
-    color: #fff;
+    color: #000000;
 }
 
 .team_box_1 {
@@ -1345,23 +1369,32 @@ textarea.form_control {
 .team_info {
     padding: 40px;
     border: 1px solid #1d81ff;
+    background: transparent;
     border-top: none;
 }
 
-.team_info h3 {
-    font-size: 32px;
-    color: #fff;
-    line-height: 70px;
+@media (prefers-color-scheme: light) {
+    .team_info h3 {
+        color: #ffffff; /* Change to white for dark mode */
+    }
+}
+
+.zCore_team.zCore_team_1.blue_bg.section_padding .team_info h3 {
+    color: #ffffff;
 }
 
 .team_info p {
     font-size: 14px;
-    color: #add1ff;
+    color: #1A7EFB;
     text-transform: uppercase;
 }
 
+.zCore_team.zCore_team_1.blue_bg.section_padding .team_info p {
+    color: #ffffff;
+}
+
 .team_join_button .zCore_btn {
-    background: transparent;
+    background: #0061da;
     border: 1px solid #69acff;
     margin-left: 25px;
     margin-right: 25px;
@@ -1619,7 +1652,7 @@ textarea.form_control {
 .widget_box_1 .news_post .news_single .news_link a.post_admin {
     color: #8fa3b4;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .widget_box_1 .news_post .news_single .news_link a.post_admin i {
@@ -2612,6 +2645,7 @@ textarea.form_control {
     top: 0px;
     width: 100%;
     z-index: 337;
+    padding: 10px 0;  /* Add a padding of 10px to the top and bottom, and 0 to the left and right */
 }
 .zCore_header_3.sticky{
     position: fixed;
@@ -2622,7 +2656,10 @@ textarea.form_control {
     background: #222;
 }
 
-
+.zCore_header_3 img {  /* This rule targets images inside the .zCore_header_3 class */
+    max-height: calc(100% - 20px);  /* constrain the height of the image to the height of the parent element (100%) minus the padding (20px) */
+    width: auto;  /* maintain the aspect ratio of the image */
+}
 
 
 .zCore_header_3.sticky .main_menu ul li > a {
@@ -3124,6 +3161,7 @@ textarea.form_control {
     height: 100%;
     background: rgb(13, 35, 53);
     opacity: 0.322;
+    padding: 10px; /* or whatever padding is needed */
 }
 
 .breadcrumb_text {
@@ -3145,7 +3183,7 @@ textarea.form_control {
 .breadcrumb_text ul li a {
     color: #fff;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .breadcrumb_text ul li:after {
@@ -3169,6 +3207,7 @@ textarea.form_control {
 */
 .zCore_about_3 .about_img_3 {
     position: relative;
+    margin: 10px; /* or whatever margin is needed */
 }
 
 .zCore_about_3 .about_img_3 .overlay_img {
@@ -3240,7 +3279,7 @@ textarea.form_control {
     padding: 80px 40px;
     text-align: center;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 10px 20px 0px rgba(5, 116, 255, 0.06);
+    box-shadow: 0px 15px 30px 0px rgba(5, 116, 255, 0.2);
 }
 
 .service_box_3 .categories_icon {
@@ -3908,7 +3947,7 @@ textarea.form_control {
 }
 
 .team_box_2 .team_info p {
-    color: #0574ff;
+    color: #1A7EFB;
 }
 
 /*
@@ -4096,7 +4135,7 @@ textarea.form_control {
     background: #0d2335;
     color: #fff;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
     margin-bottom: 10px;
 }
 
@@ -4424,7 +4463,7 @@ textarea.form_control {
 
 .portfolio_box_3 .portfolio_info a.btn_link {
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #758ca0;
 }
 
@@ -4949,6 +4988,11 @@ textarea.form_control {
     margin-right: 6px;
 }
 
+.single_blog_main_content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .content_text_area h2 {
     font-size: 30px;
     line-height: 46px;
@@ -5068,8 +5112,17 @@ textarea.form_control {
 }
 .zCore_about.zCore_about_3 {
     padding-top: 116px;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .zCore_about.zCore_about_3 {
+        padding-top: 58px; /* half of 116px */
+        padding-bottom: 35px; /* half of 70px */
+    }
+}
+
 .content_share_area,
 .about_admin,
 .comment_area {
@@ -5182,7 +5235,7 @@ ul.social_link li a:focus {
 .comment_list_area .single_comment .comment_text h5 span {
     float: right;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .comment_list_area .single_comment .comment_text h5 span a {
@@ -5314,8 +5367,15 @@ textarea:focus{
 .info_button a.info_btn {
     font-size: 16px;
     color: #a4b2bf;
-    text-transform: capitalize;
+    text-transform: none;
 }
+
+.info_link {
+    font-size: 16px;
+    color: #a4b2bf;
+    text-transform: none;
+}
+
 
 .call_title_3 span {
     color: #7d94a6;
@@ -5396,7 +5456,7 @@ textarea:focus{
 
 
 /*===========================
-    SEARCH css 
+    SEARCH css
 ===========================*/
 .search-box {
     position: fixed;
@@ -5537,7 +5597,7 @@ textarea:focus{
 .search-results {
     margin-top: 10px;
 }
-.search-results ul li a { 
+.search-results ul li a {
     display: inline-block;
     padding: 10px 0;
     border-bottom: 1px solid rgb(5, 116, 255);

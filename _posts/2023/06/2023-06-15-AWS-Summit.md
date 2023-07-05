@@ -7,7 +7,7 @@ post_image: /assets/images/blog/summit-cover.jpeg
 tags:
 - tech
 - AWS
-title: 'zCore''s AWS Summit Washington DC 2023 recap '
+title: "zCore's AWS Summit Washington DC 2023 recap"
 ---
 
 June 7-8th, we had the incredible opportunity to attend the AWS Summit in Washington D.C. It was an event where industry professionals converged to discuss how Amazon Web Services (AWS) is transforming the public sector and tackling the challenges of today's rapidly changing world. The summit offered valuable insights into driving culture change, digital transformation, and infrastructure modernization. We were eager to explore and learn, and we returned with a plethora of knowledge to share. So let's dive into the key takeaways from the seminars we attended.
@@ -24,7 +24,7 @@ One of the highlights of the summit was the keynote speech by Max Peterson, the 
 
 The next session, "Elevate your Organization by removing barriers to transformation," shed light on the common hurdles faced during digital transformation. Through the example of the Commonwealth of Massachusetts, we learned about the top five barriers: modernizing legacy workloads, addressing security and compliance concerns, fostering data-driven decision-making, overcoming time and talent scarcity, and managing tech debt and operational toil. We also discovered the three key practices that advanced digital governments employ: continuous transformation and optimization, reporting on digital success metrics and outcomes, and adopting contemporary practices and delivery models.
 
-![snowflake data seminar](/assets/images/snowflake.jpeg)
+![snowflake data seminar](/assets/images/blog/snowflake.jpeg)
 
 Delivering Data-Driven Decision Making was another informative session, presented by Snowflake. We delved into the economic impact of data and how technological advancements have made data more valuable, important, and secure. Snowflake's Data Cloud was showcased as a platform that enables enhanced mission outcomes, including intra- and cross-agency data sharing and collaboration, fraud detection, and entity insights. The session emphasized the uniqueness of government data and the need to protect, manage, and maximize its value. We were reminded that our world thrives on data and that technology is adaptable, adjusting to our business needs.
 

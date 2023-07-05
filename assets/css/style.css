@@ -1567,6 +1567,13 @@ textarea.form_control {
     float: right;
 }
 
+.footer-logo {
+    width: 100px; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    /* add any other styles as needed */
+}
+
+
 .footer_social ul li {
     display: inline-block;
     margin-left: 20px;
@@ -2666,6 +2673,11 @@ textarea.form_control {
     padding: 28px 0;
 }
 
+.header-logo {
+    max-width: 100px; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    /* add any other styles as needed */
+}
 
 
 .header_container_3 {

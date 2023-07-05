@@ -1,70 +1,46 @@
-        <!-- Start zCore_footer_widget area -->
-        <section class="zCore_footer_widget footer_widget_1 white_bg">
-            <div class="container">
-                <div class="widget_top_area widget_top_area_2">
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <div class="footer_logo">
-                                <img src="{{relative_url}}/assets/images/logos/logo_1.jpeg" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-10">
-                            <div class="footer_social">
-                                <ul>
-                                    <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
-                                </ul>
-                            </div>
+<!-- Start zCore_footer_widget area -->
+<section class="zCore_footer_widget footer_widget_1 bg_image footer_widget_3" style="background-image: url({{relative_url}}/assets/images/backgrounds/head_bg_3b.jpg);">
+    <div class="zCore_overlay"></div>
+    <div class="container">
+        <div class="widget_area widget_area_2">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="widget_box widget_box_1">
+                        <div class="footer_title">
+                            <img class="footer-logo" src="{{relative_url}}/assets/images/logos/logo_3_white.webp" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="widget_area widget_area_2">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget_box widget_box_1">
-                                <div class="footer_title">
-                                    <h5>Contact</h5>
-                                </div>
-                                <div class="footer_contact_info">
-                                    <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
-                                    <!-- <p><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></p> -->
-                                </div>
-                            </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widget_box widget_box_1">
+                        <div class="footer_title">
+                            <h5>Contact</h5>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12">
-                            <div class="widget_box news_widget widget_box_1">
-                                <div class="footer_title">
-                                    <h5>The Latest Insights, Ideas, And Perspectives</h5>
-                                </div>
-                                    <div class="news_post row"> <!-- Add a row here -->
-                                        {% for post in site.posts limit:2 %}
-                                        <div class="col-lg-6"> <!-- Add a column for each post -->
-                                            <div class="news_single">
-                                                <div class="news_thumb">
-                                                    <img src="{{ post.post_image | relative_url }}" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="news_link">
-                                                    <h3>
-                                                        <a href="{{ post.url | relative_url }}">
-                                                            <!-- Truncate the title to the first seven words -->
-                                                            {% assign words = post.title | split: " " %}
-                                                            {{ words | slice: 0, 5| join: " " }}[...]
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {% endfor %}
-                                    </div>
-
+                        <div class="footer_widget_list">
+                            <ul class="widget_list">
+                                <li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+                                <!-- <li><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></li> -->
+                            </ul>
                         </div>
-
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="widget_box social_widget widget_box_1">
+                        <div class="footer_social">
+                            <ul>
+                                <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                            <!--sdvosb logo to go here-->
                         </div>
                     </div>
                 </div>
             </div>
-        </section><!-- End zCore_footer_widget area -->
+        </div>
+    </div>
+</section>
+<!-- End zCore_footer_widget area -->
         <!-- Start zCore_footer area -->
         <footer class="zCore_footer zCore_footer_1">
             <div class="container">

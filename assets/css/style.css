@@ -2719,9 +2719,19 @@ textarea.form_control {
     max-width: 1400px;
 }
 
-.main_right .main_img img {
-    width: 100%;
+.main_img {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take the full height of the parent */
 }
+
+
+.main_img img {
+    max-width: 50%; /* This will make sure the image is not wider than its parent */
+    height: auto; /* Maintain the aspect ratio */
+}
+
 
 .main_container_2 .zCore_content h1,
 .main_container_2 .zCore_content span,

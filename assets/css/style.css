@@ -2727,7 +2727,7 @@ textarea.form_control {
     align-items: center; /* Center vertically */
     height: 100%; /* Take the full height of the parent */
 }
-
+/* this is what adjusts the SDVOSB logo - mwnau */
 
 .main_img img {
     max-width: 50%; /* This will make sure the image is not wider than its parent */

@@ -513,10 +513,12 @@ nav.main_menu {
     padding: 10px 0;
 }
 
-.mobile_menu_logo a.logo {
-    font-size: 18px;
-    color: #fff;
+.mobile_menu_logo a.logo img {
+    max-width: 100px; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
 }
+
+
 
 .mobile_menu_icon .menu_icon {
     font-size: 18px;

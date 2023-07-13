@@ -1,7 +1,7 @@
 ---
 author: bastos
 categories:
-- process
+- software development
 layout: post
 post_image: /assets/images/blog/issues-board.png
 tags:

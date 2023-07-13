@@ -1,7 +1,7 @@
 ---
 author: mackenzie
 categories:
-- announcements
+- software development
 layout: post
 post_image: /assets/images/blog/jira.jpeg
 tags:

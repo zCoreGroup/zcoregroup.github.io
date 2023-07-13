@@ -1,7 +1,7 @@
 ---
 author: mackenzie
 categories:
-- technology
+- software development
 layout: post
 post_image: /assets/images/blog/git-projects.jpg
 tags:

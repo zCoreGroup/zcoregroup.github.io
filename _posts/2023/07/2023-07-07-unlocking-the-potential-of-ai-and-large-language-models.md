@@ -7,7 +7,7 @@ post_image: "/assets/images/blog/artificial-intel.jpeg"
 tags:
 - product
 - engineering
-title: "Transforming Government Services: Unlocking the Potential of AI and Large Language Models"
+title: "Unlocking the Potential of AI and Large Language Models in Government"
 ---
 
 In today's rapidly evolving technological landscape, artificial intelligence (AI) tools are leaving an indelible mark on various sectors, including government. The reactions from government agencies and leaders towards these emerging AI tools have been mixed, ranging from outright prohibition to cautious exploration. At Ad Hoc, we have practical experience working with federal customers, extensive prototyping, and in-depth research, which leads us to believe that AI tools present a valuable opportunity for government agencies. It is high time for agencies to recognize this potential for several compelling reasons.

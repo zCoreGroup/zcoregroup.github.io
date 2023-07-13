@@ -7,8 +7,10 @@ post_image: "/assets/images/blog/contribution.jpg"
 tags:
 - business
 - services
-title: "Embracing the Complexity: zCore's Contributions to the Success of the CWS Wave for FMBT at FSC"
+title: "zCore's Contributions to the Success of the CWS Wave for FMBT at FSC"
 ---
+
+<iframe width='100%' height=500 src='https://www.c-span.org/video/standalone/?c5076114/user-clip-fmbt-cws-wave-clip' allowfullscreen='allowfullscreen' frameborder=0></iframe>
 
 In the landscape of complex projects, the Consolidated Wave Stack (CWS) for the Financial Management Business Transformation (FMBT) at the Facilities and Services Center (FSC) stands as a testament to collaborative efforts. Among the dedicated supporters, zCore played a significant role within Team CACI's driving the project's achievements. In this blog post, we delve into zCore's journey, highlighting our commitment and contributions to the remarkable accomplishments on the CWS wave.
 

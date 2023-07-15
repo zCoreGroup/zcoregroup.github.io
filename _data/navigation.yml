@@ -24,7 +24,7 @@
    dropdown:
     - text: "Announcements"
       url: "/category/announcements/"
-    - text: "technology"
+    - text: "Technology"
       url: "/category/technology"
     - text: "Software Development"
       url: "/category/software-development"

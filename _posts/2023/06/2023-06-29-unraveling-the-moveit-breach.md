@@ -1,7 +1,7 @@
 ---
 author: mackenzie
 categories:
-- Information
+- information
 layout: post
 post_image: /assets/images/blog/capitol.jpg
 tags:

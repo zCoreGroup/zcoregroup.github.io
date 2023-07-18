@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Appealing Your Health Care Decisions as a Veteran: Navigating the Process and Seeking the Care You Deserve"
-tags: health
-categories: [health care]
+tags:
+- health
+categories:
+- health care
 author: mackenzie
 post_image: "/assets/images/blog/appeal-post.jpg"
 ---

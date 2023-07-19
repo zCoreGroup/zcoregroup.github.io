@@ -52,3 +52,6 @@ The robust infrastructure and data redundancy of AWS GovCloud guarantee high ava
 By embracing AWS GovCloud, government agencies can optimize costs by utilizing a pay-as-you-go model, reducing upfront investments and enabling efficient resource utilization.
 
 AWS Docs GPT presents a promising opportunity to enhance government service delivery through improved accessibility and comprehension of documentation. When combined with the Amazon GovCloud services, it opens avenues for secure, scalable, and compliant solutions tailored to the unique needs of government agencies. By exploring the potential of AWS GovCloud and its associated benefits, governments can advance their operations, improve citizen experiences, and drive more efficient governance practices.
+
+For more information about AWS Docs GPT and its capabilities, you can visit the official AWS website and experience how this innovative language model can enhance your interactions with government documentation. 
+[Click here to visit the AWS Docs GPT website](https://www.awsdocsgpt.com) 

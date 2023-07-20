@@ -511,6 +511,7 @@ nav.main_menu {
 .mobile_menu {
     display: none;
     padding: 10px 0;
+    padding-bottom: 30px;
 }
 
 .mobile_menu_logo a.logo img {
@@ -3194,6 +3195,8 @@ textarea.form_control {
 }
 
 .breadcrumb_text h2 {
+    height: auto;
+    overflow: visible;
     font-size: 60px;
     line-height: 70px;
     color: #fff;
@@ -5140,6 +5143,36 @@ textarea.form_control {
 }
 
 /* Mobile styles */
+
+/* @media (max-width: 690px) {
+    .mobile_menu_logo {
+        display: none;
+    }
+} */
+
+@media (max-width: 700px) {
+    .breadcrumb_text h2 {
+        font-size: 40px; /* adjust as necessary */
+        line-height: 50px; /* adjust as necessary */
+        height: auto;
+        overflow: visible;
+        z-index: 1;
+    }
+
+@media (max-width: 700px) { /* adjust 768px to the breakpoint you want */
+    .breadcrumb_text {
+        padding-top: 100px; /* adjust as needed */
+    }
+}
+
+
+    .breadcrumb_text ul li a {
+        font-size: 14px; /* adjust as necessary */
+    }
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .zCore_about.zCore_about_3 {
         padding-top: 58px; /* half of 116px */

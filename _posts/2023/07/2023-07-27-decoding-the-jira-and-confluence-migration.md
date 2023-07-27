@@ -7,7 +7,7 @@ post_image: /assets/images/blog/jira-migration-update.jpeg
 tags:
 - okta
 - jira
-title: 'Decoding the Jira and Confluence Migration from Max.Gov to Okta: A Comprehensive Summary'
+title: "Decoding the Jira and Confluence Migration from Max.Gov to Okta: A Comprehensive Summary"
 ---
 
 Greetings, fellow seekers of knowledge! Today, I bring you the key points from the recent DOTS Tools and Technology presentation. As a neutral note-taker, I aim to relay the facts and information presented during the meeting simply. Let's delve into the world of DevOps, ALM, Jira, Confluence, and Okta, as shared in this insightful gathering.
@@ -27,8 +27,6 @@ Post-migration, some users faced challenges with loading and viewing attachments
 ##### Confluence Templates and DOTS Service Request:
 Confluence now offers templates, and additional templates can be created upon request. Users can submit a DOTS service request to their team, simplifying page creation.
 
-<<<<<<< HEAD
 The DOTS Tools and Technology presentation shed light on important aspects of the migration, Okta login process, Confluence updates, Jira known issues, and templates. As a neutral note taker, I present these facts to you, allowing you to explore and make informed decisions in your respective roles. May these insights serve you well on your journey through the world of DevOps and ALM!
-=======
+
 The DOTS Tools and Technology presentation highlighted important aspects of the migration, Okta login process, Confluence updates, Jira known issues, and templates. As a neutral note-taker, I present these facts to you, allowing you to explore and make informed decisions in your respective roles. May these insights serve you well on your journey through DevOps and ALM!
->>>>>>> e51e9af4feb2afddbf32191e406c7f87afe4d8fe

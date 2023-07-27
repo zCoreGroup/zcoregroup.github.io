@@ -5,8 +5,8 @@ categories:
 layout: post
 post_image: /assets/images/blog/jira-migration-update.jpeg
 tags:
-- okta
-- jira
+- software
+- VA
 title: "Decoding the Jira and Confluence Migration from Max.Gov to Okta: A Comprehensive Summary"
 ---
 

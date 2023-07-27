@@ -7,7 +7,7 @@ post_image: /assets/images/blog/jira-migration-update.jpeg
 tags:
 - okta
 - jira
-title: "Decoding the Jira and Confluence Migration from Max.Gov to Okta: A Comprehensive Summary"
+title: 'Decoding the Jira and Confluence Migration from Max.Gov to Okta: A Comprehensive Summary'
 ---
 
 Greetings, fellow seekers of knowledge! Today, I bring you the key points from the recent DOTS Tools and Technology presentation. As a neutral note taker, my aim is to simply relay the facts and information presented during the meeting. Let's delve into the world of DevOps, ALM, Jira, Confluence, and Okta, as shared in this insightful gathering.

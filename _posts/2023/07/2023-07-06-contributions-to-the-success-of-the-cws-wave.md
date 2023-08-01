@@ -12,7 +12,7 @@ title: "zCore's Contributions to the Success of the CWS Wave for FMBT at FSC at 
 
 <iframe width='100%' height=500 src='https://www.c-span.org/video/standalone/?c5076114/user-clip-fmbt-cws-wave-clip' allowfullscreen='allowfullscreen' frameborder=0></iframe>
 
-In the landscape of complex projects, the Consolidated Wave Stack (CWS) for the Financial Management Business Transformation (FMBT) at the the VA stands as a testament to collaborative efforts. Among the dedicated supporters, zCore played a significant role within the entire team's drive in the project's achievements. In this blog post, we delve into zCore's journey, highlighting our commitment and contributions to the remarkable accomplishments on the CWS wave.
+In the landscape of complex projects, the Consolidated Wave Stack (CWS) for the Financial Management Business Transformation (FMBT) at the the VA stands as a testament to collaborative efforts. Among the dedicated supporters, zCore played a significant role within the entire team's drive in the project's achievements. In this blog post, we delve into the team's journey, highlighting our commitment and contributions to the remarkable accomplishments on the CWS wave.
 
 #### A Collaborative Symphony:
 With the launch of iFAMS on June 12, the CWS wave surged forward, embracing success as a collective effort. Over 1,600 new users from the offices of Inspector General (OIG), Information and Technology (OIT), and Construction & Facilities Management (CFM) embarked on this transformative journey. Working diligently, the team facilitated the onboarding of these users while ensuring updates for over 1,200 existing users, paving the way for a seamless transition.
@@ -24,7 +24,7 @@ Throughout the process, we recognized the significance of providing comprehensiv
 To further facilitate user understanding, the team organized iFAMS access workshops from June 13 to 15. Subject matter experts graciously shared their knowledge, aiding new system users in adding or modifying their iFAMS access. Recognizing the importance of continuous growth, the plan is to expand workshop offerings to cover finance and acquisition topics, ensuring users can harness the full potential of the iFAMS platform.
 
 #### Adapting to Challenges:
-The Agile Release Train presented its own set of challenges, but zCore's adaptability shone through. The team effectively addressed eight finance configuration stories and five defects, ensuring a smooth transition for these post go-live deferred backlog items, which were seamlessly handed over to the capable Sustainment team. This flexibility exemplifies our dedication to providing comprehensive solutions.
+The Agile Release Train presented its own set of challenges, but the team's adaptability shone through. The team effectively addressed eight finance configuration stories and five defects, ensuring a smooth transition for these post go-live deferred backlog items, which were seamlessly handed over to the capable Sustainment team. This flexibility exemplifies our dedication to providing comprehensive solutions.
 
 #### Innovative Solutions:
 A visionary decision, known as Decision 676, allowed CFM Finance to embrace a more efficient payment type—wire transfer, enabling a remarkable 24-hour turnaround time. This decision, highlighted in the June 5 PMO Digest, demonstrates our commitment to finding innovative solutions that optimize processes and enhance efficiency.

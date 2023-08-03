@@ -3,10 +3,10 @@ layout: careers
 title: "IDIQ PM (Contract Conductor)"
 description: "Virtual virtuoso in the art of contract management, you'll navigate the labyrinth of large IDIQ government contracts from the comfort of your own chosen fortress (home), making them sing in harmony to your strategic tune."
 apps_logo: "/assets/images/careers/open-position.jpeg"
-apps_icon: 'pe-7s-briefcase'
+apps_icon: "pe-7s-briefcase"
 link: "/careers/idiq-contract-conductor"
 order: 2
-tags: 
+tags:
   - IDIQ
   - Project Management
   - Contract Management
@@ -20,7 +20,7 @@ tags:
   - Business
   - Management
   - Federal
-location: "Hybrid (DC)"
+location: "TELECOMMUTE"
 salary_min: "70000"
 salary_max: "100000"
 validThrough: "2023-12-31"
@@ -28,7 +28,7 @@ city: Washington
 state: DC
 ---
 
-## Location: 
+## Location:
 
 Hybrid (DC)
 
@@ -38,23 +38,23 @@ We are currently seeking a highly skilled and accomplished IDIQ Project Manager 
 
 ## Requirements:
 
-* Hold a Bachelor's degree in a business or program-related field. While we value practical experience, having formal education in the field is an added advantage.
-* Possess at least ten years of hands-on experience successfully handling programs, projects, or contracts of comparable magnitude, complexity, and scope to this procurement. We seek someone who has weathered the storms and emerged triumphant.
-* Demonstrate a track record of excellence in managing government contracts, with a deep understanding of the challenges and intricacies involved.
-* Exhibit a remarkable ability to tame and harness the potential of IDIQ contracts, ensuring they operate smoothly and efficiently.
+- Hold a Bachelor's degree in a business or program-related field. While we value practical experience, having formal education in the field is an added advantage.
+- Possess at least ten years of hands-on experience successfully handling programs, projects, or contracts of comparable magnitude, complexity, and scope to this procurement. We seek someone who has weathered the storms and emerged triumphant.
+- Demonstrate a track record of excellence in managing government contracts, with a deep understanding of the challenges and intricacies involved.
+- Exhibit a remarkable ability to tame and harness the potential of IDIQ contracts, ensuring they operate smoothly and efficiently.
 
 ## Desired Qualifications:
 
-* Proven expertise in managing government contracts, coupled with a diplomatic approach and finesse that sets you apart as a true professional.
-* Possess the unique skill to shape and mold large contracts to align with organizational goals, earning you a reputation as a legend in the field.
+- Proven expertise in managing government contracts, coupled with a diplomatic approach and finesse that sets you apart as a true professional.
+- Possess the unique skill to shape and mold large contracts to align with organizational goals, earning you a reputation as a legend in the field.
 
 ## Non-Technical Competencies:
 
-* Exceptional communication and negotiation skills, capable of articulating complex concepts and influencing stakeholders with clarity and effectiveness.
-* Resilience and adaptability comparable to a cat with nine lives, enabling you to navigate unexpected challenges and persevere under pressure.
-* A keen sense of risk identification and mitigation, allowing you to proactively address potential issues and safeguard the project's success.
-* Inspirational leadership qualities that empower and motivate teams to achieve their best, fostering a collaborative and high-performing work environment.
+- Exceptional communication and negotiation skills, capable of articulating complex concepts and influencing stakeholders with clarity and effectiveness.
+- Resilience and adaptability comparable to a cat with nine lives, enabling you to navigate unexpected challenges and persevere under pressure.
+- A keen sense of risk identification and mitigation, allowing you to proactively address potential issues and safeguard the project's success.
+- Inspirational leadership qualities that empower and motivate teams to achieve their best, fostering a collaborative and high-performing work environment.
 
 This role demands unwavering courage, unwavering tenacity, and an unwavering commitment to excellence. If you are ready to embark on a serious and impactful journey as our IDIQ Contract Manager, apply now and seize the opportunity to leave your mark. Remember, it is the culmination of experience and achievements that truly defines your professional journey.
 
-## [Apply Now via Email](mailto:mbastos@zcoregroup.com?subject=IDIQ PM (aka Contract Conductor)&body=Include your a copy of your Resume!)
+## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=IDIQ PM (aka Contract Conductor)&body=Include your a copy of your Resume!)

@@ -58,4 +58,4 @@ This isn't your regular 9-to-5, this is a data-driven quest for truth and effici
 
 Are you ready to take on the challenge? Then grab your detective hat and join our team of dedicated analysts. After all, it's not just about the experience you bring, but the solutions you discover on your professional journey.
 
-## [Apply Now via Email](mailto:mbastos@zcoregroup.com?subject=Business Systems Analyst - Software Engineer II&body=Include your a copy of your Resume!)
+## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=Business Systems Analyst - Software Engineer II&body=Include your a copy of your Resume!)

@@ -72,7 +72,6 @@ h6 {
     text-transform: none;
     margin: 0;
     color: #000000; /* Default color for light mode */
-    font-weight: bold;
 }
 
 /* Override color for dark mode */
@@ -5026,8 +5025,18 @@ textarea.form_control {
     margin-bottom: 30px;
 }
 
+.content_text_area h5 {
+  margin-bottom: 8px;
+}
+
 .content_text_area p {
     margin-bottom: 45px;
+    color: #66696c;
+}
+
+.content_text_area ul {
+  margin-bottom: 45px;
+  color: #66696c;
 }
 
 .content_text_area .blockquote {

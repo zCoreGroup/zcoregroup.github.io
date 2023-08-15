@@ -27,6 +27,7 @@ salary_max: "150000"
 validThrough: "2023-10-01"
 city: Anywhere
 state: Anywhere
+job_id: LR976946
 ---
 
 ## Location:
@@ -60,4 +61,3 @@ We're on the lookout for a Senior Developer who can make databases sing and serv
 
 If you're ready to take up the baton as our Senior Developer, hit that apply button. Your symphony awaits.
 
-## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=Senior Interface Developer (aka The Code Conductor)&body=Include your a copy of your Resume!)

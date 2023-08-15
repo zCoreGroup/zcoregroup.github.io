@@ -23,6 +23,7 @@ salary_max: "80000"
 validThrough: "2023-10-01"
 city: Anywhere
 state: Anywhere
+job_id: QY8RV855
 ---
 
 ## Location:
@@ -56,5 +57,3 @@ We are on the hunt for an Agile Alchemist, a Scrum Master of the first order. Th
 - Lastly, a proud citizen of the United States, as per our contractual needs.
 
 In this role, you'll need a potent blend of courage, resilience, and commitment to excellence. If you're ready to don the mantle of our Agile Alchemist and steer our software development ship to uncharted territories, apply now. Remember, it's the adventures and challenges along the journey that shape and define your career path.
-
-## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=Agile Alchemist (aka Scrum Master)&body=Include your a copy of your Resume!)

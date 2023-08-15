@@ -26,6 +26,7 @@ salary_max: "100000"
 validThrough: "2023-12-31"
 city: Washington
 state: DC
+job_id: QY8RV875
 ---
 
 ## Location:
@@ -57,4 +58,3 @@ We are currently seeking a highly skilled and accomplished IDIQ Project Manager 
 
 This role demands unwavering courage, unwavering tenacity, and an unwavering commitment to excellence. If you are ready to embark on a serious and impactful journey as our IDIQ Contract Manager, apply now and seize the opportunity to leave your mark. Remember, it is the culmination of experience and achievements that truly defines your professional journey.
 
-## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=IDIQ PM (aka Contract Conductor)&body=Include your a copy of your Resume!)

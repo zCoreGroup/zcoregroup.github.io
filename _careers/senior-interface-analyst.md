@@ -23,6 +23,7 @@ salary_max: "198000"
 validThrough: "2023-10-01"
 city: Anywhere
 state: Anywhere
+job_id: LR9769R6
 ---
 
 ## Location:
@@ -55,4 +56,3 @@ Calling all digital virtuosos with a flair for technology and analysis! We're on
 
 Ready to join our team of code-breaking, system-deciphering tech gurus? If you think you've got what it takes to be our Senior Analyst, apply now and show us what you've got. Just remember, it's not the number of years in your career that defines you, but the legacy you leave behind.
 
-## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=Senior Interface Analyst Application&body=Include a copy of your Resume!)

@@ -33,6 +33,7 @@ salary_max: "100000"
 validThrough: "2023-10-01"
 city: Anywhere
 state: Anywhere
+job_id: L66VW685
 ---
 
 ## Location:
@@ -65,4 +66,3 @@ Are you ready to conduct a symphony of code? If you're a problem-solving maestro
 
 If you are ready to conduct a symphony of software solutions as our Software Developer, apply now and seize the opportunity to make sweet music with us. We're eagerly waiting to see what melodies you can bring to life!
 
-## [Apply Now via Email](mailto:dhall@zcoregroup.com?subject=Interface Developer (aka Coding Conductor)&body=Include a copy of your Resume!)

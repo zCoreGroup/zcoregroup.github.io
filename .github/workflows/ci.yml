@@ -4,8 +4,10 @@ on:
   pull_request:
 
 permissions:
+  id-token: write
   pull-requests: write
   contents: write
+  repository-projects: write
 
 jobs:
   # Build job
@@ -27,24 +29,23 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-  dependabot:
-    name: 'Dependabot'
-    needs: [build]
+  dependabot-automation:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}}
+    needs: [build]
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    timeout-minutes: 13
     steps:
       - name: Dependabot metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v1.6.0
+        uses: dependabot/fetch-metadata@v1.4.0
         with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
-      - name: Enable auto-approve for Dependabot PRs
-        run: gh pr review --approve "$PR_URL"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Approve & enable auto-merge for Dependabot PR
+        run: |
+          gh pr review --approve "$PR_URL"
+          gh pr edit "$PR_URL" -t "(auto merged) $PR_TITLE"
+          gh pr merge --auto --merge "$PR_URL"
         env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

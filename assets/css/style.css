@@ -1381,14 +1381,20 @@ textarea.form_control {
     }
 }
 
-.zCore_team.zCore_team_1.blue_bg.section_padding .team_info h3 {
-    color: #ffffff;
+/* defaults for h3, p on white background */
+.team_info h3 {
+    color: #1A7EFB;
 }
 
 .team_info p {
     font-size: 14px;
     color: #1A7EFB;
     text-transform: uppercase;
+}
+
+/* overrides for h3, p on blue_bg */
+.zCore_team.zCore_team_1.blue_bg.section_padding .team_info h3 {
+    color: #ffffff;
 }
 
 .zCore_team.zCore_team_1.blue_bg.section_padding .team_info p {

@@ -11,7 +11,7 @@ tags:
 title: "Reflections on the Congressional Hackathon: A Leap Forward for Legislative Tech"
 ---
 
-Yesterday, many witnessed the 5th iteration of the Congressional Hackathon, an event that has grown from an experimental gathering to a well-established forum for brainstorming technological solutions to the legislative branch's most pressing issues. As proud participants representing zCore Group, we'd like to share some insights from the hackathon and shed light on the revolutionary tech solutions pitched.
+On September 14th, 2023, many witnessed the 5th iteration of the Congressional Hackathon, an event that has grown from an experimental gathering to a well-established forum for brainstorming technological solutions to the legislative branch's most pressing issues. As proud participants, we'd like to share some insights from the hackathon and shed light on the revolutionary tech solutions pitched.
 
 ##### A Glimpse into the Past
 The inaugural hackathon's atmosphere was much like today's, marked by the ascent of artificial intelligence. At that time, budding technologies like social media and other digital platforms were driving innovative ideas. Fast forward to now, the hackathon has become an institutionalized tradition. It was most recently held on September 14, 2023, receiving significant support from the House's Office of the Chief Administrative Officer. Throughout its iterations, the Hackathon has demonstrated adaptability, remaining steadfast even amidst changing political landscapes and a growingly polarized climate.
@@ -19,7 +19,7 @@ The inaugural hackathon's atmosphere was much like today's, marked by the ascent
 ##### Innovations Galore
 The Hackathon was abuzz with pitches focused on aiding Congress with tasks such as case management, scheduling, information abstraction, and document comparison. The key trend? The majority of the solutions revolved around Software-as-a-Service (SaaS) products. The emphasis was on providing Congress with custom, efficient tools. However, there were concerns about the ownership and maintenance of these tools by external companies, which could pose challenges down the line.
 
-Being a part of zCore Group, we were thrilled to witness the plethora of ideas that resonated with our observations from the event. Our own observations highlighted the SaaS-centric nature of the solutions presented, with not a single open-source solution being pitched. This shift is indicative of the evolving tech landscape and Congress's ever-growing need for tailored solutions.
+We were thrilled to witness the plethora of ideas that resonated with our observations from the event. Our own observations highlighted the SaaS-centric nature of the solutions presented. This shift is indicative of the evolving tech landscape and Congress's ever-growing need for tailored solutions.
 
 ##### Institutionalized Success
 The steadfast growth and institutionalization of the Hackathon aren't mere coincidences. They reflect the event's positive impact on legislative tech over the years. Ideas discussed in previous hackathons have come to fruition, like the API for Congress.gov, digital intake forms for constituents, and the transformation of draft legislation from PDFs to more user-friendly formats.

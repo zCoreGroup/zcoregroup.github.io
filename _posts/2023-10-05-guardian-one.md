@@ -3,7 +3,7 @@ author: Mackenzie
 categories:
   - Announcements
 layout: post
-post_image: /assets/images/blog/
+post_image: /assets/images/blog/space.png
 tags:
   - tech
   - app

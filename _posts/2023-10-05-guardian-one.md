@@ -19,6 +19,8 @@ _Building mobile applications today requires more than just top-notch coding ski
 
 **Guardian One** is not just any mobile application—it is the official beacon for the USSF personnel and potential recruits. It provides easy access to the **Guardian Spirit Handbook**, direct links to the USSF’s social media, news, photos, and a fun "easter-egg" minigame. More than just an app, it embodies the USSF's motto "_Semper Supra_" ("Always Above") and its core values of _Character, Connection, Commitment_, and _Courage_.
 
+The team behind Guardian One leveraged deep industry experience, agile project management, technical innovation, and invaluable insights from Supra Coders to deliver the mobile app in record time for DoD software factories, including completing software security requirements in seven days with total compliance.
+
 ## Crafting a Stellar App
 
 The technical magic behind **Guardian One's** smooth interface and user-centric features is _Flutter_. Leveraging **Flutter Version Management (FVM)**, the application's development environment was flexible and adaptable, ensuring compatibility across various platforms from Android to iOS but allows us to eventually use the same code base for Windows, MacOS and Linux Desktops. The choice to use Flutter was made with careful consideration by the entire team but it proved to be correct and enabled rapid iteration and delivery with excellent stability and user-experience.

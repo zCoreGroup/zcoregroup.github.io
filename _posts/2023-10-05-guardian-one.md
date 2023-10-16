@@ -21,7 +21,7 @@ _Building mobile applications today requires more than just top-notch coding ski
 
 ## Crafting a Stellar App
 
-The technical magic behind **Guardian One's** smooth interface and user-centric features is _Flutter_. Leveraging **Flutter Version Management (FVM)**, the application's development environment was flexible and adaptable, ensuring compatibility across various platforms from Mac to Windows. The choice to use Flutter was made with careful consideration by the entire team but it proved to be correct and enabled rapid iteration and delivery with excellent stability and user-experience.
+The technical magic behind **Guardian One's** smooth interface and user-centric features is _Flutter_. Leveraging **Flutter Version Management (FVM)**, the application's development environment was flexible and adaptable, ensuring compatibility across various platforms from Android to iOS but allows us to eventually use the same code base for Windows, MacOS and Linux Desktops. The choice to use Flutter was made with careful consideration by the entire team but it proved to be correct and enabled rapid iteration and delivery with excellent stability and user-experience.
 
 However, the journey to crafting **Guardian One** wasn’t without its challenges. The **Guardian One** app was high-visibility and the stakeholders had clear requirements and a short timeline. Collaboration was at the heart of the team and enabled their success. With daily stand-ups, the team worked cohesively, translating stakeholder requirements into the mobile app's features and delivering an MVP in record time across the DoD's software factories.
 

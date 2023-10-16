@@ -27,9 +27,9 @@ However, the journey to crafting **Guardian One** wasn’t without its challenge
 
 ## A True Team Effort
 
-The app's development was a testament to the synergy of the teams working as one. Meetings were held to discuss the project's key features to bring utility to everyday operations, quality of life, and the implementation of the authentication for a secure, BYOD solution capable of handling data from different sources across the Space Force and the DoD.
+The app's development was a testament to the synergy of the teams working as one. Meetings were held to discuss the project's key features to bring utility to everyday operations, quality of life, and the eventual implementation of the authentication for a secure, BYOD solution capable of handling data from different sources across the Space Force and the DoD.
 
-The challenge of seamlessly integrating features like the Space Force portal's RSS feed, gamification elements for training, and user authentication was met with innovation, commitment, and collaboration. Constructive feedback sessions were integral, ensuring that all stakeholders were aligned with the project's vision and objectives.
+The challenge of seamlessly integrating features like the Space Force portal's RSS feed, gamification elements for training, and user authentication which will be met with innovation, commitment, and collaboration. Constructive feedback sessions were integral, ensuring that all stakeholders were aligned with the project's vision and objectives.
 
 ## zCore Group: Powering Forward
 

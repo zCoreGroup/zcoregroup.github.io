@@ -80,6 +80,16 @@ This will create a page that uses the layout found in _layouts/page.html and set
     - 4.1.2 jekyll.yml - This workflow is used to run the Jekyll build command and deploy the website to GitHub Pages.
     - 4.1.3 dependabot.yml - This workflow is used to update the dependencies in the Gemfile.lock file.
 
+5. Building Locally
+- 5.1 Install Ruby on your machine (https://www.ruby-lang.org/en/documentation/installation/)
+- 5.2 Install Jekyll and Bundler (https://jekyllrb.com/docs/installation/)
+- In the root directory of the project, run the following command to install the dependencies:
+  - `bundle install`
+- To build the website, run the following command:
+  - `bundle exec jekyll build`
+- To serve the website locally, run the following command:
+  - `bundle exec jekyll serve`
+
 ===============================================================================
 ### Roadmap
 - [x] Migrate to from v1 to Jekyll v2

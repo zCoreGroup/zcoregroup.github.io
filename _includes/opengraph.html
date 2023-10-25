@@ -1,20 +1,22 @@
 <!-- HTML Meta Tags -->
-<title> zCoreGroup - Bleeding Edge Government Software Contracting </title>
-<meta name="description" content="zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.">
+<title>{{ site.title }} - {{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://zcoregroup.com/">
-<meta property="og:type" content="website">
-<meta property="og:title" content=" zCoreGroup - Bleeding Edge Government Software Contracting ">
-<meta property="og:description" content="zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.">
-<meta property="og:image" content="">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.title }} by {{ page.author }}">
+<meta property="og:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
+
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="zcoregroup.com">
-<meta property="twitter:url" content="https://zcoregroup.com/">
-<meta name="twitter:title" content=" zCoreGroup - Bleeding Edge Government Software Contracting ">
-<meta name="twitter:description" content="zCore Group (zCG) is consulting firm specializing in business and IT consulting. Our business consulting focuses on improving operational efficiency and business processes. zCG's IT consulting leverages automation in coding for our partner's solution.">
-<meta name="twitter:image" content="">
+<meta property="twitter:domain" content="{{ site.url | replace: 'https://', '' }}">
+<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.title }} by {{ page.author }}">
+<meta name="twitter:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
+
 
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->

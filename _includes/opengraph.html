@@ -1,0 +1,22 @@
+<!-- HTML Meta Tags -->
+<title>{{ site.title }} - {{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.title }} by {{ page.author }}">
+<meta property="og:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
+
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="{{ site.url | replace: 'https://', '' }}">
+<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.title }} by {{ page.author }}">
+<meta name="twitter:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
+
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->

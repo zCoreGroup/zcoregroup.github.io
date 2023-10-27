@@ -3,20 +3,30 @@
 <meta name="description" content="{{ page.description }}">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url | append: page.url }}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{{ page.title }} by {{ page.author }}">
-<meta property="og:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
-
+<meta property="og:description" content="{{ page.description | default: page.title }} by {{ page.author }}">
+{% if page.post_image and page.post_image != "" %}
+<meta property="og:image" content="{{ page.post_image | prepend: site.url }}">
+{% elsif page.image and page.image != "" %}
+<meta property="og:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url }}">
+{% else %}
+<meta property="og:image" content="https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png">
+{% endif %}
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="{{ site.url | replace: 'https://', '' }}">
-<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta property="twitter:url" content="{{ site.url | append: page.url }}">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.title }} by {{ page.author }}">
-<meta name="twitter:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url | default: 'https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png' }}">
-
+<meta name="twitter:description" content="{{ page.description | default: page.title }} by {{ page.author }}">
+{% if page.post_image and page.post_image != "" %}
+<meta name="twitter:image" content="{{ page.post_image | prepend: site.url }}">
+{% elsif page.image and page.image != "" %}
+<meta name="twitter:image" content="{{ page.image | prepend: '/assets/images/' | prepend: site.url }}">
+{% else %}
+<meta name="twitter:image" content="https://zcoregroup.github.io/assets/images/logos/default_og_wh_2.png">
+{% endif %}
 
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->

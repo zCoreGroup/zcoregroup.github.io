@@ -13,8 +13,12 @@ layout: default
         <div class="row">
             <div class="col-lg-8">
                 <div class="single_blog_main_content">
+                    {% if page.post_image and page.post_image != "" %}
+                    <img src="{{ page.post_image | prepend: site.url }}" alt="Blog Post Image"
+                        style="width: 100%; padding-bottom: 20px;">
+                    {% endif %}
                     <div class="content_text_area">
-                       {{content}}
+                        {{content}}
                     </div>
                     <div class="content_share_area">
                         <div class="row">

@@ -11,7 +11,7 @@ tags:
 title: "Reflecting on the USSF Digital Spaceport of the Future Challenge Workshop"
 ---
 
-# Reflecting on the USSF Digital Spaceport of the Future Challenge Workshop
+## Reflecting on the USSF Digital Spaceport of the Future Challenge Workshop
 
 Last week, zCore group had the opportunity to participate in a workshop that could very well be a catalyst for transformative changes in the realm of space exploration and operations. The United States Space Force’s (USSF) Digital Spaceport of the Future Challenge Definition Workshop, held in Orlando, FL, was a convergence of minds with the shared goal of propelling the space sector into a digitally-advanced future.
 

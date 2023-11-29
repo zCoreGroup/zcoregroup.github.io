@@ -20,11 +20,12 @@ pagination:
                         <div class="content_text_area">
                            {{content}}
                         </div>
-                      {% if page.job_id %}
                         <div class="apply">
-                          {% include apply_link.html %}
+                        <div>
+                            <button class="zCore_btn"
+                                onclick="window.location.href='mailto:ezenteno@zcoregroup.com?subject={{ page.title | url_encode }}&body=Include a copy of your Resume!'">Apply
+                                Now</button>
                         </div>
-                      {% endif %}
                         <div class="content_share_area" style="text-align: right;">
                             <div class="row">
                                 <div class="col-lg-12" style="display: flex;">

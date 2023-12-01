@@ -1023,7 +1023,7 @@ nav.main_menu {
     padding: 40px 0;
 }
 
-.service_box_1 .service_info h4 {
+.service_box_1 .service_info h3 {
     margin-bottom: 22px;
 }
 
@@ -1613,7 +1613,7 @@ textarea.form_control {
     margin-bottom: 38px;
 }
 
-.footer_title h5 {
+.footer_title h3 {
     color: #fff;
 }
 

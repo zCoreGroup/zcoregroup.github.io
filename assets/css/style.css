@@ -157,7 +157,7 @@ button:focus {
 body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
-    color: #758ca0;
+    color: #5e748b;
     line-height: 26px;
     overflow-x: hidden;
 }
@@ -175,7 +175,7 @@ html {
 
 span.theme_span {
     font-size: 16px;
-    color: #0574ff;
+    color: #0051b3;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -199,7 +199,7 @@ span.theme_span {
     font-weight: bold;
     letter-spacing: 2px;
     color: #fff;
-    background: #0574ff;
+    background: #0051b3;
     text-transform: uppercase;
     transition: all .5s;
 }
@@ -766,7 +766,6 @@ nav.main_menu {
     background: rgb(5, 116, 255);
     border: 4px solid rgb(255, 255, 255);
     box-shadow: 0px 10px 20px 0px rgba(5, 116, 255, 0.4);
-    margin-bottom: ;
 }
 
 .about_right_content span.about_span {
@@ -775,7 +774,7 @@ nav.main_menu {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
-    color: #0574ff;
+    color: #0051b3;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -1321,14 +1320,15 @@ nav.main_menu {
     padding: 30px 40px;
     margin-bottom: 30px;
     font-size: 14px;
-    color: #758ca0;
-    border: 1px solid rgb(207, 230, 241);
+    color: #4e6a7e;
+    border: 1px solid #4e6a7e;
 }
 
 .form_group i {
     position: absolute;
     right: 25px;
     top: 65px;
+    color: #4e6a7e;
 }
 
 textarea.form_control {
@@ -1344,7 +1344,7 @@ textarea.form_control {
 	Start zCore_team_1 section css
 */
 .blue_bg {
-    background: #0574ff;
+    background: #0051b3;
 }
 .zCore_team {
     padding-top: 110px;
@@ -1355,7 +1355,7 @@ textarea.form_control {
 }
 .team_title span.theme_span,
 .team_title h2 {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .team_box_1 {
@@ -1502,7 +1502,7 @@ textarea.form_control {
 
 .post_tag a.tag_link {
     font-size: 16px;
-    color: #0574ff;
+    color: #0051b3;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -2581,7 +2581,7 @@ textarea.form_control {
 .blog_box_2 .blog_info .post_tag ul li a.tag {
     float: left;
     font-size: 14px;
-    color: #0574ff;
+    color: #0051b3;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -2978,6 +2978,11 @@ textarea.form_control {
     color: #fff;
 }
 
+.choose_box_2 .choose_info .choose_content_2 p {
+    font-size: 20px;
+    color: #fff;
+}
+
 .choose_box_2 .choose_info .choose_content_2 i {
     color: #fff;
     font-size: 60px;
@@ -3005,6 +3010,12 @@ textarea.form_control {
 .choose_box_2 .choose_box_bg .choose_content_1 p {
     margin-bottom: 25px;
     color: #fff;
+}
+
+.choose_box_2 .choose_box_bg .choose_content_1 .service_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .choose_box_2 .choose_box_bg .choose_content_1 span.choose_btn {
@@ -4786,6 +4797,10 @@ textarea.form_control {
     border: none;
     background: rgb(26, 126, 251);
     border-radius: 6px;
+}
+
+.search_btn.search-open i {
+    margin-left: 10px;
 }
 
 .blog_sidebar .instagram_widget .ins_pa {

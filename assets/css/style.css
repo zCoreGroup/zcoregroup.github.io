@@ -1035,6 +1035,16 @@ nav.main_menu {
     color: #0574ff;
 }
 
+.service_box_1 .bordered_content .content_text_area blockquote h3 {
+    font-size: 20px;
+}
+
+.service_box_1 .bordered_content .content_text_area h3 {
+    font-size: 20px;
+}
+
+
+
 /*
 	End zCore_service_1 section css
 */
@@ -4887,10 +4897,11 @@ textarea.form_control {
     overflow: hidden;
 }
 
-.blog_sidebar .feeds_widget .feeds_single .feeds_info h6 a {
+.blog_sidebar .feeds_widget .feeds_single .feeds_info h4 a {
     display: block;
     color: #170e2a;
     margin-bottom: 5px;
+    font-size: 16px;
 }
 
 .blog_sidebar .feeds_widget .feeds_single .feeds_info p {

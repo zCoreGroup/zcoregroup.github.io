@@ -13,7 +13,7 @@ categories:
     - business
 ---
 >
-##### Empowering Federal Agencies with DevOps Expertise
+### Empowering Federal Agencies with DevOps Expertise
 Welcome to zCore Group, where we bring military precision and innovation to empower Federal agencies with digital mission success. As a leading IT and management consulting firm, we specialize in providing tailored solutions, and one of our key offerings is DevOps. Harnessing the power of DevOps, we drive efficiency, enhance innovation, and deliver impactful results for our clients.
 
 At zCore Group, we understand that successful software development and deployment require seamless collaboration between development and operations teams. With our expertise in DevOps, we bridge the gap between these teams, streamlining the software delivery process to achieve faster time-to-market, higher quality software, and improved customer satisfaction.
@@ -24,7 +24,7 @@ One of the key aspects of DevOps is Continuous Integration (CI) and Continuous D
 
 In addition to CI/CD, zCore Group excels in Systems Architecture. We possess the knowledge and experience to design and implement DevOps architectures that cater to the unique needs of our clients. Whether it's setting up DevOps architecture for GovCloud or private cloud offerings, we ensure scalability, security, and optimal performance.
 
-##### Delivering Data-Driven Solutions
+### Delivering Data-Driven Solutions
 Our deep expertise extends to building web and mobile applications, transitioning financial data to modern frameworks, and incorporating Human-Centered Design approaches to software development. We have a proven track record of delivering data-driven solutions that reduce fraud, waste, and abuse, while also enabling end-to-end paperless claims processing.
 
 What sets zCore Group apart is our veteran-led leadership and operational support. Our close connection and deep empathy with the goals and objectives of Federal agencies, especially the VA, ensure that we deliver tailored solutions that truly meet their needs. We have a comprehensive understanding of the VA's architecture, business processes, and legacy systems, enabling us to provide relevant and up-to-date experience.

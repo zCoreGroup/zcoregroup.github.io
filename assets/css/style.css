@@ -1025,6 +1025,7 @@ nav.main_menu {
 
 .service_box_1 .service_info h3 {
     margin-bottom: 22px;
+    font-size: 24px;
 }
 
 .service_box_1 .service_info p {
@@ -1379,7 +1380,7 @@ textarea.form_control {
 
 .team_info {
     padding: 40px;
-    border: 1px solid #1d81ff;
+    border: 1px solid #0E63C2;
     background: transparent;
     border-top: none;
 }
@@ -1392,12 +1393,12 @@ textarea.form_control {
 
 /* defaults for h3, p on white background */
 .team_info h3 {
-    color: #1A7EFB;
+    color: #0E63C2;
 }
 
 .team_info p {
     font-size: 14px;
-    color: #1A7EFB;
+    color: #0E63C2;
     text-transform: uppercase;
 }
 
@@ -4929,7 +4930,7 @@ textarea.form_control {
     border: 1px solid rgb(234, 234, 234);
     font-size: 14px;
     border-radius: 6px;
-    color: #758ca0;
+    color: #5e748b;
     background: rgba(0, 0, 0, 0);
     margin-bottom: 5px;
 }

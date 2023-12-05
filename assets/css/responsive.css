@@ -585,9 +585,15 @@
 	.zCore_content h1 {
 	    font-size: 36px;
 	}
+
 	.zCore_content mark h2 {
 	    font-size: 22px;
 	}
+
+	.zCore_content h3 {
+		color: #5e748b;
+	}
+
 	.zCore_head_box_1 {
 	    display: block;
 	}
@@ -615,16 +621,14 @@
 	}
 
 	.team_join_button .zCore_btn {
-		background: #69acff; /* solid blue background for both light and dark mode */
-		border: 1px solid #69acff; /* border color matches background */
+		background: #0061da; /* solid blue background for both light and dark mode */
+		border: 1px solid #89c2ff; /* border color matches background */
 		color: white; /* default text color for light mode */
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 20px;
 		width: 100%;
 	}
-
-
 
 	.zCore_img img{
 		width: 100%;
@@ -1251,8 +1255,8 @@
 	}
 
 	.shop_main_top .shop_main_sort {
-		float: right: ;
-		margin-top: 0px;
+		float: right;
+		margin-top: 0;
 	}
 	.shop_details_1 .comment_area .comment_single .comment_img {
 		width: 340px;

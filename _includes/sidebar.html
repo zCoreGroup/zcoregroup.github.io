@@ -4,10 +4,10 @@
             <h3>Share On Social</h3>
         </div>
         <ul class="social_widget_link">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="http://pinterest.com/pin/create/button/?url={{site.url}}{{page.url}}&description={{page.title}}"><i class="fab fa-pinterest-p"></i></a></li>
-            <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}&summary=&source="><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}"><i class="fab fa-twitter"></i></a></li>
+            <li><a aria-label="Shared on Pinterest" href="http://pinterest.com/pin/create/button/?url={{site.url}}{{page.url}}&description={{page.title}}"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a aria-label="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}&summary=&source="><i class="fab fa-linkedin-in"></i></a></li>
             <!-- <li><a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li> -->
         </ul>
     </div>
@@ -41,7 +41,7 @@
             </div>
             {% endif %}
             <div class="feeds_info">
-                <h6><a href="{{post.url}}">{{post.title}}</a></h6>
+                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
                 <p><i class="far fa-clock"></i>{{post.date | date_to_long_string }}</p>
             </div>
         </div>
@@ -72,9 +72,9 @@
           <h3>Follow Us</h3>
       </div>
       <ul class="social_widget_link">
-          <li><a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
+          <li><a aria-label="Follow us on Twitter" href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
+          <li><a aria-label="Follow us on LinkedIn" href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a aria-label="Follow us on Github" href="{{site.github_url}}"><i class="fab fa-github"></i></a></li>
       </ul>
   </div>
     <!-- <div class="add_widget">

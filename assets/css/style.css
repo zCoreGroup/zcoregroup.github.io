@@ -3227,6 +3227,7 @@ textarea.form_control {
     line-height: 70px;
     color: #fff;
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
 
 .breadcrumb_text ul li {
@@ -3236,7 +3237,7 @@ textarea.form_control {
 .breadcrumb_text ul li a {
     color: #fff;
     font-size: 18px;
-    text-transform: none;
+    text-transform: capitalize;
 }
 
 .breadcrumb_text ul li:after {

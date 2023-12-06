@@ -549,7 +549,7 @@ nav.main_menu {
     top: 0;
     left: -100%;
     padding: 50px 20px;
-    background: rgb(5, 116, 255);
+    background: #0574ff;
     transition: all .5s ease-in-out;
 }
 
@@ -562,52 +562,24 @@ nav.main_menu {
     position: absolute;
     right: 0;
     top: 0;
+    padding: 10px;
 }
 
 .times_icon i {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     line-height: 40px;
     text-align: center;
-    background: #fff;
-    color: #000a2d;
-    font-size: 18px;
-}
-
-.sidebar-menu > li > a {
-    font-size: 16px;
-    color: #fff;
-    text-transform: none;
-    padding: 10px 20px;
-    font-weight: 500;
-}
-
-.sidebar-menu .sidebar-submenu > li > a {
-    padding: 5px 25px;
-    font-size: 14px;
-    color: #fff;
-    text-transform: none;
-}
-
-.sidebar-menu .sidebar-submenu > li:hover > a {
-    color: #fff;
-}
-
-.sidebar-menu .sidebar-submenu {
-    padding-left: 0px;
-    background: #000a2d;
-}
-
-.sidebar-menu > li:hover > a,
-.sidebar-menu > li.active > a {
-    color: #fff;
-    background: #000a2d;
+    color: #FFFFFF;
+    font-size: 22px;
 }
 
 .brand_logo a {
     font-weight: bold;
     color: #fff;
     font-size: 30px;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .brand_logo {
@@ -749,6 +721,23 @@ nav.main_menu {
 .about_container .about_right {
     width: 50%;
 }
+
+.about_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.about_left p {
+    margin: 0;
+}
+
+.about_left .zCore_button {
+    margin-top: 35px;
+}
+
 
 .about_container .about_left img {
     width: 100%;
@@ -2682,7 +2671,7 @@ textarea.form_control {
 }
 
 .zCore_header_3 img {  /* This rule targets images inside the .zCore_header_3 class */
-    max-height: calc(100% - 20px);  /* constrain the height of the image to the height of the parent element (100%) minus the padding (20px) */
+    max-height: 75px;
     width: auto;  /* maintain the aspect ratio of the image */
 }
 
@@ -3261,7 +3250,7 @@ textarea.form_control {
 */
 .zCore_about_3 .about_img_3 {
     position: relative;
-    margin: 10px; /* or whatever margin is needed */
+    margin: 0; /* or whatever margin is needed */
 }
 
 .zCore_about_3 .about_img_3 .overlay_img {

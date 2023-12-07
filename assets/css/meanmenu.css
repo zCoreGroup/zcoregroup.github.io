@@ -36,7 +36,6 @@ a.meanmenu-reveal {
 	font-size: 16px;
 	text-indent: -9999em;
 	line-height: 22px;
-	font-size: 1px;
 	display: block;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
@@ -150,8 +149,8 @@ a.meanmenu-reveal {
 
 /* Fix for box sizing on Foundation Framework etc. */
 .mean-container .mean-bar, .mean-container .mean-bar * {
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
+	--webkit-box-sizing: content-box;
+	--moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
@@ -166,6 +165,6 @@ a.meanmenu-reveal {
 	left: 2%;
 	position: absolute;
 	top: 12px;
-	font-family: 'Open sans';
+	font-family: 'Open sans', serif;
 	text-transform: none;
 }

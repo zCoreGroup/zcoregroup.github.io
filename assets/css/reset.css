@@ -19,8 +19,7 @@ time, mark, audio, video {
   margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+    font: inherit;
 	vertical-align: baseline;
 }
 
@@ -47,8 +46,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: none;
 }
 
 table {
@@ -67,8 +65,8 @@ input[type=search]::-webkit-search-results-decoration {
 input[type=search] {
     -webkit-appearance: none;
     -moz-appearance: none;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+    --webkit-box-sizing: content-box;
+    --moz-box-sizing: content-box;
     box-sizing: content-box;
 }
 
@@ -279,8 +277,8 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
+    --moz-box-sizing: content-box;
+    --webkit-box-sizing: content-box; /* 2 */
     box-sizing: content-box;
 }
 

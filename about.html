@@ -8,12 +8,12 @@ title: "About Us"
 <!-- Start zCore_about section -->
 <section class="zCore_about zCore_about_3 section_padding">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-start">
             <div class="col-lg-6">
-                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s" style="position: relative;">
-                    <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">
-                    <div class="overlay_img" style="margin-bottom: 10px;"></div>
-                    <div class="overlay_content">
+                <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s">
+<!--                    <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">-->
+<!--                    <div class="overlay_img" style="margin-bottom: 10px;"></div>-->
+                    <div class="about_left">
                         {% for item in site.about %}
                             {% if item.title == "25+ Total Years Of Excellence <br>In Government Software Contracting" %}
                                 <h3 style="color: rgb(0, 0, 0);">{{ item.title }}</h3>
@@ -36,7 +36,7 @@ title: "About Us"
                     </div>
                     {% if forloop.first %}
                     <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
-                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 10px;">solutions</a>
+                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 5px;">solutions</a>
                     </div>
                     {% endif %}
                 </div>

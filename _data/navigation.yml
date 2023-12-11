@@ -1,6 +1,9 @@
  - text: Home
    url: "/"
 
+ - text: "About"
+   url: "/about"
+
  - text: Solutions
    url: "/solutions/"
 
@@ -50,6 +53,3 @@
 
  - text: "Contact"
    url: "/contact"
-
- - text: "About"
-   url: "/about"

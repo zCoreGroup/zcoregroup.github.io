@@ -11,15 +11,15 @@ title: "About Us"
         <div class="row align-items-start">
             <div class="col-lg-6">
                 <div class="about_img zCore_img about_img_3 wow slideInLeft" data-wow-delay="0.3s">
-<!--                    <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">-->
-<!--                    <div class="overlay_img" style="margin-bottom: 10px;"></div>-->
+                    <!--                    <img src="{{relative_url}}/assets/images/about_4.jpg" class="img-fluid" alt="">-->
+                    <!--                    <div class="overlay_img" style="margin-bottom: 10px;"></div>-->
                     <div class="about_left">
                         {% for item in site.about %}
-                            {% if item.title == "25+ Total Years Of Excellence <br>In Government Software Contracting" %}
-                                <h3 style="color: rgb(0, 0, 0);">{{ item.title }}</h3>
-                            {% endif %}
-                            <p>{{ item.detail }}</p>
-                            <p>{{ item.text }}</p>
+                        {% if item.title == "25+ Total Years Of Excellence <br>In Government Software Contracting" %}
+                        <h3 style="color: rgb(0, 0, 0);">{{ item.title }}</h3>
+                        {% endif %}
+                        <p>{{ item.detail }}</p>
+                        <p>{{ item.text }}</p>
                         {% endfor %}
                         <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
                             <a href="/team/" class="zCore_btn" style="margin: 5px;">Meet the Team</a>
@@ -29,16 +29,18 @@ title: "About Us"
             </div>
             {% for item in site.about %}
             <div class="col-lg-6">
-                <div class="about_right">
-                    <div class="about_content about_content_3 zCore_content_box">
-                        <h3>{{ item.description }}</h3>
-                        <p>{{ item.extra_detail }}</p>
+                <div class="about_img zCore_img about_img_3 wow slideInRight">
+                    <div class="about_right" data-wow-delay="0.3s">
+                        <div class="about_content about_content_3 zCore_content_box">
+                            <h3>{{ item.description }}</h3>
+                            <p>{{ item.extra_detail }}</p>
+                        </div>
+                        {% if forloop.first %}
+                        <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
+                            <a href="{{ item.link }}" class="zCore_btn" style="margin: 5px;">solutions</a>
+                        </div>
+                        {% endif %}
                     </div>
-                    {% if forloop.first %}
-                    <div class="zCore_button wow slideInUp" data-wow-delay="0.1s">
-                        <a href="{{ item.link }}" class="zCore_btn" style="margin: 5px;">solutions</a>
-                    </div>
-                    {% endif %}
                 </div>
             </div>
             {% endfor %}
@@ -58,19 +60,44 @@ title: "About Us"
             </div>
         </div>
         {% for page in site.about %}
-            {% if page.title == "Our History" %}
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h7 class="theme_content text-justify custom-text-style">
-                        {{ page.content | markdownify }}
-                    </h7>
-                </div>
+        {% if page.title == "Our History" %}
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h7 class="theme_content text-justify custom-text-style">
+                    {{ page.content | markdownify }}
+                </h7>
             </div>
-            {% endif %}
+        </div>
+        {% endif %}
         {% endfor %}
     </div>
 </section>
 <!--end zCore_history section-->
+<!---start zCore_approach section-->
+<section class="zCore_service zCore_service_3 light_bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="theme_title text-center">
+                    <span class="theme_span">approach</span>
+                    <h2>How We Work</h2>
+                </div>
+            </div>
+        </div>
+        {% for page in site.about %}
+        {% if page.title == "Our Approach" %}
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h7 class="theme_content text-justify custom-text-style">
+                    {{ page.content | markdownify }}
+                </h7>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+<!--end zCore_approach section-->
 <!-- Start zCore_service section -->
 <section class="zCore_service zCore_service_3 light_bg">
     <div class="container">
@@ -90,12 +117,12 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                            {% for page in site.delivery %}
-                                {% if page.title == "Deliver Innovation" %}
-                                    <h3>{{ page.title }}</h3>
-                                    <p>{{ page.description }}</p>
-                                {% endif %}
-                            {% endfor %}
+                        {% for page in site.delivery %}
+                        {% if page.title == "Deliver Innovation" %}
+                        <h3>{{ page.title }}</h3>
+                        <p>{{ page.description }}</p>
+                        {% endif %}
+                        {% endfor %}
                         <a href="/solutions/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
@@ -107,12 +134,12 @@ title: "About Us"
                     </div>
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
-                            {% for page in site.delivery %}
-                                {% if page.title == "Deliver Insights" %}
-                                    <h3>{{ page.title }}</h3>
-                                    <p>{{ page.description }}</p>
-                                {% endif %}
-                            {% endfor %}
+                        {% for page in site.delivery %}
+                        {% if page.title == "Deliver Insights" %}
+                        <h3>{{ page.title }}</h3>
+                        <p>{{ page.description }}</p>
+                        {% endif %}
+                        {% endfor %}
                         <a href="/blog/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
@@ -125,11 +152,11 @@ title: "About Us"
                     <div class="categories_info">
                         <span class="dot_c dot_c_2"></span>
                         {% for page in site.delivery %}
-                                {% if page.title == "Deliver Results" %}
-                                    <h3>{{ page.title }}</h3>
-                                    <p>{{ page.description }}</p>
-                                {% endif %}
-                            {% endfor %}
+                        {% if page.title == "Deliver Results" %}
+                        <h3>{{ page.title }}</h3>
+                        <p>{{ page.description }}</p>
+                        {% endif %}
+                        {% endfor %}
                         <a href="/contact/" class="categories_btn"><i class="far fa-angle-right"></i></a>
                     </div>
                 </div>

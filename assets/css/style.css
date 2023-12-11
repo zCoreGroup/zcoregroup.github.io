@@ -2685,7 +2685,7 @@ textarea.form_control {
 
 .main_img img {
     max-width: 50%; /* This will make sure the image is not wider than its parent */
-    height: auto; /* Maintain the aspect ratio */
+    height: 400px; /* Maintain the aspect ratio */
 }
 
 
@@ -3104,7 +3104,7 @@ textarea.form_control {
     padding: 270px 0 120px;
 }
 .zCore_contact_2 .theme_title{
-    margin-bottom: 56px;
+    margin-bottom: 10px;
 }
 
 /*
@@ -3262,7 +3262,7 @@ textarea.form_control {
 }
 
 .zCore_service_3 {
-    padding: 110px 0 10px;
+    padding: 60px 0 60px;
 }
 
 .service_box_3 {

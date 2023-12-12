@@ -3535,12 +3535,13 @@ textarea.form_control {
 	Start it_service.html css
 */
 .zCore_it_service .zCore_it_service_1 .intro_section {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .intro_section p {
     text-align: justify;
     font-size: 18px;
+    line-height: 2;
 }
 
 .zCore_it_service.zCore_it_service_1 {

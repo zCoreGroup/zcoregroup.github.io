@@ -1,6 +1,9 @@
  - text: Home
    url: "/"
 
+ - text: "About"
+   url: "/about"
+
  - text: Solutions
    url: "/solutions/"
 
@@ -13,8 +16,6 @@
       url: "/solutions/data-analytics"
     - text: "Technology Innovation"
       url: "/solutions/technology-innovation"
-    - text: "Professional Services"
-      url: "/solutions/professional-services"
     - text: Transformation
       url: "/solutions/transformation"
 
@@ -45,8 +46,6 @@
    url: "/careers"
 
    dropdown:
-    - text: "About"
-      url: "/about"
     - text: "Team"
       url: "/team"
     - text: "Join"

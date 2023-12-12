@@ -1,5 +1,6 @@
 <!-- Start zCore_footer_widget area -->
-<section class="zCore_footer_widget footer_widget_1 bg_image footer_widget_3" style="background-image: url({{relative_url}}/assets/images/backgrounds/head_bg_3b.jpg);">
+<section class="zCore_footer_widget footer_widget_1 bg_image footer_widget_3"
+         style="background-image: url({{relative_url}}/assets/images/backgrounds/head_bg_3b.jpg);">
     <div class="zCore_overlay"></div>
     <div class="container">
         <div class="widget_area widget_area_2">
@@ -7,7 +8,8 @@
                 <div class="col-lg-3">
                     <div class="widget_box widget_box_1">
                         <div class="footer_title">
-                            <img class="footer-logo" src="{{relative_url}}/assets/images/logos/logo_3_white.webp" alt="">
+                            <img class="footer-logo" src="{{relative_url}}/assets/images/logos/logo_3_white.webp"
+                                 alt="">
                         </div>
                     </div>
                 </div>
@@ -28,36 +30,38 @@
                     <div class="widget_box social_widget widget_box_1">
                         <div class="footer_social">
                             <ul>
-                                <li><a href="{{site.twitter_url}}" aria-label="zCore Twitter"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="{{site.linkedin_url}}" aria-label="zCore LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="{{site.github_url}}" aria-label="zCore Github"><i class="fab fa-github"></i></a></li>
+                                <li><a href="{{site.linkedin_url}}" aria-label="zCore LinkedIn"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="{{site.github_url}}" aria-label="zCore Github"><i
+                                        class="fab fa-github"></i></a></li>
                             </ul>
-                            <!--sdvosb logo to go here-->
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-2">
+                    <img class="footer-logo" src="{{relative_url}}/assets/images/sdvosb-large.png" alt="">
+                </div>
+            </div>
+        </div>
+</section>
+<!-- End zCore_footer_widget area -->
+<!-- Start zCore_footer area -->
+<footer class="zCore_footer zCore_footer_1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="copyright_text">
+                    <p>Copyright {{ site.company_name }} - {{ 'now' | date: "%Y" }}</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer_link">
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- End zCore_footer_widget area -->
-        <!-- Start zCore_footer area -->
-        <footer class="zCore_footer zCore_footer_1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="copyright_text">
-                            <p>Copyright {{ site.company_name }} - {{ 'now' | date: "%Y" }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="footer_link">
-                            <ul>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- End zCore_footer area -->
+</footer><!-- End zCore_footer area -->

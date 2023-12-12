@@ -2723,8 +2723,8 @@ textarea.form_control {
 
 
 .main_img img {
-    max-width: 50%; /* This will make sure the image is not wider than its parent */
-    height: 400px; /* Maintain the aspect ratio */
+    max-width: 100%; /* This will make sure the image is not wider than its parent */
+    height: 550px; /* Maintain the aspect ratio */
 }
 
 

@@ -763,9 +763,18 @@
     }
 
     .team_join_button .zCore_btn {
-        background: #0061da; /* solid blue background for both light and dark mode */
-        border: 1px solid #89c2ff; /* border color matches background */
+        background: #0053B8; /* solid blue background for both light and dark mode */
+        border: 1px solid #69acff; /* border color matches background */
         color: white; /* default text color for light mode */
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .team_join_button .zCore_btn_drk_bg {
+        background: #89c2ff; /* solid blue background for both light and dark mode */
+        color: #1F1F1F; /* default text color for light mode */
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20px;
@@ -1116,6 +1125,11 @@
     .main_container_1 .main_right .main_img {
         float: left;
         padding-left: 0;
+    }
+
+    .main_img img {
+        max-width: 100%; /* This will make sure the image is not wider than its parent */
+        height: 400px; /* Maintain the aspect ratio */
     }
 
     .about_right_content h2 {

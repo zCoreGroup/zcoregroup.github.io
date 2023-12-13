@@ -201,6 +201,21 @@ span.theme_span {
     transition: all .5s;
 }
 
+.zCore_btn_drk_bg {
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 44px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    background: #69acff;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
 .zCore_btn:hover,
 .zCore_btn:focus {
     background: #00247e;
@@ -1305,7 +1320,7 @@ textarea.form_control {
 }
 
 .zCore_team {
-    padding-top: 110px;
+    padding-top: 50px;
     padding-bottom: 120px;
 }
 
@@ -1313,9 +1328,14 @@ textarea.form_control {
     padding-bottom: 90px;
 }
 
+.team_title_drk_bg span.theme_span_drk_bg,
+.team_title_drk_bg h2 {
+    color: #FFFFFF;
+}
+
 .team_title span.theme_span,
 .team_title h2 {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .team_box_1 {
@@ -1329,7 +1349,7 @@ textarea.form_control {
 
 .team_info {
     padding: 40px;
-    border: 1px solid #0E63C2;
+    border: 1px solid #2b7ddb;
     background: transparent;
     border-top: none;
 }
@@ -1361,17 +1381,32 @@ textarea.form_control {
 }
 
 .team_join_button .zCore_btn {
+    background: #0053B8;
+    color: #FFFFFF;
+    border: 1px solid #69acff;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.team_join_button .zCore_btn_drk_bg {
     background: #69acff;
-    /*border: 1px solid #69acff;*/
+    color: #1F1F1F;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 .team_join_button .zCore_btn:hover,
 .team_join_button .zCore_btn:focus {
-    background: #0061da;
-    border-color: #0061da;
+    background: #5385ff;
+    border-color: #5385ff;
 }
+
+.team_join_button .zCore_btn_drk_bg:hover,
+.team_join_button .zCore_btn_drk_bg:focus {
+    background: #5385ff;
+    border-color: #5385ff;
+}
+
 
 /*
 	End zCore_team_1 section css
@@ -2835,7 +2870,7 @@ textarea.form_control {
     margin-bottom: 45px;
 }
 
-.about_service_box .service_info h4 {
+.about_service_box .service_info h1 {
     font-size: 26px;
     margin-bottom: 20px;
     transition: all linear 0.3s;

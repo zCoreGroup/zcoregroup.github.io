@@ -2853,7 +2853,7 @@ textarea.form_control {
     height: 100%;
 }
 
-.about_service_box:hover .overlay .service_info h4,
+.about_service_box:hover .overlay .service_info h1,
 .about_service_box:hover .overlay .service_info p {
     color: #fff;
 }

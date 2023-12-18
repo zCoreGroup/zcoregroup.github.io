@@ -1,0 +1,61 @@
+---
+author: Mackenzie
+categories:
+  - Announcements
+layout: post
+post_image: /assets/images/blog/data-thon.jpg
+tags:
+  - tech
+  - fsc
+  - data-thon
+title: "Third Annual FSC-Data Analytics Data-Thon"
+---
+
+## I. Setting the Stage for Innovation
+
+The Third Annual FSC-Data Analytics Data-Thon marked the stage where zCore's dedication to a profound mission was brought to life through the impactful contributions of Michael Bastos, Director of Engineering, and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps. United by their shared commitment as military Veterans, they are dedicated to solving the most complex challenges through solutions that are not only technologically advanced but also authentically purpose-driven.
+
+Their military backgrounds bring forth a sense of duty, unwavering dedication, and a profound understanding of the VA’s mission impact. For zCore, the Data-Thon was an opportunity not for accolades, but to contribute genuine solutions deeply connected to the needs of those who've served.
+
+## II. The zCore Spirit
+
+At the core of our ethos is a commitment to innovation, exemplified by groundbreaking solutions that transcend conventional boundaries. This commitment is not merely a guiding principle; it is the heartbeat of a vision that envisions a transformative landscape where technology serves and empowers Veterans in ways previously unexplored.
+
+**Harnessing Cutting-Edge Technologies:** We embody a dynamic approach to problem-solving, where the team harnesses the power of cutting-edge technologies and science-driven analytics. This is about pushing the envelope of what's possible. Each solution we craft isn't just a product; it's a testament to the organization's dedication to pioneering advancements that redefine the possibilities in the field.
+
+**Delivering Tangible Impact:** The belief in delivering Veteran-centric solutions isn't a mere mantra; it's a lived reality reflected in the tangible impact of its projects. With the focus on the end-users, we ensure that every innovation aligns with their needs. Systems become more accessible, communication is streamlined, and information is readily available, creating an environment where technology is a true enabler for VA.
+
+## III. Preparation and Dedication
+
+The Third Annual FSC-Data Analytics Data-Thon served as a crucible for innovation, fostering collaboration and enhancing data analytics across the VA. With a focus on VHA Supply Chain Undelivered Orders (UDOs), the event aimed to encourage participants to ideate, innovate, and learn from one another, all within the overarching theme of Predictive Modeling.
+
+Under the leadership of our Director of Engineering, Team 3 embraced a clear principal goal: to develop an interpretable binary classification model predicting if an order would remain undelivered 60 days (about 2 months) after the estimated delivery date (EDDT). Going beyond this, the team undertook two stretch goals – predicting the number of late days for an order and offering insightful summaries elucidating the reasons for expected lateness using the available data.
+
+Leveraging Azure Databricks, Python, and SQL, the team embarked on the journey of data exploration, cleanup, and transformation. The choice of Light GBM for modeling was deliberate – its explainability and scalability perfectly aligned with the team's commitment to delivering results that could be understood and implemented seamlessly within the VA's operations.
+
+**Steps Taken:**
+- **Data Exploration:** Meticulously explored the provided data using a combination of SQL and Python, analyzing each column, conducting data profiling, and ensuring a comprehensive understanding of the dataset.
+- **Data Cleanup:** Recognizing the importance of data quality, the team performed cleanup tasks, addressing issues such as duplicates, null values, and validating date formats.
+- **Transform and Vectorize:** The data was transformed and vectorized to ensure compatibility with the modeling process, setting the stage for the creation of a final data frame for test execution.
+- **Modeling with Light GBM:** The team chose Light GBM for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
+- **Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the Light Gradient Boosting Machine (LGBM) Library.
+
+## IV. Showcasing Veteran-Centric Solutions
+
+The resulting outcome is not merely a solution, but a versatile toolset poised to bring tangible benefits to the VA.
+
+1. **API Integration for Decision Tree Insights:** The Decision Tree-based model is not a static achievement confined to competition metrics. Instead, it emerges as a dynamic resource that can be seamlessly integrated into the VA's operations. The team envisioned the model serving as an API, allowing for the exportation of decision trees to Python tables. This functionality ensures that decision-makers within the VA can access and leverage the insights derived from the model in a manner that aligns with their existing workflows.
+
+2. **ETL for Visualization Tools:** The clean and transformed data served a dual purpose. Beyond the modeling phase, this data became a valuable Extract, Transform, Load (ETL) resource. It fed into visualization tools such as Power BI and Tabula, providing a visual narrative of predictive analytics. This not only enhanced the interpretability of results but also empowered VA stakeholders to make informed decisions based on rich, accessible insights.
+
+3. **Station, VISN, CPAC Deployment:** The final data, refined through meticulous exploration and modeling, is not a one-size-fits-all solution. Instead, it becomes a dynamic asset that can be deployed across Stations, Veterans Integrated Service Networks (VISNs), and Consolidated Patient Account Centers (CPACs). This widespread deployment facilitates predictions of on-time, late, or undelivered orders based on a 90-day policy. The granularity of this application ensures that solutions resonate with the specific operational contexts of different VA entities.
+
+4. **Vendor Performance Analysis:** Beyond predicting order outcomes, the solution opens the door to a deeper understanding of vendor performance. The data-driven approach allows the VA to identify vendors consistently falling behind on delivery commitments. Armed with this insight, the VA can take targeted steps to address issues, foster better collaboration, or explore alternative partnerships. This proactive stance ensures a continuous improvement loop in the supply chain ecosystem.
+
+## V. The Winning Moment
+
+The outcome is not just a win; it's a testament to our commitment, innovative approach, and dedication to advancing mission-driven solutions.
+
+The Data-Thon served as a testing ground, a crucible where the team's dynamic solutions not only met but exceeded the challenges laid before them. The triumphant score based on the scoring criteria validated the effectiveness of the approach – an approach that goes beyond conventional solutions to bring forth a versatile toolset poised to transform outcomes. Looking forward, zCore is committed to continuing this journey of pushing boundaries, exploring uncharted territories, and making a meaningful impact in the realm of data analytics in the VA.
+
+Our commitment remains firmly anchored in being both Veteran and mission-centric. We understand the intricacies of VA data, the nuances of the technical environment, and, most importantly, the real-world applicability of our outcomes to the benefit of Veterans. Our innovation is fueled by a profound understanding of our mission, and we are eager to continue this journey, breaking new ground and ushering in transformative solutions that honor and uplift those who have served our nation.

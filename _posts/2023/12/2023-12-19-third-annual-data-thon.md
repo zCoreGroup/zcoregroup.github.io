@@ -43,9 +43,9 @@ Leveraging Azure Databricks, Python, and SQL, the team embarked on the journey o
 
 **Transform and Vectorize:** The data was transformed and vectorized to ensure compatibility with the modeling process, setting the stage for the creation of a final data frame for test execution.
 
-**Modeling with Light GBM:** The team chose Light GBM for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
+**Modeling with LightGBM:** The team chose the Light Gradient Boosting Machine (LightGBM) for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
 
-**Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the Light Gradient Boosting Machine (LGBM) Library.
+**Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the LightGBM Library.
 
 ##  Showcasing Veteran-Centric Solutions
 

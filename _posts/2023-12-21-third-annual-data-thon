@@ -8,12 +8,12 @@ tags:
   - tech
   - fsc
   - data-thon
-title: "Third Annual FSC-Data Analytics Data-Thon"
+title: "Winning the 2023 FSC Machine Learning Data-Thon"
 ---
 
 ## I. Setting the Stage for Innovation
 
-The Third Annual FSC-Data Analytics Data-Thon marked the stage where zCore's dedication to a profound mission was brought to life through the impactful contributions of Michael Bastos, Director of Engineering, and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps. United by their shared commitment as military Veterans, they are dedicated to solving the most complex challenges through solutions that are not only technologically advanced but also authentically purpose-driven.
+The Third Annual FSC Machine Learning Data-Thon marked the stage where zCore's dedication to a profound mission was brought to life through the impactful contributions of Michael Bastos, Director of Engineering, and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps. United by their shared commitment as military Veterans, they are dedicated to solving the most complex challenges through solutions that are not only technologically advanced but also authentically purpose-driven.
 
 Their military backgrounds bring forth a sense of duty, unwavering dedication, and a profound understanding of the VA’s mission impact. For zCore, the Data-Thon was an opportunity not for accolades, but to contribute genuine solutions deeply connected to the needs of those who've served.
 
@@ -46,7 +46,7 @@ The resulting outcome is not merely a solution, but a versatile toolset poised t
 
 1. **API Integration for Decision Tree Insights:** The Decision Tree-based model is not a static achievement confined to competition metrics. Instead, it emerges as a dynamic resource that can be seamlessly integrated into the VA's operations. The team envisioned the model serving as an API, allowing for the exportation of decision trees to Python tables. This functionality ensures that decision-makers within the VA can access and leverage the insights derived from the model in a manner that aligns with their existing workflows.
 
-2. **ETL for Visualization Tools:** The clean and transformed data served a dual purpose. Beyond the modeling phase, this data became a valuable Extract, Transform, Load (ETL) resource. It fed into visualization tools such as Power BI and Tabula, providing a visual narrative of predictive analytics. This not only enhanced the interpretability of results but also empowered VA stakeholders to make informed decisions based on rich, accessible insights.
+2. **ETL for Visualization Tools:** The clean and transformed data served a dual purpose. Beyond the modeling phase, this data became a valuable Extract, Transform, Load (ETL) resource. It fed into visualization tools such as Power BI and Tableau, providing a visual narrative of predictive analytics. This not only enhanced the interpretability of results but also empowered VA stakeholders to make informed decisions based on rich, accessible insights.
 
 3. **Station, VISN, CPAC Deployment:** The final data, refined through meticulous exploration and modeling, is not a one-size-fits-all solution. Instead, it becomes a dynamic asset that can be deployed across Stations, Veterans Integrated Service Networks (VISNs), and Consolidated Patient Account Centers (CPACs). This widespread deployment facilitates predictions of on-time, late, or undelivered orders based on a 90-day policy. The granularity of this application ensures that solutions resonate with the specific operational contexts of different VA entities.
 

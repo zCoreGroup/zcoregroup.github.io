@@ -13,11 +13,11 @@ title: "Winning the 2023 FSC Machine Learning Data-Thon"
 
 ## I. Setting the Stage for Innovation
 
-The Third Annual FSC Machine Learning Data-Thon in 2023 marked a proud moment for zCore, with a strong showing from our company. Michael Bastos, our Director of Engineering and a military veteran, led Team 3 to victory as the Team Lead. His leadership was a crucial factor in the team's success. CEO Erick Zenteno and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps, also veterans, were there in support of the FSC challenge, demonstrating the company's commitment to the event.
+The Third Annual FSC Machine Learning Data-Thon in 2023 marked a proud moment for zCore, with a strong showing from our company. Michael Bastos, our Director of Engineering and a military Veteran, led Team 3 to victory as the Team Lead. His leadership was a crucial factor in the team's success. CEO Erick Zenteno and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps, also Veterans, were there in support of the FSC challenge, demonstrating the company's commitment to the event.
 
 ![Michael Bastos Speaking](/assets/images/blog/data-thon.jpg)
 
-Their military backgrounds contributed significantly, bringing a sense of duty, dedication, and a deep understanding of the VA's mission. This experience informed their approach to developing not just technologically advanced solutions, but those that are genuinely purpose-driven. For zCore, the Data-Thon was an opportunity to showcase our solidarity and dedication, offering meaningful solutions that resonate with the needs of fellow veterans. The strong participation from the majority of our company highlighted our collective support and commitment to the cause.
+Their military backgrounds contributed significantly, bringing a sense of duty, dedication, and a deep understanding of the VA's mission. This experience informed their approach to developing not just technologically advanced solutions, but those that are genuinely purpose-driven. For zCore, the Data-Thon was an opportunity to showcase our solidarity and dedication, offering meaningful solutions that resonate with the needs of fellow Veterans. The strong participation from the majority of our company highlighted our collective support and commitment to the cause.
 
 ## II. The zCore Spirit
 

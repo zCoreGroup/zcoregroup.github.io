@@ -38,9 +38,13 @@ Leveraging Azure Databricks, Python, and SQL, the team embarked on the journey o
 **Steps Taken:**
 
 **Data Exploration:** Meticulously explored the provided data using a combination of SQL and Python, analyzing each column, conducting data profiling, and ensuring a comprehensive understanding of the dataset.
+
 **Data Cleanup:** Recognizing the importance of data quality, the team performed cleanup tasks, addressing issues such as duplicates, null values, and validating date formats.
+
 **Transform and Vectorize:** The data was transformed and vectorized to ensure compatibility with the modeling process, setting the stage for the creation of a final data frame for test execution.
+
 **Modeling with Light GBM:** The team chose Light GBM for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
+
 **Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the Light Gradient Boosting Machine (LGBM) Library.
 
 ##  Showcasing Veteran-Centric Solutions

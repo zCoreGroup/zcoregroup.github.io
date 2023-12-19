@@ -21,9 +21,9 @@ At the heart of our ethos is a deep commitment to innovation, where we utilize a
 
 ## III. Preparation and Dedication
 
-The Third Annual FSC-Data Analytics Data-Thon served as a crucible for innovation, fostering collaboration and enhancing data analytics across the VA. With a focus on VHA Supply Chain Undelivered Orders (UDOs), the event aimed to encourage participants to ideate, innovate, and learn from one another, all within the overarching theme of Predictive Modeling.
+The Data-Thon served as a crucible for innovation, fostering collaboration and enhancing data analysis for VA. With a focus on VHA Supply Chain Undelivered Orders (UDOs), the event aimed to encourage participants to ideate, innovate, and learn from one another, all within the overarching theme of Predictive Modeling.
 
-Under the leadership of our Director of Engineering, Team 3 embraced a clear principal goal: to develop an interpretable binary classification model predicting if an order would remain undelivered 60 days (about 2 months) after the estimated delivery date (EDDT). Going beyond this, the team undertook two stretch goals – predicting the number of late days for an order and offering insightful summaries elucidating the reasons for expected lateness using the available data.
+Team 3 embraced a clear principal goal: to develop an interpretable binary classification model predicting if an order would remain undelivered 60 days (about 2 months) after the estimated delivery date (EDDT). Going beyond this, the team undertook two stretch goals – predicting the number of late days for an order and offering insightful summaries elucidating the reasons for expected lateness using the available data.
 
 Leveraging Azure Databricks, Python, and SQL, the team embarked on the journey of data exploration, cleanup, and transformation. The choice of Light GBM for modeling was deliberate – its explainability and scalability perfectly aligned with the team's commitment to delivering results that could be understood and implemented seamlessly within the VA's operations.
 

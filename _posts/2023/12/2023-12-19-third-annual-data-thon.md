@@ -11,21 +11,21 @@ tags:
 title: "Winning the 2023 FSC Machine Learning Data-Thon"
 ---
 
-## I. Setting the Stage for Innovation
+##  Setting the Stage for Innovation
 
-The Third Annual FSC Machine Learning Data-Thon in 2023 marked a proud moment for zCore, with a strong showing from our company. Michael Bastos, our Director of Engineering and a military Veteran, led Team 3 to victory as the Team Lead. His leadership was a crucial factor in the team's success. CEO Erick Zenteno and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps, also Veterans, were there in support of the FSC challenge, demonstrating the company's commitment to the event.
-
-![Michael Bastos Speaking](/assets/images/blog/data-thon.jpg)
+The Third Annual Financial Services Center (FSC) Machine Learning Data-Thon in 2023 marked a proud moment for zCore, with a strong showing from our company. Michael Bastos, our Director of Engineering and a military Veteran, led Team 3 to victory as the Team Lead. His leadership was a crucial factor in the team's success. CEO Erick Zenteno and Michael Nau, our Tech Lead in DevOps, MLOps, and DataOps, also Veterans, were there in support of the FSC challenge, demonstrating the company's commitment to the event.
 
 Their military backgrounds contributed significantly, bringing a sense of duty, dedication, and a deep understanding of the VA's mission. This experience informed their approach to developing not just technologically advanced solutions, but those that are genuinely purpose-driven. For zCore, the Data-Thon was an opportunity to showcase our solidarity and dedication, offering meaningful solutions that resonate with the needs of fellow Veterans. The strong participation from the majority of our company highlighted our collective support and commitment to the cause.
 
-## II. The zCore Spirit
+##  The zCore Spirit
 
-At the heart of our ethos is a deep commitment to innovation, where we utilize advanced technologies and effective team leadership to create solutions that empower Veterans. Our approach involves not just using the latest technologies (Azure Machine Learning) and data analytics (DataBricks), but also ensuring that each solution we develop has a real impact on Veterans' lives.
+At the heart of our ethos is a deep commitment to innovation, where we utilize advanced technologies and effective team leadership to create solutions that empower Veterans. Our approach involves not just using the latest technologies (Azure Machine Learning) and data analytics (Databricks), but also ensuring that each solution we develop has a real impact on Veterans' lives.
 
-By focusing on the needs of our VHA end-users, we strived to make systems more user-friendly, improve communication, and provide easy access to information. This approach helps us transform the landscape of services for Veterans.
+By focusing on the needs of our end-users, we strive to make systems more user-friendly, improve communication, and provide easy access to information. This approach helps us transform the landscape of services for Veterans.
 
-## III. Preparation and Dedication
+![Michael Bastos Speaking](/assets/images/blog/data-thon.jpg)
+
+##  Preparation and Dedication
 
 The Data-Thon served as a crucible for innovation, fostering collaboration and enhancing data analysis for VA. With a focus on VHA Supply Chain Undelivered Orders (UDOs), the event aimed to encourage participants to ideate, innovate, and learn from one another, all within the overarching theme of Predictive Modeling.
 
@@ -43,11 +43,11 @@ Leveraging Azure Databricks, Python, and SQL, the team embarked on the journey o
 
 **Transform and Vectorize:** The data was transformed and vectorized to ensure compatibility with the modeling process, setting the stage for the creation of a final data frame for test execution.
 
-**Modeling with Light GBM:** The team chose Light GBM for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
+**Modeling with LightGBM:** The team chose the Light Gradient Boosting Machine (LightGBM) for its modeling phase, emphasizing its explainability and scalability. This choice facilitated an interpretable binary classification model, aligning with the overarching goal.
 
-**Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the Light Gradient Boosting Machine (LGBM) Library.
+**Validation and Evaluation:** The final model underwent rigorous validation, computing end results, and assessing metrics using the predictive test set. Plots, graphs, and accuracy scores were generated with the LightGBM Library.
 
-## IV. Showcasing Veteran-Centric Solutions
+##  Showcasing Veteran-Centric Solutions
 
 The resulting outcome is not merely a solution, but a versatile toolset poised to bring tangible benefits to the VA.
 
@@ -61,7 +61,7 @@ The resulting outcome is not merely a solution, but a versatile toolset poised t
 
 4. **Vendor Performance Analysis:** Beyond predicting order outcomes, the solution opens the door to a deeper understanding of vendor performance. The data-driven approach allows the VA to identify vendors consistently falling behind on delivery commitments. Armed with this insight, the VA can take targeted steps to address issues, foster better collaboration, or explore alternative partnerships. This proactive stance ensures a continuous improvement loop in the supply chain ecosystem.
 
-## V. The Winning Moment
+##  The Winning Moment
 
 ![Data-thon Certificate](/assets/images/blog/data-thon-certificate.jpg)
 

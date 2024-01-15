@@ -3580,12 +3580,16 @@ textarea.form_control {
 }
 
 .zCore_it_service.zCore_it_service_1 {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 90px;
 }
 
 .zCore_it_service_1 .service_box_1 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.zCore_it_service_1 .service_box_1 ul {
+    margin-left: 10px;
 }
 
 .service_box_1 {

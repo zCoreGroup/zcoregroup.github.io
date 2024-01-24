@@ -51,8 +51,8 @@ Are you a creative thinker with a passion for crafting seamless user experiences
 - Proven experience as a UX Designer with a strong portfolio showcasing design projects.
 - Proficiency in design tools such as Sketch, Figma, or Adobe Creative Suite.
 - Strong understanding of user research methodologies and usability testing.
-- Excellent communication and collaboration skills with the ability to present and justify design decisions.
 - Passion for staying updated on industry trends and emerging design technologies.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

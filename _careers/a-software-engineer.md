@@ -53,7 +53,7 @@ At zCore, we're seeking a versatile Software Developer to play a pivotal role in
 - Proven experience in software development with a strong understanding of software engineering principles.
 - Proficiency in at least one programming language and a willingness to adapt and learn new technologies.
 - Demonstrated problem-solving skills and a focus on delivering high-quality, scalable solutions.
-- Strong communication skills and the ability to work effectively in a remote, collaborative environment.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

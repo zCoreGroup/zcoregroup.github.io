@@ -51,6 +51,8 @@ Are you enthusiastic about pushing the boundaries of Machine Learning and contri
 - Solid understanding of machine learning algorithms, model deployment, and maintenance.
 - Strong problem-solving skills and the ability to collaborate in a fast-paced, remote environment.
 - Passion for staying updated on advancements in machine learning and related technologies.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
+
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

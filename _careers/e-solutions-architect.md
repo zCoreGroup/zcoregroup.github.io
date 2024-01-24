@@ -56,9 +56,10 @@ Are you a tech-savvy problem solver with a knack for translating complex technic
 - Bachelor's degree or equivalent experience in Computer Science, Engineering, or a related field.
 - Proven experience as a Solutions Architect with expertise in technical and proposal writing.
 - Strong understanding of software architecture, cloud technologies, and system integration.
-- Excellent communication and presentation skills to convey technical concepts to diverse audiences.
 - Experience in collaborating with cross-functional teams and managing client relationships.
 - Ability to balance technical depth with a pragmatic approach to problem-solving.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
+
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

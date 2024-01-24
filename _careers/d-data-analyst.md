@@ -58,8 +58,8 @@ Are you passionate about transforming raw data into meaningful insights? zCore, 
 - Proven experience as a Data Analyst with strong analytical and problem-solving skills.
 - Proficiency in data visualization tools (e.g., Tableau, Power BI) and SQL.
 - Knowledge of statistical analysis and experience using statistical tools.
-- Excellent communication skills to convey complex findings in a clear and concise manner.
-- Strong attention to detail and the ability to work independently or in a collaborative environment.
+- Strong attention to detail and the ability to work independently or with a team.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

@@ -57,7 +57,7 @@ Are you a visionary Cloud Architect looking to make your mark in the realm of cl
 - Experience with containerization and orchestration tools (e.g., Docker, Kubernetes).
 - Strong understanding of cloud security principles and best practices.
 - Excellent problem-solving skills and the ability to design scalable and resilient cloud architectures.
-- Effective communication skills and the ability to collaborate in a remote work environment.
+- Strong communication, soft skills and the ability to work effectively in a remote, collaborative environment.
 
 ### Perks and Benefits:
 - Competitive salary with performance-based incentives.

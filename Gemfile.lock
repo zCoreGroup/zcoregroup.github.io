@@ -78,6 +78,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.69.3-arm64-darwin)
       google-protobuf (~> 3.23)
+    sass-embedded (1.69.3-x64-mingw-ucrt)
+      google-protobuf (~> 3.23)
     sass-embedded (1.69.3-x64-mingw32)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.3-x64-unknown)
@@ -98,6 +100,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x64-mingw-ucrt
   x64-mingw32
   x64-unknown
   x86_64-darwin-20

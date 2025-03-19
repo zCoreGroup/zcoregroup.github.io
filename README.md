@@ -94,17 +94,16 @@ This will create a page that uses the layout found in _layouts/page.html and set
 ===============================================================================
 ### Roadmap
 - [x] Migrate to from v1 to Jekyll v2
-- [ ] Migrate from GitHub Pages to GoDaddy
+- [x] Migrate from GitHub Pages to GoDaddy
 - [ ] Backend integration for database and contact form / CRM / Newsletter
 - [ ] Add blog post - Newsletter integration that automates the newsletter as an event-driven workflow
-- [ ] Automate everything else
 ===============================================================================
 ### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
 
 ### Google Analytics
-- [ ] Add Google Analytics to the website's HTML pages
+- [x] Add Google Analytics to the website's HTML pages
   - HTML pages are located in the _includes/ directory
-- [ ] Add Google Tag Manager to the website
+- [x] Add Google Tag Manager to the website
 - [ ] Add Google Optimize to the website
 
 Uncomment out and add this tag to the HTML pages on the website that you want to track:

@@ -1,5 +1,5 @@
 ---
-author: Mackenzie
+author: zCore Group
 categories:
   - Announcements
 layout: post

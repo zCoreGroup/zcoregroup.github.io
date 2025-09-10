@@ -10,8 +10,11 @@ GEM
   specs:
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.3.0)
+    bigdecimal (3.2.3)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -78,6 +81,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.69.3-arm64-darwin)
       google-protobuf (~> 3.23)
+    sass-embedded (1.69.3-x64-mingw-ucrt)
+      google-protobuf (~> 3.23)
     sass-embedded (1.69.3-x64-mingw32)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.3-x64-unknown)
@@ -93,11 +98,11 @@ GEM
     tzinfo-data (1.2023.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-22
+  x64-mingw-ucrt
   x64-mingw32
   x64-unknown
   x86_64-darwin-20
@@ -105,6 +110,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (~> 0.2)
+  bigdecimal (~> 3.1)
+  csv (~> 3.3)
   jekyll (~> 4.3.2)
   jekyll-archives
   jekyll-feed (~> 0.17)
@@ -114,7 +122,6 @@ DEPENDENCIES
   minima (~> 2.5)
   tzinfo (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.8)
 
 BUNDLED WITH

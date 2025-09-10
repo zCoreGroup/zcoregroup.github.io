@@ -1,5 +1,5 @@
 ---
-author: Mackenzie
+author: zCore Group
 categories:
   - Technology
 layout: post

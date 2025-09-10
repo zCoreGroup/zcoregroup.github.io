@@ -5,7 +5,7 @@ tags:
 - health
 categories:
 - health care
-author: mackenzie
+author: zCore Group
 post_image: "/assets/images/blog/appeal-post.jpg"
 ---
 

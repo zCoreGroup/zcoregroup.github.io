@@ -1,5 +1,5 @@
 ---
-author: mackenzie
+author: zCore Group
 categories:
 - business
 layout: post

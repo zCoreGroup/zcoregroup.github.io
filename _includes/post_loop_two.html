@@ -12,11 +12,6 @@
             {% endif %}
         </div>
         <div class="blog_info">
-            <div class="post_meta">
-                <ul>
-                    <li><i class="far fa-clock"></i>{{post.date | date_to_long_string }}</li>
-                </ul>
-            </div>
             <h3><a href="{{post.url}}">{{post.title}}</a></h3>
             <p>{{post.content | truncatewords: "50" | strip_html }}</p>
         </div>

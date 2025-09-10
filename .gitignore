@@ -4,7 +4,9 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .DS_Store
-.wakatime-project
 .vscode/settings.json
 .frontmatterizer.py
 .idea
+.cursor
+.qodo
+CLAUDE.md

@@ -1,2 +1,3 @@
 ---
 BUNDLE_FROZEN: "false"
+BUNDLE_WITHOUT: "development"

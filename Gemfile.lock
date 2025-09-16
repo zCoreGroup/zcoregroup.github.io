@@ -8,6 +8,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.3.0)
+    bigdecimal (3.2.3)
+    colorator (1.1.0)
+    concurrent-ruby (1.2.2)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.3.0)
@@ -115,6 +122,8 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
+    unicode-display_width (2.5.0)
+    webrick (1.8.1)
     unicode-display_width (2.6.0)
     wdm (0.2.0)
     webrick (1.9.1)
@@ -129,6 +138,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (~> 0.2)
+  bigdecimal (~> 3.1)
+  csv (~> 3.3)
+  jekyll (~> 4.3.2)
   jekyll (~> 4.4.1)
   jekyll-archives
   jekyll-feed (~> 0.17)
@@ -138,6 +151,7 @@ DEPENDENCIES
   minima (~> 2.5)
   tzinfo (~> 2.0)
   tzinfo-data
+  webrick (~> 1.8)
   wdm (~> 0.2.0)
   webrick (~> 1.9)
 

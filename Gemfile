@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "minima", "~> 2.5"
 gem "csv", "~> 3.3"
 gem "base64", "~> 0.2"
-gem "bigdecimal", "~> 3.1"
+gem "bigdecimal", "~> 3.3"
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 
